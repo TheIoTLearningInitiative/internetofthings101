@@ -16,7 +16,7 @@
 * Yocto Project
 * Libraries (RMAA & UPM)
 
-[Getting Started with the Intel® IoT Devkit and Intel® XDK IoT Edition])(https://software.intel.com/en-us/xdk/docs/getting-started-with-intel-xdk-iot-edition)
+[Getting Started with the Intel® IoT Devkit and Intel® XDK IoT Edition](https://software.intel.com/en-us/xdk/docs/getting-started-with-intel-xdk-iot-edition)
 
 ## Intel® System Studio
 > The explosion of connected smart devices – expected to reach 50 billion by 2020 – is driving unprecedented need for efficient tools to meet shorter development cycles for system software and embedded c applications.
