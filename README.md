@@ -68,7 +68,9 @@ Intel® System Studio is a fully validated and Intel-supported product optimized
 # Getting Started
 
 [Sparkfun Edison Getting Started](https://learn.sparkfun.com/tutorials/edison-getting-started-guide)
+
 [Instructables A Comprehensive Intel Edison Getting Started Guide](http://www.instructables.com/id/A-Comprehensive-Intel-Edison-Getting-Started-Guide/)
+
 [Codefoster Setting up an Intel Edison](http://www.codefoster.com/edison-setup/)
 
 # Workshop
