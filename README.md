@@ -49,8 +49,6 @@ Intel® System Studio is a fully validated and Intel-supported product optimized
 
 [Emutexlabs ubilinux™](http://www.emutexlabs.com/ubilinu)
 
-## Ubilinux Resources
-
 [µCast #21: Installing Ubilinux on the Edison (Windows)](https://www.youtube.com/watch?v=BSnXjuttSgY)
 
 [Sparkfun Loading Debian (Ubilinux) on the Edison](https://learn.sparkfun.com/tutorials/loading-debian-ubilinux-on-the-edison)
@@ -70,6 +68,8 @@ Intel® System Studio is a fully validated and Intel-supported product optimized
 # Getting Started
 
 [Sparkfun Edison Getting Started](https://learn.sparkfun.com/tutorials/edison-getting-started-guide)
+[Instructables A Comprehensive Intel Edison Getting Started Guide](http://www.instructables.com/id/A-Comprehensive-Intel-Edison-Getting-Started-Guide/)
+[Codefoster Setting up an Intel Edison](http://www.codefoster.com/edison-setup/)
 
 # Workshop
 
