@@ -11,7 +11,6 @@
 
 ## Intel® IoT Devkit
 > The Intel Development Kit for IoT (IoTDK) is a complete solution to create and test applications for Intel IoT platforms like the Intel® Galileo and Edison maker boards.
-
 * Intel® XDK IoT Edition
 * Yocto Project
 * Libraries (RMAA & UPM)
@@ -20,10 +19,9 @@
 
 ## Intel® System Studio
 > The explosion of connected smart devices – expected to reach 50 billion by 2020 – is driving unprecedented need for efficient tools to meet shorter development cycles for system software and embedded c applications.
-Intel® System Studio 2015 does exactly that, enabling developers to get the most out of Intel® architecture-based systems and embedded applications.
+Intel® System Studio 2015 does exactly that, enabling developers to get the most out of Intel® architecture-based systems and embedded applications.I
 Intel® System Studio 2015 is a comprehensive and integrated tool suite that provides developers with advanced system tools and technologies to help accelerate the delivery of the next-generation, energy-efficient, high-performance, and reliable embedded and mobile devices.
 Intel® System Studio is a fully validated and Intel-supported product optimized for Intel® architecture, while being compatible with open source technologies.
-
 * Host Operating Systems
 * Integrated Development Environment
 * Intel® C++ Compiler
