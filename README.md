@@ -39,6 +39,13 @@ Intel® System Studio is a fully validated and Intel-supported product optimized
 
 # Hardware
 
+
+[Sparkfun Intel® Edison](https://www.sparkfun.com/categories/272)
+
+[SeedStudio Xadow Wearable Kit For Intel® Edison](http://www.seeedstudio.com/depot/Xadow-Wearable-Kit-For-Intel-Edison-p-2428.html?cPath=84_120)
+
+[SeedStudio Grove - Starter Kit for Arduino](http://www.seeedstudio.com/depot/Grove-Starter-Kit-for-Arduino-p-1855.html)
+
 # Operating Systems
 
 ## Yocto
