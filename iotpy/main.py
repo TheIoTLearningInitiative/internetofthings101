@@ -34,4 +34,11 @@ if __name__ == '__main__':
         mraalib = MraaLib()
         mraalib.version()
 
+    if args.modules == 'bpta':
+
+        from core.bpta import Bpta
+
+        bpta = Bpta()
+        bpta.data()
+
 # End of File
