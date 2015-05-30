@@ -145,7 +145,7 @@ Configure your Edison
     Configure Edison: Device Password
     Configure Edison: WiFi Connectio
     
-Enable a Opkg feed, update and upgrade
+Enable a Opkg feed, update and upgrade existing packages
 
     root@edison:~# vi /etc/opkg/base-feeds.conf
     src all     http://iotdk.intel.com/repos/1.1/iotdk/all
@@ -161,13 +161,21 @@ Enable a Opkg feed, update and upgrade
     root@edison:~# opkg upgrade
     ...
     root@edison:~# 
-    
+
+Install Git, Version Control System, using Opkg
+
+    root@edison:~# opkg install git
+
 Install RMAA and UPM Libraries
 
     root@edison:~# echo "src mraa-upm http://iotdk.intel.com/repos/1.1/intelgalactic" > /etc/opkg/mraa-upm.conf
     root@edison:~# opkg update
     root@edison:~# opkg install libmraa0
     root@edison:~# opkg install upm
+
+Install IoT Workshop Git Repository
+
+    root@edison:~# git clone https://github.com/xe1gyq/iot.git
 
 ## plot.ly
 
