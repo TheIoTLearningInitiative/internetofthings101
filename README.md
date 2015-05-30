@@ -127,11 +127,40 @@ Intel® System Studio is a fully validated and Intel-supported product optimized
 
 ## Prerequisites
 
-Let's install our required Python libraries
+**ToFix** Let's install our required Python libraries
 
     # apt-get update
     # apt-get install python-pip python-dev
     # pip install psutil
+
+Check your kernel version
+
+    root@edison:~# uname -r
+    3.10.17-poky-edison+
+
+Configure your Edison
+
+    root@edison:~# configure_edison
+    Configure Edison: Device Name
+    Configure Edison: Device Password
+    Configure Edison: WiFi Connectio
+    
+Enable a Opkg feed, update and upgrade
+
+    root@edison:~# vi /etc/opkg/base-feeds.conf
+    src all     http://iotdk.intel.com/repos/1.1/iotdk/all
+    src x86 http://iotdk.intel.com/repos/1.1/iotdk/x86
+    src i586    http://iotdk.intel.com/repos/1.1/iotdk/i586
+    root@edison:~# opkg update
+    Downloading http://iotdk.intel.com/repos/1.1/iotdk/all/Packages.
+    Updated list of available packages in /var/lib/opkg/all.
+    Downloading http://iotdk.intel.com/repos/1.1/iotdk/x86/Packages.
+    Updated list of available packages in /var/lib/opkg/x86.
+    Downloading http://iotdk.intel.com/repos/1.1/iotdk/i586/Packages.
+    Updated list of available packages in /var/lib/opkg/i586.
+    root@edison:~# opkg upgrade
+    ...
+    root@edison:~# 
 
 ## plot.ly
 
