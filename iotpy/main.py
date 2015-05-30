@@ -2,6 +2,8 @@
 
 import argparse
 
+from core.system import System
+
 #===============================================================================
 # Main
 #===============================================================================
@@ -12,7 +14,9 @@ if __name__ == '__main__':
     parser.add_argument('-m', '--modules', help='Module Mode')
     args = parser.parse_args()
 
-    if args.modules:
-        print args.modules
+    if args.modules == 'system':
+        system = System()
+        print system.cpuUser()
+        print system.cpuSystem()
 
 # End of File
