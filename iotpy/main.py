@@ -12,6 +12,13 @@ if __name__ == '__main__':
     parser.add_argument('-m', '--modules', help='Module Mode')
     args = parser.parse_args()
 
+    if args.modules == 'alive':
+
+        from core.alive import Alive
+
+        alive = Alive()
+        alive.report()
+
     if args.modules == 'system':
 
         from core.system import System
