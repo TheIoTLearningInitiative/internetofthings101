@@ -275,10 +275,26 @@ Install Python Pip
 
 [Plot.ly Getting Started](https://plot.ly/python/getting-started/)
 
+## Temboo
+
+> Create, make, code the Internet of everything
+
+## Intel® IoT Developer Kit Cloud-based Analytics
+
+> Intel provides a cloud-based analytics system for the Internet-of-Things (IoT) that includes resources for the collection and analysis of sensor data that the Intel® IoT Developer Kit provides. Using this service, Intel Galileo/Edison device developers can jump-start data acquisition and analysis without having to invest in large-scale storage and processing capacity.
+
+    # Create an account
+      https://dashboard.us.enableiot.com/
+    
+
+[Intel® IoT Developer Kit Cloud-based Analytics User Guide](https://software.intel.com/en-us/intel-iot-developer-kit-cloud-based-analytics-user-guide)
+
 # Resources
 
 [Robot Wpi Edu Galileo Images](http://robot.wpi.edu/wiki/index.php/Galileo_Images)
 
 [Coding in your browser: Using the Codebox* IDE with your Intel® Edison](https://software.intel.com/en-us/blogs/2015/05/04/coding-in-your-browser-using-the-codebox-ide-with-your-intel-edison)
+
+Microsoft Power BI & Google BigQuery
 
 # End of File
