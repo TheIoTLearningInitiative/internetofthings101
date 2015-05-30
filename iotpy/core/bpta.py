@@ -24,5 +24,6 @@ class Bpta(object):
                      self.bpta.getTemperature(),
                      self.bpta.getAltitude(),
                      self.bpta.getSealevelPressure()))
+        print bptadata
 
 # End of File
