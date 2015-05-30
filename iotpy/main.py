@@ -48,4 +48,11 @@ if __name__ == '__main__':
         plotly = PlotLyLib()
         plotly.graph()
 
+    if args.modules == 'gpio':
+
+        from core.gpio import Gpio
+
+        gpio = Gpio()
+        gpio.toggle()
+
 # End of File
