@@ -125,7 +125,7 @@ Intel® System Studio is a fully validated and Intel-supported product optimized
 
 # Workshop
 
-## Prerequisites
+## Yocto Console
 
 Check your kernel version
 
@@ -170,8 +170,19 @@ Install RMAA and UPM Libraries
 Install IoT Workshop Git Repository
 
     root@edison:~# git clone https://github.com/xe1gyq/iot.git
+    
+Run IoT Workshop examples
 
-## plot.ly
+    root@edison:~# cd iot/iotpy
+    root@edison:~# python main.py -m alive
+    root@edison:~# python main.py -m system
+    root@edison:~# python main.py -m mraa
+    root@edison:~# python main.py -m bpta
+
+## Intel® XDK IoT Edition Console
+> Create, Test, and Deliver Internet of Things Solutions. Software tool for JavaScript on-board app and HTML5 companion app development
+
+## Plot.Ly
 
 > Plotly is an online analytics and data visualization tool, headquartered in Montreal, Quebec. Plotly provides online graphing, analytics, and stats tools for individuals and collaboration, as well as scientific graphing libraries for Python, R, MATLAB, Perl, Julia, Arduino, and REST.
 
