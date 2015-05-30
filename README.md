@@ -125,7 +125,7 @@ Intel® System Studio is a fully validated and Intel-supported product optimized
 
 # Workshop
 
-## Yocto Console
+## Edison Yocto
 
 Check your kernel version
 
@@ -178,6 +178,42 @@ Run IoT Workshop examples
     root@edison:~# python main.py -m system
     root@edison:~# python main.py -m mraa
     root@edison:~# python main.py -m bpta
+
+## Galileo Yocto
+
+Check your kernel version
+
+    root@galileo:~# uname -r
+    3.8.7-yocto-standard
+
+Enable a Opkg feed, update and upgrade existing packages
+
+    root@galileo:~# opkg update
+    Downloading http://iotdk.intel.com/repos/1.1/iotdk/all/Packages.
+    Updated list of available packages in /var/lib/opkg/iotdk-all.
+    Downloading http://iotdk.intel.com/repos/1.1/iotdk/i586/Packages.
+    Updated list of available packages in /var/lib/opkg/iotdk-i586.
+    Downloading http://iotdk.intel.com/repos/1.1/iotdk/quark/Packages.
+    Updated list of available packages in /var/lib/opkg/iotdk-quark.
+    Downloading http://iotdk.intel.com/repos/1.1/iotdk/x86/Packages.
+    Updated list of available packages in /var/lib/opkg/iotdk-x86.
+    Downloading http://iotdk.intel.com/repos/1.1/intelgalactic/Packages.
+    Updated list of available packages in /var/lib/opkg/mraa-upm.
+    root@galileo:~# opkg upgrade
+    ...
+    root@galileo:~# 
+
+Install IoT Workshop Git Repository
+
+    root@galileo:~# git clone https://github.com/xe1gyq/iot.git
+    
+Run IoT Workshop examples
+
+    root@galileo:~# cd iot/iotpy
+    root@galileo:~# python main.py -m alive
+    root@galileo:~# python main.py -m system
+    root@galileo:~# python main.py -m mraa
+    root@galileo:~# python main.py -m bpta
 
 ## Intel® XDK IoT Edition
 > Create, Test, and Deliver Internet of Things Solutions. Software tool for JavaScript on-board app and HTML5 companion app development
