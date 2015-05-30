@@ -128,8 +128,9 @@ Intel® System Studio is a fully validated and Intel-supported product optimized
 ## Prerequisites
 
 apt-get update
-apt-get install python-pip
+apt-get install python-pip python-dev
 pip install psutil
+
 
 ## plot.ly
 
