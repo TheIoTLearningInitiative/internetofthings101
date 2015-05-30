@@ -277,7 +277,7 @@ Install Python Pip
 
 ## Temboo
 
-> Create, make, code the Internet of everything
+> Create, make, code the Internet of everything. Another API arbiter is called Temboo. This platform acts as a layer on top of third-party APIs, using code snippets to trigger complex processes that run through their cloud platform. Code snippets are added to your device code, perhaps on an Arduino Yun, and present a common methodology of function calls across a broad range of APIs. Code snippets are same format between different APIs. Temboo also tries to shield developers from having to maintain APIs on each device. If you know how to use Temboo for one application, you know how to use it for all.
 
 ## Intel® IoT Developer Kit Cloud-based Analytics
 
