@@ -41,4 +41,11 @@ if __name__ == '__main__':
         bpta = Bpta()
         bpta.data()
 
+    if args.modules == 'plotly':
+
+        from core.plotlylib import PlotLyLib
+
+        plotly = PlotLyLib()
+        plotly.graph()
+
 # End of File
