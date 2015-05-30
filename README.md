@@ -123,7 +123,7 @@ Intel® System Studio is a fully validated and Intel-supported product optimized
 
 [Intel® Galileo Board Get Started Guide](https://software.intel.com/en-us/iot/library/galileo-getting-started)
 
-# Workshop
+# Workshop Basic
 
 ## Edison Yocto
 
@@ -141,7 +141,7 @@ Configure your Edison
     
 Enable a Opkg feed, update and upgrade existing packages
 
-    root@edison:~# vi /etc/opkg/base-feeds.conf
+    root@edison:~# vi /etc/opkg/base-feeds.conf  # Add the below lines to the opened file
     src all     http://iotdk.intel.com/repos/1.1/iotdk/all
     src x86 http://iotdk.intel.com/repos/1.1/iotdk/x86
     src i586    http://iotdk.intel.com/repos/1.1/iotdk/i586
@@ -178,6 +178,7 @@ Run IoT Workshop examples
     root@edison:~# python main.py -m system
     root@edison:~# python main.py -m mraa
     root@edison:~# python main.py -m bpta
+    root@galileo:~# python main.py -m bpta
 
 ## Galileo Yocto
 
@@ -203,9 +204,15 @@ Update Opkg sources and upgrade existing packages
     ...
     root@galileo:~# 
 
-Install Python Pip
+Install Git, Version Control System, using Opkg
 
-    https://bootstrap.pypa.io/get-pip.py
+    root@edison:~# opkg install git
+
+Install RMAA and UPM Libraries
+
+    root@edison:~# opkg update
+    root@edison:~# opkg install libmraa0
+    root@edison:~# opkg install upm
 
 Install IoT Workshop Git Repository
 
@@ -218,6 +225,28 @@ Run IoT Workshop examples
     root@galileo:~# python main.py -m system
     root@galileo:~# python main.py -m mraa
     root@galileo:~# python main.py -m bpta
+    root@galileo:~# python main.py -m gpio
+
+# Workshop Intermediate
+
+## Edison Yocto
+
+Install Python Pip
+
+    root@edison:~# vi /etc/opkg/base-feeds.conf # Add the below lines to the opened file
+    src/gz all http://repo.opkg.net/edison/repo/all
+    src/gz edison http://repo.opkg.net/edison/repo/edison
+    src/gz core2-32 http://repo.opkg.net/edison/repo/core2-32
+    root@edison:~# opkg update
+    root@edison:~# opkg install python-pip
+
+## Galileo Yocto
+
+Install Python Pip
+
+    https://bootstrap.pypa.io/get-pip.py
+
+# Workshop Advanced
 
 ## Intel® XDK IoT Edition
 > Create, Test, and Deliver Internet of Things Solutions. Software tool for JavaScript on-board app and HTML5 companion app development
