@@ -127,12 +127,6 @@ Intel® System Studio is a fully validated and Intel-supported product optimized
 
 ## Prerequisites
 
-**ToFix** Let's install our required Python libraries
-
-    # apt-get update
-    # apt-get install python-pip python-dev
-    # pip install psutil
-
 Check your kernel version
 
     root@edison:~# uname -r
