@@ -53,7 +53,12 @@ Intel® System Studio is a fully validated and Intel-supported product optimized
 
 ## Sensors
 
+### Intel & Seeed Studio
+> Grove starter kit plus – Intel IoT Edition for Intel Galileo Gen 2 and Edison
+
 [IoT Intel® Sensors Bring IoT Projects to Life](https://software.intel.com/en-us/iot/hardware/sensors)
+
+[Grove starter kit plus – Intel IoT Edition for Intel Galileo Gen 2 and Edison](http://www.seeedstudio.com/depot/Grove-starter-kit-plus-Intel-IoT-Edition-for-Intel-Galileo-Gen-2-and-Edison-p-1978.html)
 
 ### Sparkfun
 > SparkFun Electronics (sometimes known by its abbreviation, SFE) is an electronics retailer in Niwot, Colorado, United States. It manufactures and sells microcontroller development boards and breakout boards.
