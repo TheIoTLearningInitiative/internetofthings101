@@ -107,9 +107,9 @@ Intel® System Studio is a fully validated and Intel-supported product optimized
 
 [Intel® Edison Board Get Started Guide](https://software.intel.com/en-us/iot/library/edison-getting-started)
 
-* Windows Device Manager Serial Ports
-** Intel Edison Virtual Com Port (COM16)
-** USB Serial Port (COM14) < PuTTY
+*Windows Device Manager Serial Ports
+**Intel Edison Virtual Com Port (COM16)
+**USB Serial Port (COM14) < PuTTY
 
 ### Others 
 
@@ -239,5 +239,11 @@ Run IoT Workshop examples
 > Plotly is an online analytics and data visualization tool, headquartered in Montreal, Quebec. Plotly provides online graphing, analytics, and stats tools for individuals and collaboration, as well as scientific graphing libraries for Python, R, MATLAB, Perl, Julia, Arduino, and REST.
 
 [Plot.ly Homepage](https://plot.ly)
+
+# Resources
+
+[Robot Wpi Edu Galileo Images](http://robot.wpi.edu/wiki/index.php/Galileo_Images)
+
+[Coding in your browser: Using the Codebox* IDE with your Intel® Edison](https://software.intel.com/en-us/blogs/2015/05/04/coding-in-your-browser-using-the-codebox-ide-with-your-intel-edison)
 
 # End of File
