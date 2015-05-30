@@ -186,7 +186,7 @@ Check your kernel version
     root@galileo:~# uname -r
     3.8.7-yocto-standard
 
-Enable a Opkg feed, update and upgrade existing packages
+Update Opkg sources and upgrade existing packages
 
     root@galileo:~# opkg update
     Downloading http://iotdk.intel.com/repos/1.1/iotdk/all/Packages.
@@ -202,6 +202,10 @@ Enable a Opkg feed, update and upgrade existing packages
     root@galileo:~# opkg upgrade
     ...
     root@galileo:~# 
+
+Install Python Pip
+
+    https://bootstrap.pypa.io/get-pip.py
 
 Install IoT Workshop Git Repository
 
