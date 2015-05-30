@@ -27,4 +27,11 @@ if __name__ == '__main__':
         print system.cpuUser()
         print system.cpuSystem()
 
+    if args.modules == 'mraa':
+
+        from core.mraalib import MraaLib
+
+        mraalib = MraaLib()
+        mraalib.version()
+
 # End of File
