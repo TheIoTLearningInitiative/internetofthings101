@@ -161,6 +161,13 @@ Enable a Opkg feed, update and upgrade
     root@edison:~# opkg upgrade
     ...
     root@edison:~# 
+    
+Install RMAA and UPM Libraries
+
+    root@edison:~# echo "src mraa-upm http://iotdk.intel.com/repos/1.1/intelgalactic" > /etc/opkg/mraa-upm.conf
+    root@edison:~# opkg update
+    root@edison:~# opkg install libmraa0
+    root@edison:~# opkg install upm
 
 ## plot.ly
 
