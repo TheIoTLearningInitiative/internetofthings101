@@ -2,8 +2,6 @@
 
 import argparse
 
-from core.system import System
-
 #===============================================================================
 # Main
 #===============================================================================
@@ -15,6 +13,9 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     if args.modules == 'system':
+
+        from core.system import System
+
         system = System()
         print system.cpuUser()
         print system.cpuSystem()
