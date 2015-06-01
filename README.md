@@ -1,4 +1,15 @@
-# Background
+# Agenda
+
+1. Resources
+2. Hardware
+3. Operating Systems
+4. Libraries
+5. Getting Started
+6. Workshop Basic
+7. Workshop Intermediate
+8. Workshop Advanced
+
+# Resources
 
 ## Intel Developer Zone
 > Get going on your Internet of Things project. Find guides, docs, downloads, support, and more.
