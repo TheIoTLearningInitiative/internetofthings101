@@ -323,6 +323,10 @@ Install Python Pip
 
 [Intel® IoT Developer Kit Cloud-based Analytics User Guide](https://software.intel.com/en-us/intel-iot-developer-kit-cloud-based-analytics-user-guide)
 
+## Project EON
+
+[An open-source chart and map framework for realtime data](http://www.pubnub.com/developers/eon/)
+
 # Resources
 
 [Robot Wpi Edu Galileo Images](http://robot.wpi.edu/wiki/index.php/Galileo_Images)
