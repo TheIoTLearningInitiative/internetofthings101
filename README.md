@@ -40,9 +40,8 @@ Intel® System Studio is a fully validated and Intel-supported product optimized
 * Intel® Math Kernel Library
 * Intel® Threading Building Blocks
 * Intel-enhanced GDB* Application Debugger
+* To work with Windows, Android, Linux*, Embedded Linux, Wind River* Linux*, Yocto Project*, Tizen
 * More ...
-
-**Windows, Android, Linux*, Embedded Linux, Wind River* Linux*, Yocto Project*, Tizen***
 
 [Intel® System Studio](https://software.intel.com/en-us/intel-system-studio)
 
@@ -333,6 +332,10 @@ Install Python Pip
 
 [Coding in your browser: Using the Codebox* IDE with your Intel® Edison](https://software.intel.com/en-us/blogs/2015/05/04/coding-in-your-browser-using-the-codebox-ide-with-your-intel-edison)
 
-Microsoft Power BI & Google BigQuery
+[Microsoft Power BI](https://powerbi.microsoft.com/)
+
+[Google BigQuery](https://cloud.google.com/bigquery/)
+
+[IBM BlueMix The Digital Innovation Platform](http://www.ibm.com/cloud-computing/bluemix/)
 
 # End of File
