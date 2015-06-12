@@ -189,7 +189,7 @@ Run IoT Workshop examples
     root@edison:~# python main.py -m system
     root@edison:~# python main.py -m mraa
     root@edison:~# python main.py -m bpta
-    root@galileo:~# python main.py -m bpta
+    root@edison:~# python main.py -m bpta
 
 ## Galileo Yocto
 
@@ -217,13 +217,13 @@ Update Opkg sources and upgrade existing packages
 
 Install Git, Version Control System, using Opkg
 
-    root@edison:~# opkg install git
+    root@galileo:~# opkg install git
 
 Install RMAA and UPM Libraries
 
-    root@edison:~# opkg update
-    root@edison:~# opkg install libmraa0
-    root@edison:~# opkg install upm
+    root@galileo:~# opkg update
+    root@galileo:~# opkg install libmraa0
+    root@galileo:~# opkg install upm
 
 Install IoT Workshop Git Repository
 
