@@ -239,6 +239,17 @@ Run IoT Workshop examples
 
 # Workshop Intermediate
 
+## Common
+
+Freeing up space
+
+    root@platform:~# mv /var/cache /home
+    root@platform:~# cd /var
+    root@platform:~# ln -sf /home/cache cache
+    root@platform:~# mv /usr/share /home
+    root@platform:~# cd /usr
+    root@platform:~# ln -sf /home/share share
+    
 ## Edison Yocto
 
 Install Python Pip
