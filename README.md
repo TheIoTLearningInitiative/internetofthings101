@@ -49,6 +49,10 @@ Intel® System Studio is a fully validated and Intel-supported product optimized
 
 > Google’s mission is to organize the world’s information and make it universally accessible and useful
 
+## Github
+
+> GitHub is the best place to share code with friends, co-workers, classmates, and complete strangers. Over eight million people use GitHub to build amazing things together.
+
 # Hardware
 
 ## Edison
