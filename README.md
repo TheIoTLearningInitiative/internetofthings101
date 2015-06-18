@@ -359,4 +359,6 @@ Install Python Pip
 
 [microBUS](http://www.mikroe.com/mikrobus/)
 
+[Soletta Project](https://github.com/solettaproject)
+
 # End of File
