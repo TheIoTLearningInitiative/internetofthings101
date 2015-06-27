@@ -11,7 +11,7 @@
 
 # Resources
 
-## Intel Developer Zone
+## Intel® Developer Zone
 > Get going on your Internet of Things project. Find guides, docs, downloads, support, and more.
 * Intel® Edison Board
 * Intel® Galileo Board
@@ -21,7 +21,7 @@
 [Intel® Developer Zone Internet of Things](https://software.intel.com/en-us/iot/home)
 
 ## Intel® IoT Devkit
-> The Intel Development Kit for IoT (IoTDK) is a complete solution to create and test applications for Intel IoT platforms like the Intel® Galileo and Edison maker boards.
+> The Intel® Development Kit for IoT (IoTDK) is a complete solution to create and test applications for Intel IoT platforms like the Intel® Galileo and Edison maker boards.
 * Intel® XDK IoT Edition
 * Yocto Project
 * Libraries (RMAA & UPM)
