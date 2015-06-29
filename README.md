@@ -141,6 +141,8 @@ Whatever you can think of, e.g. [breakaway headers](https://www.sparkfun.com/pro
 
 [Codefoster Setting up an Intel Edison](http://www.codefoster.com/edison-setup/)
 
+[Edison Mini Breakout: The Real Getting Started Guide](http://blog.microcasts.tv/2014/10/16/edison-mini-breakout-the-real-getting-started-guide)
+
 ## Galileo
 
 [Intel® Galileo Board Get Started Guide](https://software.intel.com/en-us/iot/library/galileo-getting-started)
