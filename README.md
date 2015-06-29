@@ -298,6 +298,12 @@ Install Python Pip
 5. Create Manual Connection via IoT Device Manual Connection through the IP Address assigned to your board
 6. Yes when asked to update your Board IoT Daemon
 
+## MQTT
+
+> MQTT is a light-weight protocol used for Machine to Machine (M2M) communication. MQTT used a publish/subscribe message forwarding model built on top of TCP/IP protocol.
+
+[Building and running Mosquitto MQTT on Intel Edison](https://software.intel.com/en-us/blogs/2015/02/20/building-and-running-mosquitto-mqtt-on-intel-edison)
+
 ## Plot.Ly
 
 > Plotly is an online analytics and data visualization tool, headquartered in Montreal, Quebec. Plotly provides online graphing, analytics, and stats tools for individuals and collaboration, as well as scientific graphing libraries for Python, R, MATLAB, Perl, Julia, Arduino, and REST.
