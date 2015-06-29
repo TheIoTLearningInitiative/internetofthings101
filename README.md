@@ -91,6 +91,10 @@ Intel® System Studio is a fully validated and Intel-supported product optimized
 ### Others
 [Top DIY Electronics Stores Suppliers](http://www.instructables.com/id/Top-DIY-Electronics-Stores-Suppliers/)
 
+## Miscellaneous
+
+Whatever you can think of, e.g. [breakaway headers](https://www.sparkfun.com/products/116)
+
 # Operating Systems
 
 ## Yocto
