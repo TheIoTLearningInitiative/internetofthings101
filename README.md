@@ -90,6 +90,10 @@ Intel® System Studio is a fully validated and Intel-supported product optimized
 
 ### Others
 [Top DIY Electronics Stores Suppliers](http://www.instructables.com/id/Top-DIY-Electronics-Stores-Suppliers/)
+[Break Away Headers - Straight](https://www.sparkfun.com/products/116)
+[Female/Male 'Extension' Jumper Wires - 40 x 12"](https://www.adafruit.com/products/824)
+[Female/Female Jumper Wires - 40 x 12"](https://www.adafruit.com/products/793)
+[Male/Male Jumper Wires - 40 x 12"](https://www.adafruit.com/products/760)
 
 ## Miscellaneous
 
