@@ -71,6 +71,9 @@ Intel® System Studio is a fully validated and Intel-supported product optimized
 
 ## Sensors
 
+* Digital
+* Analog
+
 ### Intel & Seeed Studio
 > Grove starter kit plus – Intel IoT Edition for Intel Galileo Gen 2 and Edison
 
