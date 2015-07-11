@@ -209,7 +209,7 @@ Run IoT Workshop examples
     root@edison:~# python main.py -m system
     root@edison:~# python main.py -m mraa
     root@edison:~# python main.py -m bpta
-    root@edison:~# python main.py -m bpta
+    root@edison:~# python main.py -m gpio
 
 ## Galileo Yocto
 
