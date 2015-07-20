@@ -5,9 +5,10 @@
 3. Operating Systems
 4. Libraries
 5. Getting Started
-6. Workshop Basic
-7. Workshop Intermediate
-8. Workshop Advanced
+6. Software Development
+7. Intel® Development Kits
+8. Services
+9. Links
 
 # Resources
 
@@ -154,7 +155,7 @@ Whatever you can think of, e.g. [breakaway headers](https://www.sparkfun.com/pro
 
 [Intel® Galileo Board Get Started Guide](https://software.intel.com/en-us/iot/library/galileo-getting-started)
 
-# Workshop Basic
+# Software Development
 
 ## Edison Yocto
 
@@ -258,8 +259,6 @@ Run IoT Workshop examples
     root@galileo:~# python main.py -m bpta
     root@galileo:~# python main.py -m gpio
 
-# Workshop Intermediate
-
 ## Common
 
 Freeing up space
@@ -288,7 +287,7 @@ Install Python Pip
 
     https://bootstrap.pypa.io/get-pip.py
 
-# Workshop Advanced
+# Intel Development Kits
 
 ## Intel® XDK IoT Edition
 > Create, Test, and Deliver Internet of Things Solutions. Software tool for JavaScript on-board app and HTML5 companion app development
@@ -304,28 +303,6 @@ Install Python Pip
    sudo apt-get install libavahi-compat-libdnssd1 avahi-utils
 5. Create Manual Connection via IoT Device Manual Connection through the IP Address assigned to your board
 6. Yes when asked to update your Board IoT Daemon
-
-## MQTT
-
-> MQTT is a light-weight protocol used for Machine to Machine (M2M) communication. MQTT used a publish/subscribe message forwarding model built on top of TCP/IP protocol.
-
-[Building and running Mosquitto MQTT on Intel Edison](https://software.intel.com/en-us/blogs/2015/02/20/building-and-running-mosquitto-mqtt-on-intel-edison)
-
-## Plot.Ly
-
-> Plotly is an online analytics and data visualization tool, headquartered in Montreal, Quebec. Plotly provides online graphing, analytics, and stats tools for individuals and collaboration, as well as scientific graphing libraries for Python, R, MATLAB, Perl, Julia, Arduino, and REST.
-
-    Get an account @ plot.ly
-    root@galileo:~# pip install plotly
-    root@galileo:~# python -c "import plotly; plotly.tools.set_credentials_file(username='yourusername', api_key='youapikey', stream_ids=['yourstreamid', 'yourotherstreamid'])"
-
-[Plot.ly Homepage](https://plot.ly)
-
-[Plot.ly Getting Started](https://plot.ly/python/getting-started/)
-
-## Temboo
-
-> Create, make, code the Internet of everything. Another API arbiter is called Temboo. This platform acts as a layer on top of third-party APIs, using code snippets to trigger complex processes that run through their cloud platform. Code snippets are added to your device code, perhaps on an Arduino Yun, and present a common methodology of function calls across a broad range of APIs. Code snippets are same format between different APIs. Temboo also tries to shield developers from having to maintain APIs on each device. If you know how to use Temboo for one application, you know how to use it for all.
 
 ## Intel® IoT Developer Kit Cloud-based Analytics
 
@@ -360,11 +337,35 @@ Install Python Pip
 
 [Intel® IoT Developer Kit Cloud-based Analytics User Guide](https://software.intel.com/en-us/intel-iot-developer-kit-cloud-based-analytics-user-guide)
 
+# Services
+
+## MQTT
+
+> MQTT is a light-weight protocol used for Machine to Machine (M2M) communication. MQTT used a publish/subscribe message forwarding model built on top of TCP/IP protocol.
+
+[Building and running Mosquitto MQTT on Intel Edison](https://software.intel.com/en-us/blogs/2015/02/20/building-and-running-mosquitto-mqtt-on-intel-edison)
+
+## Plot.Ly
+
+> Plotly is an online analytics and data visualization tool, headquartered in Montreal, Quebec. Plotly provides online graphing, analytics, and stats tools for individuals and collaboration, as well as scientific graphing libraries for Python, R, MATLAB, Perl, Julia, Arduino, and REST.
+
+    Get an account @ plot.ly
+    root@galileo:~# pip install plotly
+    root@galileo:~# python -c "import plotly; plotly.tools.set_credentials_file(username='yourusername', api_key='youapikey', stream_ids=['yourstreamid', 'yourotherstreamid'])"
+
+[Plot.ly Homepage](https://plot.ly)
+
+[Plot.ly Getting Started](https://plot.ly/python/getting-started/)
+
+## Temboo
+
+> Create, make, code the Internet of everything. Another API arbiter is called Temboo. This platform acts as a layer on top of third-party APIs, using code snippets to trigger complex processes that run through their cloud platform. Code snippets are added to your device code, perhaps on an Arduino Yun, and present a common methodology of function calls across a broad range of APIs. Code snippets are same format between different APIs. Temboo also tries to shield developers from having to maintain APIs on each device. If you know how to use Temboo for one application, you know how to use it for all.
+
 ## Project EON
 
 [An open-source chart and map framework for realtime data](http://www.pubnub.com/developers/eon/)
 
-# Resources
+# Links
 
 [Robot Wpi Edu Galileo Images](http://robot.wpi.edu/wiki/index.php/Galileo_Images)
 
