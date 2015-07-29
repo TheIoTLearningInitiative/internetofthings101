@@ -7,5 +7,7 @@ class MraaLib(object):
 
     def version(self):
         print (mraa.getVersion())
+        print (mraa.getPlatformName())
+        print (mraa.getPlatformType())
 
 # End of File
