@@ -34,6 +34,13 @@ if __name__ == '__main__':
         mraalib = MraaLib()
         mraalib.version()
 
+    if args.modules == 'aio':
+
+        from core.aio import Aio
+
+        aio = Aio()
+        aio.read()
+
     if args.modules == 'bpta':
 
         from core.bpta import Bpta
