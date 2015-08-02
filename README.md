@@ -445,4 +445,6 @@ Run IoTpy Workshop examples
 
 [Soletta Project](https://github.com/solettaproject)
 
+[Mashery](http://www.mashery.com/)
+
 # End of File
