@@ -198,6 +198,10 @@ Whatever you can think of, e.g. [breakaway headers](https://www.sparkfun.com/pro
 
 # Software Development
 
+## Arduino IDE
+
+Tbd
+
 ## Yocto Edison
 
 Check your kernel version
@@ -260,7 +264,7 @@ Check IP address assigned
     root@edison:~# ifconfig
     lo        Link encap:Local Loopback  
               inet addr:127.0.0.1  Mask:255.0.0.0
-    wlan      Link encap:Ethernet  HWaddr 00:1C:C0:AE:B5:E6  
+    eth0      Link encap:Ethernet  HWaddr 00:1C:C0:AE:B5:E6  
               inet addr:192.168.1.74  Bcast:192.168.0.255  Mask:255.255.255.0
 
 Update Opkg sources and upgrade existing packages
@@ -292,11 +296,17 @@ Install RMAA and UPM Libraries
 
 ## Python
 
-Create your first Python script
+Check Python is installed
+
+    root@platform:~# python --version
+
+Create your first Python script, a "Hello World" like example
 
     root@platform:~# vi iot.py
+    #!/usr/bin/python
     
-
+    print 'Internet of Things @ Python'
+    root@platform:~# python iot.py
 
 ## Python Pip Yocto Edison
 
