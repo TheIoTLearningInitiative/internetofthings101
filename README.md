@@ -13,6 +13,8 @@
 
 # Internet of Things
 
+> Devices that are connecting to the Internet, integrating greater compute capabilities and using  data analytics to extract meaningful information...
+
 ## Process Control Systems Basic Control Loop
 * Sense
 * Monitor
