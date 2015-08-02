@@ -130,17 +130,14 @@ Architecture
 
 ## Edison
 
-[IoT Intel® Edison Board](https://software.intel.com/en-us/iot/hardware/edison)
-
-[Sparkfun Intel® Edison](https://www.sparkfun.com/categories/272)
-
-[SeedStudio Xadow Wearable Kit For Intel® Edison](http://www.seeedstudio.com/depot/Xadow-Wearable-Kit-For-Intel-Edison-p-2428.html?cPath=84_120)
+* [IoT Intel® Edison Board](https://software.intel.com/en-us/iot/hardware/edison)
+* [Sparkfun Intel® Edison](https://www.sparkfun.com/categories/272)
+* [SeedStudio Xadow Wearable Kit For Intel® Edison](http://www.seeedstudio.com/depot/Xadow-Wearable-Kit-For-Intel-Edison-p-2428.html?cPath=84_120)
 
 ## Galileo
 
-[IoT Intel® Galileo Board](https://software.intel.com/en-us/iot/hardware/galileo)
-
-[SeedStudio Grove - Starter Kit for Arduino](http://www.seeedstudio.com/depot/Grove-Starter-Kit-for-Arduino-p-1855.html)
+* [IoT Intel® Galileo Board](https://software.intel.com/en-us/iot/hardware/galileo)
+* [SeedStudio Grove - Starter Kit for Arduino](http://www.seeedstudio.com/depot/Grove-Starter-Kit-for-Arduino-p-1855.html)
 
 ## Sensors
 
@@ -150,9 +147,8 @@ Architecture
 ### Intel & Seeed Studio
 > Grove starter kit plus – Intel IoT Edition for Intel Galileo Gen 2 and Edison
 
-[IoT Intel® Sensors Bring IoT Projects to Life](https://software.intel.com/en-us/iot/hardware/sensors)
-
-[Grove starter kit plus – Intel IoT Edition for Intel Galileo Gen 2 and Edison](http://www.seeedstudio.com/depot/Grove-starter-kit-plus-Intel-IoT-Edition-for-Intel-Galileo-Gen-2-and-Edison-p-1978.html)
+* [IoT Intel® Sensors Bring IoT Projects to Life](https://software.intel.com/en-us/iot/hardware/sensors)
+* [Grove starter kit plus – Intel IoT Edition for Intel Galileo Gen 2 and Edison](http://www.seeedstudio.com/depot/Grove-starter-kit-plus-Intel-IoT-Edition-for-Intel-Galileo-Gen-2-and-Edison-p-1978.html)
 
 ### Sparkfun
 > SparkFun Electronics (sometimes known by its abbreviation, SFE) is an electronics retailer in Niwot, Colorado, United States. It manufactures and sells microcontroller development boards and breakout boards.
@@ -233,18 +229,15 @@ Whatever you can think of, e.g. [breakaway headers](https://www.sparkfun.com/pro
 
 ### Others 
 
-[Sparkfun Edison Getting Started](https://learn.sparkfun.com/tutorials/edison-getting-started-guide)
-
-[Instructables A Comprehensive Intel Edison Getting Started Guide](http://www.instructables.com/id/A-Comprehensive-Intel-Edison-Getting-Started-Guide/)
-
-[Codefoster Setting up an Intel Edison](http://www.codefoster.com/edison-setup/)
-
-[Edison Mini Breakout: The Real Getting Started Guide](http://blog.microcasts.tv/2014/10/16/edison-mini-breakout-the-real-getting-started-guide)
+* [Sparkfun Edison Getting Started](https://learn.sparkfun.com/tutorials/edison-getting-started-guide)
+* [Instructables A Comprehensive Intel Edison Getting Started Guide](http://www.instructables.com/id/A-Comprehensive-Intel-Edison-Getting-Started-Guide/)
+* [Codefoster Setting up an Intel Edison](http://www.codefoster.com/edison-setup/)
+* [Edison Mini Breakout: The Real Getting Started Guide](http://blog.microcasts.tv/2014/10/16/edison-mini-breakout-the-real-getting-started-guide)
 
 ## Galileo
 
-[Intel® Galileo Board Get Started Guide](https://software.intel.com/en-us/iot/library/galileo-getting-started)
-[Intel® Galileo Getting Started](https://communities.intel.com/community/makers/galileo/getting-started)
+* [Intel® Galileo Board Get Started Guide](https://software.intel.com/en-us/iot/library/galileo-getting-started)
+* [Intel® Galileo Getting Started](https://communities.intel.com/community/makers/galileo/getting-started)
 
 # Software Development
 
@@ -605,30 +598,20 @@ Run IoTpy Workshop examples
 
 ## Project EON
 
-[An open-source chart and map framework for realtime data](http://www.pubnub.com/developers/eon/)
+* [An open-source chart and map framework for realtime data](http://www.pubnub.com/developers/eon/)
 
 # Links
 
-[Robot Wpi Edu Galileo Images](http://robot.wpi.edu/wiki/index.php/Galileo_Images)
-
-[Coding in your browser: Using the Codebox* IDE with your Intel® Edison](https://software.intel.com/en-us/blogs/2015/05/04/coding-in-your-browser-using-the-codebox-ide-with-your-intel-edison)
-
-[Microsoft Power BI](https://powerbi.microsoft.com/)
-
-[Google BigQuery](https://cloud.google.com/bigquery/)
-
-[IBM BlueMix The Digital Innovation Platform](http://www.ibm.com/cloud-computing/bluemix/)
-
-[microBUS](http://www.mikroe.com/mikrobus/)
-
-[Soletta Project](https://github.com/solettaproject)
-
-[Mashery](http://www.mashery.com/)
-
-[Internet of Things @ Intel®](http://www.intel.com/iot)
-
-[Developer IBM IoT](https://developer.ibm.com/recipes/?)
-
-[Wyliodrin](https://www.wyliodrin.com/)
+* [Robot Wpi Edu Galileo Images](http://robot.wpi.edu/wiki/index.php/Galileo_Images)
+* [Coding in your browser: Using the Codebox* IDE with your Intel® Edison](https://software.intel.com/en-us/blogs/2015/05/04/coding-in-your-browser-using-the-codebox-ide-with-your-intel-edison)
+* [Microsoft Power BI](https://powerbi.microsoft.com/)
+* [Google BigQuery](https://cloud.google.com/bigquery/)
+* [IBM BlueMix The Digital Innovation Platform](http://www.ibm.com/cloud-computing/bluemix/)
+* [microBUS](http://www.mikroe.com/mikrobus/)
+* [Soletta Project](https://github.com/solettaproject)
+* [Mashery](http://www.mashery.com/)
+* [Internet of Things @ Intel®](http://www.intel.com/iot)
+* [Developer IBM IoT](https://developer.ibm.com/recipes/?)
+* [Wyliodrin](https://www.wyliodrin.com/)
 
 # End of File
