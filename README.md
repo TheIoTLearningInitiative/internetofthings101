@@ -85,6 +85,8 @@ Intel® System Studio is a fully validated and Intel-supported product optimized
 
 [Intel® System Studio](https://software.intel.com/en-us/intel-system-studio)
 
+## Intel® Gateway Solutions
+
 ## Google
 
 > Google’s mission is to organize the world’s information and make it universally accessible and useful
