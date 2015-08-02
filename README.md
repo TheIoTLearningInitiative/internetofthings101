@@ -153,7 +153,7 @@ Architecture
 ### Sparkfun
 > SparkFun Electronics (sometimes known by its abbreviation, SFE) is an electronics retailer in Niwot, Colorado, United States. It manufactures and sells microcontroller development boards and breakout boards.
 
-[Sparkfun](https://www.sparkfun.com/)
+* [Sparkfun](https://www.sparkfun.com/)
 
 ### Adafruit
 > Adafruit Industries is an open-source hardware company founded by Limor Fried in 2005.[1][2] The company designs and manufactures a number of electronics products, sells a wide variety of electronics components, tools, and accessories via its online storefront, and produces a number of learning resources, including written tutorials, introductory videos for children, and the longest running live video electronics show on the Internet.
@@ -161,11 +161,12 @@ Architecture
 [Adafruit Industries](https://www.adafruit.com/)
 
 ### Others
-[Top DIY Electronics Stores Suppliers](http://www.instructables.com/id/Top-DIY-Electronics-Stores-Suppliers/)
-[Break Away Headers - Straight](https://www.sparkfun.com/products/116)
-[Female/Male 'Extension' Jumper Wires - 40 x 12"](https://www.adafruit.com/products/824)
-[Female/Female Jumper Wires - 40 x 12"](https://www.adafruit.com/products/793)
-[Male/Male Jumper Wires - 40 x 12"](https://www.adafruit.com/products/760)
+
+* [Top DIY Electroni-cs Stores Suppliers](http://www.instructables.com/id/Top-DIY-Electronics-Stores-Suppliers/)
+* [Break Away Headers - Straight](https://www.sparkfun.com/products/116)
+* [Female/Male 'Extension' Jumper Wires - 40 x 12"](https://www.adafruit.com/products/824)
+* [Female/Female Jumper Wires - 40 x 12"](https://www.adafruit.com/products/793)
+* [Male/Male Jumper Wires - 40 x 12"](https://www.adafruit.com/products/760)
 
 ## Miscellaneous
 
@@ -192,11 +193,9 @@ Whatever you can think of, e.g. [breakaway headers](https://www.sparkfun.com/pro
 ## Ubilinux
 > ubilinux™ is an embedded Linux distribution from Emutex and is based on Debian "Wheezy". It is targeted at embedded devices that have limited memory and storage capabilities.
 
-[Emutexlabs ubilinux™](http://www.emutexlabs.com/ubilinu)
-
-[µCast #21: Installing Ubilinux on the Edison (Windows)](https://www.youtube.com/watch?v=BSnXjuttSgY)
-
-[Sparkfun Loading Debian (Ubilinux) on the Edison](https://learn.sparkfun.com/tutorials/loading-debian-ubilinux-on-the-edison)
+* [Emutexlabs ubilinux™](http://www.emutexlabs.com/ubilinu)
+* [µCast #21: Installing Ubilinux on the Edison (Windows)](https://www.youtube.com/watch?v=BSnXjuttSgY)
+* [Sparkfun Loading Debian (Ubilinux) on the Edison](https://learn.sparkfun.com/tutorials/loading-debian-ubilinux-on-the-edison)
 
 # Libraries
 
