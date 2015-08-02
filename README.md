@@ -211,7 +211,15 @@ Configure your Edison
     Configure Edison: Device Name
     Configure Edison: Device Password
     Configure Edison: WiFi Connectio
-    
+
+Check IP address assigned
+
+    root@edison:~# ifconfig
+    lo        Link encap:Local Loopback  
+              inet addr:127.0.0.1  Mask:255.0.0.0
+    wlan      Link encap:Ethernet  HWaddr 00:1C:C0:AE:B5:E6  
+              inet addr:192.168.1.74  Bcast:192.168.0.255  Mask:255.255.255.0
+
 Enable a Opkg feed, update and upgrade existing packages
 
     root@edison:~# vi /etc/opkg/base-feeds.conf  # Add the below lines to the opened file
@@ -247,6 +255,14 @@ Check your kernel version
     root@galileo:~# uname -r
     3.8.7-yocto-standard
 
+Check IP address assigned
+
+    root@edison:~# ifconfig
+    lo        Link encap:Local Loopback  
+              inet addr:127.0.0.1  Mask:255.0.0.0
+    wlan      Link encap:Ethernet  HWaddr 00:1C:C0:AE:B5:E6  
+              inet addr:192.168.1.74  Bcast:192.168.0.255  Mask:255.255.255.0
+
 Update Opkg sources and upgrade existing packages
 
     root@galileo:~# opkg update
@@ -273,6 +289,14 @@ Install RMAA and UPM Libraries
     root@galileo:~# opkg update
     root@galileo:~# opkg install libmraa0
     root@galileo:~# opkg install upm
+
+## Python
+
+Create your first Python script
+
+    root@platform:~# vi iot.py
+    
+
 
 ## Python Pip Yocto Edison
 
