@@ -332,9 +332,13 @@ Install RMAA and UPM Libraries
 
 ## Python
 
+### Python Installation
+
 Check Python is installed
 
     root@platform:~# python --version
+
+### Python Mraa Hello Internet of Things
 
 Create your first Python script, the common "Hello Internet of Things" example
 
@@ -349,7 +353,9 @@ print 'Hello Internet of Things @ Python'
 
     root@platform:~# python iot.py
 
-Mraa Time! Let's get the version of mraa library we installed
+### Python Mraa Version
+
+Let's get the version of mraa library we installed
 
     root@platform:~# vi iot.py
 
@@ -370,7 +376,9 @@ print (mraa.getPlatformType())
 
     root@platform:~# python iot.py
 
-Mraa Time! Let's work with AIO
+### Python Mraa Analog Input Output (AIO)
+
+Let's work with Analog Input Output
 
     root@platform:~# vi iot.py
 
@@ -392,6 +400,43 @@ print (mraa.getPlatformType())
 aiovar = mraa.Aio(1)
 x.read()
 print ("%.5f" % self.x.readFloat())
+```
+
+    root@platform:~# python iot.py
+
+### Python Mraa General Purpose Input Output (GPIO) Direction Output
+
+Let's work with General Purpose Input Output, Direction Output
+
+    root@platform:~# vi iot.py
+
+```python
+#!/usr/bin/python
+
+# Libraries
+import mraa
+
+# Hello Internet of Things
+print 'Hello Internet of Things @ Python'
+
+# Mraa Version
+print (mraa.getVersion())
+print (mraa.getPlatformName())
+print (mraa.getPlatformType())
+
+# Mraa Aio
+aiovar = mraa.Aio(1)
+x.read()
+print ("%.5f" % self.x.readFloat())
+
+# Mraa General Purpose Input Output
+if mraa.getPlatformType() == 1:
+    gpioline = mraa.Gpio(12)
+gpioline.dir(mraa.DIR_OUT)
+gpionextvalue = not gpioline.read()
+gpioline.write(gpionextvalue)
+time.sleep(1)
+gpioline.write(not gpionextvalue)
 ```
 
     root@platform:~# python iot.py
