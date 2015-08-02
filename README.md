@@ -27,20 +27,27 @@
 * Gateway
 * Communications
 * Sensor Database
-* Application Service
-* Data Visualization
-* Big Data Processing, Services
-  * Analytics
-  * Data Mining
-  * Modeling
-  * Prediction
-  * Application
-  * Services
+* Cloud, Data Format
+  * Application Service
+  * Data Visualization
+  * Big Data Processing, Services
+    * Analytics
+    * Data Mining
+    * Modeling
+    * Prediction
+    * Application
+    * Services
 
 ## The Internet of Things Brings
 * Scale in every Form
 * Tools and Technology
 * Development Community
+
+## Internet of Things @ Intel
+* Secure | Wind River, Intel Security
+* Connect | Things, Gateway, Network, Datacenter
+* Manage | Services Management @ Wind River, Intel Security, Developer Resources
+* Analize | Solutions Enablement
 
 # Resources
 
