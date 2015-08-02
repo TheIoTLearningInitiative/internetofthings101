@@ -407,7 +407,8 @@ print (mraa.getPlatformName())
 print (mraa.getPlatformType())
 
 # Mraa Aio
-aioline = mraa.Aio(1)
+aioline = mraa.Aio(0)
+aioline.setBit(10)
 aioline.read()
 print ("%.5f" % aioline.readFloat())
 ```
@@ -435,7 +436,8 @@ print (mraa.getPlatformName())
 print (mraa.getPlatformType())
 
 # Mraa Aio
-aioline = mraa.Aio(1)
+aioline = mraa.Aio(0)
+aioline.setBit(10)
 aioline.read()
 print ("%.5f" % aioline.readFloat())
 
@@ -465,7 +467,8 @@ print (mraa.getPlatformName())
 print (mraa.getPlatformType())
 
 # Mraa Aio
-aioline = mraa.Aio(1)
+aioline = mraa.Aio(0)
+aioline.setBit(10)
 aioline.read()
 print ("%.5f" % aioline.readFloat())
 
