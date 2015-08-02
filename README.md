@@ -304,18 +304,18 @@ Freeing up space
 
 ## IoTpy
 
-Install IoT Workshop Git Repository
+Install IoTpy Workshop Git Repository
 
-    root@edison:~# git clone https://github.com/xe1gyq/iot.git
+    root@platform:~# git clone https://github.com/xe1gyq/iot.git
     
-Run IoT Workshop examples
+Run IoTpy Workshop examples
 
-    root@edison:~# cd iot/iotpy
-    root@edison:~# python main.py -m alive
-    root@edison:~# python main.py -m system
-    root@edison:~# python main.py -m mraa
-    root@edison:~# python main.py -m bpta
-    root@edison:~# python main.py -m gpio
+    root@platform:~# cd iot/iotpy
+    root@platform:~# python main.py -m alive
+    root@platform:~# python main.py -m system
+    root@platform:~# python main.py -m mraa
+    root@platform:~# python main.py -m bpta
+    root@platform:~# python main.py -m gpio
 
 # Intel Development Kits
 
