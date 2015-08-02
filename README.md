@@ -194,6 +194,13 @@ Whatever you can think of, e.g. [breakaway headers](https://www.sparkfun.com/pro
 ## Mraa
 > Low Level Skeleton Library for IO Communication on GNU/Linux platforms
 
+* AIO Sensors requiring an ADC value to be read
+* I2C Modules using the i2c bus
+* SPI Modules using the SPI bus
+* GPIO Modules using GPIOs directly
+* PWM Modules using a PWM capable GPIO pin
+* UART Modules using a serial connection (RX/TX)
+
 [Github](https://github.com/intel-iot-devkit/mraa)
 
 ## Upm
@@ -329,12 +336,14 @@ Check Python is installed
 
     root@platform:~# python --version
 
-Create your first Python script, the common "Hello World" example
+Create your first Python script, the common "Hello Internet of Things" example
 
     root@platform:~# vi iot.py
 
 ```python
 #!/usr/bin/python
+
+# Hello Internet of Things
 print 'Hello Internet of Things @ Python'
 ```
 
@@ -349,10 +358,38 @@ Mraa Time! Let's get the version of mraa library we installed
 
 import mraa
 
+# Hello Internet of Things
 print 'Hello Internet of Things @ Python'
+
+# Mraa Version
 print (mraa.getVersion())
 print (mraa.getPlatformName())
 print (mraa.getPlatformType())
+```
+
+    root@platform:~# python iot.py
+
+Mraa Time! Let's work with AIO
+
+    root@platform:~# vi iot.py
+
+```python
+#!/usr/bin/python
+
+import mraa
+
+# Hello Internet of Things
+print 'Hello Internet of Things @ Python'
+
+# Mraa Version
+print (mraa.getVersion())
+print (mraa.getPlatformName())
+print (mraa.getPlatformType())
+
+# Mraa Aio
+aiovar = mraa.Aio(1)
+x.read()
+print ("%.5f" % self.x.readFloat())
 ```
 
     root@platform:~# python iot.py
