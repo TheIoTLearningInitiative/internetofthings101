@@ -398,9 +398,9 @@ print (mraa.getPlatformName())
 print (mraa.getPlatformType())
 
 # Mraa Aio
-aiovar = mraa.Aio(1)
-x.read()
-print ("%.5f" % self.x.readFloat())
+aioline = mraa.Aio(1)
+aioline.read()
+print ("%.5f" % aioline.readFloat())
 ```
 
     root@platform:~# python iot.py
@@ -426,9 +426,9 @@ print (mraa.getPlatformName())
 print (mraa.getPlatformType())
 
 # Mraa Aio
-aiovar = mraa.Aio(1)
-x.read()
-print ("%.5f" % self.x.readFloat())
+aioline = mraa.Aio(1)
+aioline.read()
+print ("%.5f" % aioline.readFloat())
 
 # Mraa GPIO Direction Output
 if mraa.getPlatformType() == 1:
