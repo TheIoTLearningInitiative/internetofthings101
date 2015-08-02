@@ -57,6 +57,7 @@
 > Get going on your Internet of Things project. Find guides, docs, downloads, support, and more.
 * Intel® Edison Board
 * Intel® Galileo Board
+* Intel® IoT Gateways
 * Sensors
 * Intel® IoT Developer Kit
 
