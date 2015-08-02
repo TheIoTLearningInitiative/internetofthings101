@@ -3,13 +3,14 @@
 1. Internet of Things
 2. Resources
 2. Hardware
-3. Operating Systems
-4. Libraries
-5. Getting Started
-6. Software Development
-7. Intel® Development Kits
-8. Services
-9. Links
+3. Integrated Development Environment
+4. Operating Systems
+5. Libraries
+6. Getting Started
+7. Software Development
+8. Intel® Development Kits
+9. Services
+10. Links
 
 # Internet of Things
 
@@ -121,7 +122,7 @@ Architecture
 
 > Google’s mission is to organize the world’s information and make it universally accessible and useful
 
-## Github
+## Version Control System Github
 
 > GitHub is the best place to share code with friends, co-workers, classmates, and complete strangers. Over eight million people use GitHub to build amazing things together.
 
@@ -173,6 +174,17 @@ Architecture
 ## Miscellaneous
 
 Whatever you can think of, e.g. [breakaway headers](https://www.sparkfun.com/products/116)
+
+# Integrated Development Environment
+
+## Arduino IDE
+> Run sketches on your Intel® IoT board using the Arduino IDE
+
+## Intel® XDK IoT Edition
+> Create, Test, and Deliver Internet of Things Solutions. Software tool for JavaScript on-board app and HTML5 companion app development, create and test applications on Intel®-based IoT platforms. It helps you write applications in C and C++ languages and provides two libraries (mraa and upm), specially designed for the Intel IoT Developer Kit
+
+## Eclipse
+> Intel® IoT Developer Kit version of the Eclipse IDE
 
 # Operating Systems
 
@@ -235,10 +247,6 @@ Whatever you can think of, e.g. [breakaway headers](https://www.sparkfun.com/pro
 [Intel® Galileo Getting Started](https://communities.intel.com/community/makers/galileo/getting-started)
 
 # Software Development
-
-## Arduino IDE
-
-Tbd
 
 ## Yocto Edison
 
