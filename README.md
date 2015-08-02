@@ -89,6 +89,12 @@ Intel® System Studio is a fully validated and Intel-supported product optimized
 
 ## Intel® Gateway Solutions
 
+Why?
+
+* Unconnected devices
+* Systems always connected and monitored
+* 
+
 ## Google
 
 > Google’s mission is to organize the world’s information and make it universally accessible and useful
@@ -448,5 +454,7 @@ Run IoTpy Workshop examples
 [Soletta Project](https://github.com/solettaproject)
 
 [Mashery](http://www.mashery.com/)
+
+[Internet of Things @ Intel®](http://www.intel.com/iot)
 
 # End of File
