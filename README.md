@@ -429,7 +429,7 @@ aiovar = mraa.Aio(1)
 x.read()
 print ("%.5f" % self.x.readFloat())
 
-# Mraa General Purpose Input Output
+# Mraa GPIO Direction Output
 if mraa.getPlatformType() == 1:
     gpioline = mraa.Gpio(12)
 gpioline.dir(mraa.DIR_OUT)
