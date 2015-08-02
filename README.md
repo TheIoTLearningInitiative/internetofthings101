@@ -405,6 +405,36 @@ print ("%.5f" % aioline.readFloat())
 
     root@platform:~# python iot.py
 
+### Python Mraa Inter-Integrated Circuit (I2C)
+
+Let's work with Inter-Integrated Circuit protocol
+
+    root@platform:~# vi iot.py
+
+```python
+#!/usr/bin/python
+
+# Libraries
+import mraa
+
+# Hello Internet of Things
+print 'Hello Internet of Things @ Python'
+
+# Mraa Version
+print (mraa.getVersion())
+print (mraa.getPlatformName())
+print (mraa.getPlatformType())
+
+# Mraa Aio
+aioline = mraa.Aio(1)
+aioline.read()
+print ("%.5f" % aioline.readFloat())
+
+# Mraa I2C
+```
+
+    root@platform:~# python iot.py
+
 ### Python Mraa General Purpose Input Output (GPIO) Direction Output
 
 Let's work with General Purpose Input Output, Direction Output
@@ -429,6 +459,8 @@ print (mraa.getPlatformType())
 aioline = mraa.Aio(1)
 aioline.read()
 print ("%.5f" % aioline.readFloat())
+
+# Mraa I2C
 
 # Mraa GPIO Direction Output
 if mraa.getPlatformType() == 1:
