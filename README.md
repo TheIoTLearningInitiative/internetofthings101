@@ -1,6 +1,7 @@
 # Agenda
 
-1. Resources
+1. Internet of Things
+2. Resources
 2. Hardware
 3. Operating Systems
 4. Libraries
@@ -9,6 +10,31 @@
 7. Intel® Development Kits
 8. Services
 9. Links
+
+# Internet of Things
+
+## Process Control Systems Basic Control Loop
+* Sense
+* Monitor
+* Analize
+* Execute
+* Actuate
+
+## Internet of Things System
+* Sensors
+* Protocol
+* Gateway
+* Communications
+* Sensor Database
+* Application Service
+* Data Visualization
+* Big Data Processing, Services
+  * Analytics
+  * Data Mining
+  * Modeling
+  * Prediction
+  * Application
+  * Services
 
 # Resources
 
@@ -199,19 +225,6 @@ Install RMAA and UPM Libraries
     root@edison:~# opkg install libmraa0
     root@edison:~# opkg install upm
 
-Install IoT Workshop Git Repository
-
-    root@edison:~# git clone https://github.com/xe1gyq/iot.git
-    
-Run IoT Workshop examples
-
-    root@edison:~# cd iot/iotpy
-    root@edison:~# python main.py -m alive
-    root@edison:~# python main.py -m system
-    root@edison:~# python main.py -m mraa
-    root@edison:~# python main.py -m bpta
-    root@edison:~# python main.py -m gpio
-
 ## Galileo Yocto
 
 Check your kernel version
@@ -246,18 +259,37 @@ Install RMAA and UPM Libraries
     root@galileo:~# opkg install libmraa0
     root@galileo:~# opkg install upm
 
+## IoTPy
+
 Install IoT Workshop Git Repository
 
-    root@galileo:~# git clone https://github.com/xe1gyq/iot.git
+    root@edison:~# git clone https://github.com/xe1gyq/iot.git
     
 Run IoT Workshop examples
 
-    root@galileo:~# cd iot/iotpy
-    root@galileo:~# python main.py -m alive
-    root@galileo:~# python main.py -m system
-    root@galileo:~# python main.py -m mraa
-    root@galileo:~# python main.py -m bpta
-    root@galileo:~# python main.py -m gpio
+    root@edison:~# cd iot/iotpy
+    root@edison:~# python main.py -m alive
+    root@edison:~# python main.py -m system
+    root@edison:~# python main.py -m mraa
+    root@edison:~# python main.py -m bpta
+    root@edison:~# python main.py -m gpio
+
+## Python Pip Edison Yocto
+
+Install Python Pip
+
+    root@edison:~# vi /etc/opkg/base-feeds.conf # Add the below lines to the opened file
+    src/gz all http://repo.opkg.net/edison/repo/all
+    src/gz edison http://repo.opkg.net/edison/repo/edison
+    src/gz core2-32 http://repo.opkg.net/edison/repo/core2-32
+    root@edison:~# opkg update
+    root@edison:~# opkg install python-pip
+
+## Python Pip Galileo Yocto
+
+Install Python Pip
+
+    https://bootstrap.pypa.io/get-pip.py
 
 ## Common
 
@@ -269,23 +301,6 @@ Freeing up space
     root@platform:~# mv /usr/share /home
     root@platform:~# cd /usr
     root@platform:~# ln -sf /home/share share
-    
-## Edison Yocto
-
-Install Python Pip
-
-    root@edison:~# vi /etc/opkg/base-feeds.conf # Add the below lines to the opened file
-    src/gz all http://repo.opkg.net/edison/repo/all
-    src/gz edison http://repo.opkg.net/edison/repo/edison
-    src/gz core2-32 http://repo.opkg.net/edison/repo/core2-32
-    root@edison:~# opkg update
-    root@edison:~# opkg install python-pip
-
-## Galileo Yocto
-
-Install Python Pip
-
-    https://bootstrap.pypa.io/get-pip.py
 
 # Intel Development Kits
 
