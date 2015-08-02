@@ -329,12 +329,32 @@ Check Python is installed
 
     root@platform:~# python --version
 
-Create your first Python script, a "Hello World" like example
+Create your first Python script, the common "Hello World" example
 
     root@platform:~# vi iot.py
-    #!/usr/bin/python
-    
-    print 'Internet of Things @ Python'
+
+```python
+#!/usr/bin/python
+print 'Hello Internet of Things @ Python'
+```
+
+    root@platform:~# python iot.py
+
+Mraa Time! Let's get the version of mraa library we installed
+
+    root@platform:~# vi iot.py
+
+```python
+#!/usr/bin/python
+
+import mraa
+
+print 'Hello Internet of Things @ Python'
+print (mraa.getVersion())
+print (mraa.getPlatformName())
+print (mraa.getPlatformType())
+```
+
     root@platform:~# python iot.py
 
 ## Python Pip Yocto Edison
@@ -477,5 +497,7 @@ Run IoTpy Workshop examples
 [Mashery](http://www.mashery.com/)
 
 [Internet of Things @ Intel®](http://www.intel.com/iot)
+
+[Developer IBM IoT](https://developer.ibm.com/recipes/?)
 
 # End of File
