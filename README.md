@@ -21,8 +21,9 @@
 * Actuate
 
 ## Internet of Things System
-* Sensors
+* Sensors, Actuators
 * Protocol
+* Storage / Control
 * Gateway
 * Communications
 * Sensor Database
@@ -35,6 +36,11 @@
   * Prediction
   * Application
   * Services
+
+## The Internet of Things Brings
+* Scale in every Form
+* Tools and Technology
+* Development Community
 
 # Resources
 
@@ -183,7 +189,7 @@ Whatever you can think of, e.g. [breakaway headers](https://www.sparkfun.com/pro
 
 # Software Development
 
-## Edison Yocto
+## Yocto Edison
 
 Check your kernel version
 
@@ -225,7 +231,7 @@ Install RMAA and UPM Libraries
     root@edison:~# opkg install libmraa0
     root@edison:~# opkg install upm
 
-## Galileo Yocto
+## Yocto Galileo
 
 Check your kernel version
 
@@ -259,22 +265,7 @@ Install RMAA and UPM Libraries
     root@galileo:~# opkg install libmraa0
     root@galileo:~# opkg install upm
 
-## IoTPy
-
-Install IoT Workshop Git Repository
-
-    root@edison:~# git clone https://github.com/xe1gyq/iot.git
-    
-Run IoT Workshop examples
-
-    root@edison:~# cd iot/iotpy
-    root@edison:~# python main.py -m alive
-    root@edison:~# python main.py -m system
-    root@edison:~# python main.py -m mraa
-    root@edison:~# python main.py -m bpta
-    root@edison:~# python main.py -m gpio
-
-## Python Pip Edison Yocto
+## Python Pip Yocto Edison
 
 Install Python Pip
 
@@ -285,7 +276,7 @@ Install Python Pip
     root@edison:~# opkg update
     root@edison:~# opkg install python-pip
 
-## Python Pip Galileo Yocto
+## Python Pip Yocto Galileo
 
 Install Python Pip
 
@@ -301,6 +292,21 @@ Freeing up space
     root@platform:~# mv /usr/share /home
     root@platform:~# cd /usr
     root@platform:~# ln -sf /home/share share
+
+## IoTpy
+
+Install IoT Workshop Git Repository
+
+    root@edison:~# git clone https://github.com/xe1gyq/iot.git
+    
+Run IoT Workshop examples
+
+    root@edison:~# cd iot/iotpy
+    root@edison:~# python main.py -m alive
+    root@edison:~# python main.py -m system
+    root@edison:~# python main.py -m mraa
+    root@edison:~# python main.py -m bpta
+    root@edison:~# python main.py -m gpio
 
 # Intel Development Kits
 
