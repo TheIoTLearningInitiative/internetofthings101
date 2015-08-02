@@ -356,6 +356,7 @@ Mraa Time! Let's get the version of mraa library we installed
 ```python
 #!/usr/bin/python
 
+# Libraries
 import mraa
 
 # Hello Internet of Things
@@ -376,6 +377,7 @@ Mraa Time! Let's work with AIO
 ```python
 #!/usr/bin/python
 
+# Libraries
 import mraa
 
 # Hello Internet of Things
