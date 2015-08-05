@@ -542,7 +542,6 @@ time.sleep(1)
 gpioline.write(not gpionextvalue)
 
 # Mraa UART
-import mraa
 uartdevice = mraa.Uart(0)
 print uartdevice.getDevicePath()
 
