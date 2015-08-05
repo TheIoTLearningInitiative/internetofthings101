@@ -439,6 +439,7 @@ if mraa.getPlatformType() == 1:
 if mraa.getPlatformType() == 2:
     i2cline = mraa.I2c(1)
 i2cline.address(0x6b)
+print i2cline.readReg(0x6b, 0x80)
 ```
 
     root@platform:~# python iot.py
@@ -475,6 +476,7 @@ if mraa.getPlatformType() == 1:
 if mraa.getPlatformType() == 2:
     i2cline = mraa.I2c(1)
 i2cline.address(0x6b)
+print i2cline.readReg(0x6b, 0x80)
 
 # Mraa GPIO Direction Output
 if mraa.getPlatformType() == 1:
