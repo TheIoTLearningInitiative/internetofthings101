@@ -174,6 +174,8 @@ Whatever you can think of, e.g. [breakaway headers](https://www.sparkfun.com/pro
 
 # Integrated Development Environment
 
+> Which programming environment do you prefer? Choose between Arduino*, JavaScript (Intel® XDK IoT Edition), or C/C++ (Eclipse*)
+
 ## Arduino IDE
 > Run sketches on your Intel® IoT board using the Arduino IDE
 
