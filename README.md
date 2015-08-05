@@ -436,7 +436,9 @@ print ("%.5f" % aioline.readFloat())
 # Mraa I2C
 if mraa.getPlatformType() == 1:
     i2cline = mraa.I2c(0)
-i2cline.address(i2c_addr)
+if mraa.getPlatformType() == 2:
+    i2cline = mraa.I2c(1)
+i2cline.address(0x6b)
 ```
 
     root@platform:~# python iot.py
@@ -470,7 +472,9 @@ print ("%.5f" % aioline.readFloat())
 # Mraa I2C
 if mraa.getPlatformType() == 1:
     i2cline = mraa.I2c(0)
-i2cline.address(i2c_addr)
+if mraa.getPlatformType() == 2:
+    i2cline = mraa.I2c(1)
+i2cline.address(0x6b)
 
 # Mraa GPIO Direction Output
 if mraa.getPlatformType() == 1:
