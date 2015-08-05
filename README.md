@@ -351,8 +351,9 @@ Create your first Python script, the common "Hello Internet of Things" example
 
 # Hello Internet of Things
 print 'Hello Internet of Things @ Python'
-```
 
+# End of Python Script
+```
     root@platform:~# python iot.py
 
 ### Python Mraa Version
@@ -374,8 +375,9 @@ print 'Hello Internet of Things @ Python'
 print (mraa.getVersion())
 print (mraa.getPlatformName())
 print (mraa.getPlatformType())
-```
 
+# End of Python Script
+```
     root@platform:~# python iot.py
 
 ### Python Mraa Analog Input Output (AIO)
@@ -403,8 +405,8 @@ aioline = mraa.Aio(0)
 aioline.setBit(10)
 aioline.read()
 print ("%.5f" % aioline.readFloat())
+# End of Python Script
 ```
-
     root@platform:~# python iot.py
 
 ### Python Mraa Inter-Integrated Circuit (I2C)
@@ -440,8 +442,9 @@ if mraa.getPlatformType() == 2:
     i2cline = mraa.I2c(1)
 i2cline.address(0x6b)
 print i2cline.readReg(0x6b, 0x80)
-```
 
+# End of Python Script
+```
     root@platform:~# python iot.py
 
 ### Python Mraa General Purpose Input Output (GPIO) Direction Output
@@ -488,8 +491,9 @@ gpionextvalue = not gpioline.read()
 gpioline.write(gpionextvalue)
 time.sleep(1)
 gpioline.write(not gpionextvalue)
-```
 
+# End of Python Script
+```
     root@platform:~# python iot.py
 
 ## Python Pip Yocto Edison
