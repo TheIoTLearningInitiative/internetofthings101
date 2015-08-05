@@ -3,14 +3,12 @@
 1. Internet of Things
 2. Resources
 2. Hardware
-3. Integrated Development Environment
-4. Operating Systems
-5. Libraries
-6. Getting Started
-7. Software Development
-8. Intel® Development Kits
-9. Services
-10. Links
+3. Software
+4. Getting Started
+5. Software Development
+6. Intel® Development Kits
+7. Services
+8. Links
 
 # Internet of Things
 
@@ -172,36 +170,25 @@ Architecture
 
 Whatever you can think of, e.g. [breakaway headers](https://www.sparkfun.com/products/116)
 
-# Integrated Development Environment
+# Software
 
-> Which programming environment do you prefer? Choose between Arduino*, JavaScript (Intel® XDK IoT Edition), or C/C++ (Eclipse*)
+## Operating Systems
 
-## Arduino IDE
-> Run sketches on your Intel® IoT board using the Arduino IDE
-
-## Intel® XDK IoT Edition
-> Create, Test, and Deliver Internet of Things Solutions. Software tool for JavaScript on-board app and HTML5 companion app development, create and test applications on Intel®-based IoT platforms. It helps you write applications in C and C++ languages and provides two libraries (mraa and upm), specially designed for the Intel IoT Developer Kit
-
-## Eclipse
-> Intel® IoT Developer Kit version of the Eclipse IDE
-
-# Operating Systems
-
-## Yocto
+### Yocto
 > It's not an embedded Linux distribution – it creates a custom one for you. The Yocto Project is an open source collaboration project that provides templates, tools and methods to help you create custom Linux-based systems for embedded products regardless of the hardware architecture. It was founded in 2010 as a collaboration among many hardware manufacturers, open-source operating systems vendors, and electronics companies to bring some order to the chaos of embedded Linux development.
 
 [Yocto Project](http://www.yoctoproject.org/)
 
-## Ubilinux
+### Ubilinux
 > ubilinux™ is an embedded Linux distribution from Emutex and is based on Debian "Wheezy". It is targeted at embedded devices that have limited memory and storage capabilities.
 
 * [Emutexlabs ubilinux™](http://www.emutexlabs.com/ubilinu)
 * [µCast #21: Installing Ubilinux on the Edison (Windows)](https://www.youtube.com/watch?v=BSnXjuttSgY)
 * [Sparkfun Loading Debian (Ubilinux) on the Edison](https://learn.sparkfun.com/tutorials/loading-debian-ubilinux-on-the-edison)
 
-# Libraries
+## Libraries
 
-## Mraa
+### Mraa
 > Low Level Skeleton Library for IO Communication on GNU/Linux platforms
 
 * AIO Sensors requiring an ADC value to be read
@@ -213,10 +200,26 @@ Whatever you can think of, e.g. [breakaway headers](https://www.sparkfun.com/pro
 
 [Github](https://github.com/intel-iot-devkit/mraa)
 
-## Upm
+### Upm
 > UPM is a high level repository for sensors that use mraa
 
 [Github](https://github.com/intel-iot-devkit/upm)
+
+## Integrated Development Environment
+
+> Which programming environment do you prefer? Choose between Arduino*, JavaScript (Intel® XDK IoT Edition), or C/C++ (Eclipse*)
+
+### Arduino IDE
+> Run sketches on your Intel® IoT board using the Arduino IDE
+
+### Intel® XDK IoT Edition
+> Create, Test, and Deliver Internet of Things Solutions. Software tool for JavaScript on-board app and HTML5 companion app development, create and test applications on Intel®-based IoT platforms. It helps you write applications in C and C++ languages and provides two libraries (mraa and upm), specially designed for the Intel IoT Developer Kit
+
+### Eclipse
+> Intel® IoT Developer Kit version of the Eclipse IDE
+
+### Wyliodrin
+> Wyliodrin is an online service that allows you to visually create applications for Linux development boards and control them from your browser. You can use their service to program a Raspberry Pi and they've recently partnered with Intel to allow you to program second generation Galileo boards...
 
 # Getting Started
 
