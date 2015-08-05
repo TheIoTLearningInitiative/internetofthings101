@@ -642,7 +642,8 @@ Run IoTpy Workshop examples
     root@galileo:~# iotkit-admin observation temp 35
     root@galileo:~# iotkit-admin observation temp 30
 
-[Intel® IoT Developer Kit Cloud-based Analytics User Guide](https://software.intel.com/en-us/intel-iot-developer-kit-cloud-based-analytics-user-guide)
+* [Intel® IoT Developer Kit Cloud-based Analytics Homepage](www.enableiot.com)
+* [Intel® IoT Developer Kit Cloud-based Analytics User Guide](https://software.intel.com/en-us/intel-iot-developer-kit-cloud-based-analytics-user-guide)
 
 # Services
 
