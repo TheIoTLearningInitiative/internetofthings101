@@ -479,6 +479,8 @@ i2cline.address(0x6b)
 # Mraa GPIO Direction Output
 if mraa.getPlatformType() == 1:
     gpioline = mraa.Gpio(12)
+if mraa.getPlatformType() == 2:
+    gpioline = mraa.Gpio(44)
 gpioline.dir(mraa.DIR_OUT)
 gpionextvalue = not gpioline.read()
 gpioline.write(gpionextvalue)
