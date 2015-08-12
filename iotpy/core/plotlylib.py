@@ -1,30 +1,49 @@
+import ConfigParser
 import plotly.plotly as py
-from plotly.graph_objs import *
+from plotly.graph_objs import Scatter, Layout, Figure
+import time
+import pyupm_bmpx8x as upmBmpx8x
 
 class PlotLyLib(object):
 
     def __init__(self):
-        pass
+
+        self.configuration = ConfigParser.ConfigParser()
+        self.configuration.read('credentials.config')
+        self.username = self.configuration.get('plotly','username')
+        self.apikey = self.configuration.get('plotly','apikey')
+        self.streamtoken = self.configuration.get('plotly','streamtoken')
+
+        py.sign_in(self.username, self.apikey)
+
+        self.bpta = upmBmpx8x.BMPX8X(1, upmBmpx8x.ADDR);
 
     def graph(self):
 
-        trace0 = Scatter(
-            x=[1, 2, 3, 4],
-            y=[10, 15, 13, 7]
-        )
-
         trace1 = Scatter(
-            x=[1, 2, 3, 4],
-            y=[5, 12, 17, 2]
+            x=[],
+            y=[],
+            stream=dict(
+                token=self.streamtoken,
+                maxpoints=200
+            )
         )
 
-        trace2 = Scatter(
-            x=[1, 2, 3, 4],
-            y=[2, 9, 3, 17]
+        layout = Layout(
+            title="IoTPy Streaming Temperature Data"
         )
 
-        data = Data([trace0, trace1, trace2])
+        fig = Figure(data=[trace1], layout=layout)
+        print py.plot(fig, filename='IotPy Streaming Temperature')
+        i = 0
+        stream = py.Stream(self.streamtoken)
+        stream.open()
 
-        unique_url = py.plot(data, filename='IoTPy PlotLy')
+        while True:
+            temperaturedata = self.bpta.getTemperature()
+            stream.write({'x': i, 'y': temperaturedata})
+            i += 1
+            # delay between stream posts
+            time.sleep(0.25)
 
 # End of File
