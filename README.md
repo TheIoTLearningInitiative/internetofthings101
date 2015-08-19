@@ -223,6 +223,11 @@ Whatever you can think of, e.g. [breakaway headers](https://www.sparkfun.com/pro
 
 # Getting Started
 
+## Development Workstation
+
+[Edison Installer](https://software.intel.com/en-us/iot/hardware/edison/downloads)
+[Galileo Installer](https://software.intel.com/en-us/iot/hardware/galileo/downloads)
+
 ## Edison
 
 [Intel® Edison Board Get Started Guide](https://software.intel.com/en-us/iot/library/edison-getting-started)
