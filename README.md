@@ -373,9 +373,6 @@ Let's get the version of mraa library we installed
 # Libraries
 import mraa
 
-# Hello Internet of Things
-print 'Hello Internet of Things @ Python'
-
 # Mraa Version
 print (mraa.getVersion())
 print (mraa.getPlatformName())
@@ -397,14 +394,6 @@ Let's work with Analog Input Output
 # Libraries
 import mraa
 
-# Hello Internet of Things
-print 'Hello Internet of Things @ Python'
-
-# Mraa Version
-print (mraa.getVersion())
-print (mraa.getPlatformName())
-print (mraa.getPlatformType())
-
 # Mraa Aio
 aioline = mraa.Aio(0)
 aioline.setBit(10)
@@ -425,20 +414,6 @@ Let's work with Inter-Integrated Circuit protocol
 
 # Libraries
 import mraa
-
-# Hello Internet of Things
-print 'Hello Internet of Things @ Python'
-
-# Mraa Version
-print (mraa.getVersion())
-print (mraa.getPlatformName())
-print (mraa.getPlatformType())
-
-# Mraa Aio
-aioline = mraa.Aio(0)
-aioline.setBit(10)
-aioline.read()
-print ("%.5f" % aioline.readFloat())
 
 # Mraa I2C
 if mraa.getPlatformType() == 1:
@@ -463,28 +438,6 @@ Let's work with General Purpose Input Output, Direction Output
 
 # Libraries
 import mraa
-
-# Hello Internet of Things
-print 'Hello Internet of Things @ Python'
-
-# Mraa Version
-print (mraa.getVersion())
-print (mraa.getPlatformName())
-print (mraa.getPlatformType())
-
-# Mraa Aio
-aioline = mraa.Aio(0)
-aioline.setBit(10)
-aioline.read()
-print ("%.5f" % aioline.readFloat())
-
-# Mraa I2C
-if mraa.getPlatformType() == 1:
-    i2cline = mraa.I2c(0)
-if mraa.getPlatformType() == 2:
-    i2cline = mraa.I2c(1)
-i2cline.address(0x6b)
-print i2cline.readReg(0x6b, 0x80)
 
 # Mraa GPIO Direction Output
 if mraa.getPlatformType() == 1:
@@ -512,39 +465,6 @@ Let's work with Universal Asynchronous Receiver/Transmitter
 
 # Libraries
 import mraa
-
-# Hello Internet of Things
-print 'Hello Internet of Things @ Python'
-
-# Mraa Version
-print (mraa.getVersion())
-print (mraa.getPlatformName())
-print (mraa.getPlatformType())
-
-# Mraa Aio
-aioline = mraa.Aio(0)
-aioline.setBit(10)
-aioline.read()
-print ("%.5f" % aioline.readFloat())
-
-# Mraa I2C
-if mraa.getPlatformType() == 1:
-    i2cline = mraa.I2c(0)
-if mraa.getPlatformType() == 2:
-    i2cline = mraa.I2c(1)
-i2cline.address(0x6b)
-print i2cline.readReg(0x6b, 0x80)
-
-# Mraa GPIO Direction Output
-if mraa.getPlatformType() == 1:
-    gpioline = mraa.Gpio(12)
-if mraa.getPlatformType() == 2:
-    gpioline = mraa.Gpio(44)
-gpioline.dir(mraa.DIR_OUT)
-gpionextvalue = not gpioline.read()
-gpioline.write(gpionextvalue)
-time.sleep(1)
-gpioline.write(not gpionextvalue)
 
 # Mraa UART
 uartdevice = mraa.Uart(0)
