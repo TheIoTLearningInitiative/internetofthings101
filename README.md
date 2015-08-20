@@ -50,6 +50,10 @@
 * Manage | Services Management @ Wind River, Intel Security, Developer Resources
 * Analize | Solutions Enablement
 
+## Consortiums
+* https://allseenalliance.org/
+* http://openinterconnect.org/
+
 # Resources
 
 ## Intel® Developer Zone
