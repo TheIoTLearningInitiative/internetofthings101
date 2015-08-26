@@ -619,4 +619,9 @@ Run IoTpy Workshop examples
 * [Developer IBM IoT](https://developer.ibm.com/recipes/?)
 * [Wyliodrin](https://www.wyliodrin.com/)
 
+# Key Phrases
+
+- Industry Standard Protocols
+- Open Environments
+
 # End of File
