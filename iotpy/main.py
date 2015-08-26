@@ -62,4 +62,11 @@ if __name__ == '__main__':
         gpio = Gpio()
         gpio.toggle()
 
+    if args.modules == 'health':
+
+        from core.health import Health
+
+        health = Health()
+        health.graph()
+
 # End of File
