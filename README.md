@@ -219,11 +219,14 @@ Whatever you can think of, e.g. [breakaway headers](https://www.sparkfun.com/pro
 ### Intel® XDK IoT Edition
 > Create, Test, and Deliver Internet of Things Solutions. Software tool for JavaScript on-board app and HTML5 companion app development, create and test applications on Intel®-based IoT platforms. It helps you write applications in C and C++ languages and provides two libraries (mraa and upm), specially designed for the Intel IoT Developer Kit
 
-### Eclipse
+### Intel® IoT Developer Kit Eclipse
 > Intel® IoT Developer Kit version of the Eclipse IDE
 
 ### Wyliodrin
 > Wyliodrin is an online service that allows you to visually create applications for Linux development boards and control them from your browser. You can use their service to program a Raspberry Pi and they've recently partnered with Intel to allow you to program second generation Galileo boards...
+
+## Linux Development
+> Tbd
 
 # Getting Started
 
