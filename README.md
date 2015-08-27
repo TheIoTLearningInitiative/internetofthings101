@@ -1,6 +1,6 @@
 # Agenda
 
-1. Internet of Things
+1. Internet of Things 101
 2. Resources
 2. Hardware
 3. Software
