@@ -346,6 +346,22 @@ Install RMAA and UPM Libraries
     root@galileo:~# opkg install libmraa0
     root@galileo:~# opkg install upm
 
+## Edison BlueTooth
+
+    root@galileo:~# rfkill unblock bluetooth
+    root@galileo:~# bluetoothctl
+    [bluetooth]# scan on
+    Discovery started
+    ...
+    [bluetooth]# scan off
+    ...
+    Discovery stopped
+    [bluetooth]# pair XX:XX:XX:XX:XX:XX
+    ...
+    [bluetooth]# exit
+    rfcomm bind 0 XX:XX:XX:XX:XX:XX 1
+    ls /dev/rfcomm0
+
 ## Python
 
 ### Python Installation
