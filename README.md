@@ -262,7 +262,11 @@ Whatever you can think of, e.g. [breakaway headers](https://www.sparkfun.com/pro
 - Arduino
 - Intel XDK
 - Eclipse
-- Linux
+- Linux 
+
+| | Arduino | Visual Programming | Node.JS | C / C++ |
+|-----------------|---------|------------------|--------|-------|
+| Target Audience | Maker | Beginner | Intermediate | Advanced | 
 
 ## Yocto Edison
 
