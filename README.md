@@ -254,6 +254,13 @@ Whatever you can think of, e.g. [breakaway headers](https://www.sparkfun.com/pro
 
 # Software Development
 
+## HowTo
+
+- Arduino
+- Intel XDK
+- Eclipse
+- Linux
+
 ## Yocto Edison
 
 Check your kernel version
