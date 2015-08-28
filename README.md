@@ -402,45 +402,13 @@ More information at [Intel Edison Bluetooth Guide](http://download.intel.com/sup
     root@galileo:~# rfkill unblock bluetooth
     root@galileo:~# bluetoothctl
     [bluetooth]# scan on
-    Discovery started
-    [CHG] Controller 98:4F:EE:03:39:02 Discovering: yes
-    [NEW] Device 40:78:6A:26:4A:C2 XT1008
     [bluetooth]# scan off
-    [CHG] Device 40:78:6A:26:4A:C2 RSSI is nil
-    Discovery stopped
-    [CHG] Controller 98:4F:EE:03:39:02 Discovering: no
     [bluetooth]# pair 40:78:6A:26:4A:C2
-    Attempting to pair with 40:78:6A:26:4A:C2
-    [CHG] Device 40:78:6A:26:4A:C2 Connected: yes
-    [CHG] Device 40:78:6A:26:4A:C2 Modalias: bluetooth:v000Fp1200d1436
-    [CHG] Device 40:78:6A:26:4A:C2 UUIDs:
-        00001105-0000-1000-8000-00805f9b34fb
-        0000110a-0000-1000-8000-00805f9b34fb
-        0000110c-0000-1000-8000-00805f9b34fb
-        0000110e-0000-1000-8000-00805f9b34fb
-        00001112-0000-1000-8000-00805f9b34fb
-        00001116-0000-1000-8000-00805f9b34fb
-        0000111f-0000-1000-8000-00805f9b34fb
-        0000112f-0000-1000-8000-00805f9b34fb
-        00001132-0000-1000-8000-00805f9b34fb
-        00001200-0000-1000-8000-00805f9b34fb
-        00001800-0000-1000-8000-00805f9b34fb
-        00001801-0000-1000-8000-00805f9b34fb
-    [CHG] Device 40:78:6A:26:4A:C2 Paired: yes
-    Pairing successful
-    [CHG] Device 40:78:6A:26:4A:C2 Connected: no
     [bluetooth]# connect 40:78:6A:26:4A:C2
-    Attempting to connect to 40:78:6A:26:4A:C2
-    [CHG] Device 40:78:6A:26:4A:C2 Connected: yes
-    Connection successful
     [bluetooth]# paired-devices
-    Device 40:78:6A:26:4A:C2 XT1008
     [bluetooth]# exit
-    [DEL] Controller 98:4F:EE:03:39:02 edison [default]
     root@edison:~# rfcomm bind - 40:78:6A:26:4A:C2 1
     root@edison:~# ls /dev/rfcomm0
-    /dev/rfcomm0
-    root@edison:~#
 
 ## Python
 
