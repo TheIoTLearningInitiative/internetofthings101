@@ -290,6 +290,8 @@ At the host
 
     C:\Users\aarcemor\Downloads\edison-image-ww25.5-15>flashall.bat
 
+[All your Intel® Edison Board Downloads in One Spot!](https://software.intel.com/en-us/iot/hardware/edison/downloads)
+
 # Flashing Galileo
 
 [All the Intel® Galileo Board Downloads in One Spot!](https://software.intel.com/en-us/iot/hardware/galileo/downloads)
