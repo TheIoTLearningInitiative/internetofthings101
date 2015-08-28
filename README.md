@@ -135,6 +135,7 @@ Architecture
 * [IoT Intel® Edison Board](https://software.intel.com/en-us/iot/hardware/edison)
 * [Sparkfun Intel® Edison](https://www.sparkfun.com/categories/272)
 * [SeedStudio Xadow Wearable Kit For Intel® Edison](http://www.seeedstudio.com/depot/Xadow-Wearable-Kit-For-Intel-Edison-p-2428.html?cPath=84_120)
+* [Intel® Edison Breakout Board](http://download.intel.com/support/edison/sb/edisonbreakout_hg_331190006.pdf)
 
 ## Galileo
 
@@ -250,7 +251,6 @@ Whatever you can think of
 ## Edison
 
 [Intel® Edison Board Get Started Guide](https://software.intel.com/en-us/iot/library/edison-getting-started)
-[[Intel® Edison Breakout Board](http://download.intel.com/support/edison/sb/edisonbreakout_hg_331190006.pdf)
 
 ### Edison Others
 
