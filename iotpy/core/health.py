@@ -10,7 +10,7 @@ class Health(object):
     def __init__(self):
 
         self.configuration = ConfigParser.ConfigParser()
-        self.configuration.read('credentials.config')
+        self.configuration.read('configuration/credentials.config')
         self.username = self.configuration.get('plotly','username')
         self.apikey = self.configuration.get('plotly','apikey')
         self.streamtoken = self.configuration.get('plotly','streamtoken')
