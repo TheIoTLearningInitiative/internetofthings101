@@ -615,26 +615,14 @@ Run IoTpy Workshop examples
     # Create an account
       https://dashboard.us.enableiot.com/
     # In Edison / Galileo
-    root@galileo:~# iotkit-admin
-    root@galileo:~# systemctl restart iotkit-agent
+    root@galileo:~# iotkit-admin initialize  
+    root@galileo:~# iotkit-admin reset-components  
     root@galileo:~# iotkit-admin test
-    2015-05-30T18:15:51.785Z - info: Trying to connect to host ...
-    2015-05-30T18:15:53.700Z - info: Connected to dashboard.us.enableiot.com
-    2015-05-30T18:15:53.717Z - info: Environment: prod
-    2015-05-30T18:15:53.723Z - info: Build: 0.13.2
     root@galileo:~# iotkit-admin device-id
-    2015-05-30T18:16:11.654Z - info: Device ID: 98-4F-EE-01-77-6D
+    # From https://dashboard.us.enableiot.com/ui/dashboard#/devices, add a New Device
     # From https://dashboard.us.enableiot.com/ui/dashboard#/account, get Activation Code
     root@galileo:~# iotkit-admin activate <Activation Code from Webpage>
-    2015-05-30T18:27:51.968Z - info: Activating ...
-    2015-05-30T18:27:54.115Z - info: Saving device token...
-    2015-05-30T18:27:54.163Z - info: Sending attributes...
     root@galileo:~# iotkit-admin catalog
-    2015-05-30T18:32:47.640Z - info: Staring Catalog Retrieving
-    2015-05-30T18:32:49.745Z - info: Comp:  cpu.v1.0   Cpu   sensor
-    2015-05-30T18:32:49.761Z - info: Comp:  humidity.v1.0   humidity   sensor
-    2015-05-30T18:32:49.767Z - info: Comp:  powerswitch.v1.0   powerswitch   actuator
-    2015-05-30T18:32:49.772Z - info: Comp:  temperature.v1.0   temperature   sensor
     root@galileo:~# iotkit-admin register temp temperature.v1.0
     root@galileo:~# iotkit-admin observation temp 35
     root@galileo:~# iotkit-admin observation temp 30
