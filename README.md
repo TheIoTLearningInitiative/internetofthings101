@@ -529,6 +529,12 @@ Install Python Pip
 Install Python Pip
 
     https://bootstrap.pypa.io/get-pip.py
+    setuptools-12.2.tar.gz
+    tar zxf setuptools-12.2.tar.gz
+    python setuptools-12.2/ez_setup.py
+    ...
+    wget --no-check-certificate https://bootstrap.pypa.io/ez_setup.py
+    python ez_setup.py --insecure
 
 ## Common
 
