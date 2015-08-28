@@ -321,29 +321,36 @@ Update Opkg Repositories
 
 Enable a Opkg feed and update package list, we will not upgrade to avoid consuming disk space
 
-    root@edison:~# vi /etc/opkg/base-feeds.conf  # Add the below lines to the opened file
-    src all     http://iotdk.intel.com/repos/1.1/iotdk/all
-    src x86 http://iotdk.intel.com/repos/1.1/iotdk/x86
-    src i586    http://iotdk.intel.com/repos/1.1/iotdk/i586
+    root@edison:~# vi /etc/opkg/base-feeds.conf # Add the below lines to the opened file
+    src/gz all http://repo.opkg.net/edison/repo/all
+    src/gz edison http://repo.opkg.net/edison/repo/edison
+    src/gz core2-32 http://repo.opkg.net/edison/repo/core2-32
     root@edison:~# opkg update
-    Downloading http://iotdk.intel.com/repos/1.1/iotdk/all/Packages.
+    Downloading http://repo.opkg.net/edison/repo/all/Packages.gz.
+    Inflating http://repo.opkg.net/edison/repo/all/Packages.gz.
     Updated list of available packages in /var/lib/opkg/all.
-    Downloading http://iotdk.intel.com/repos/1.1/iotdk/x86/Packages.
-    Updated list of available packages in /var/lib/opkg/x86.
-    Downloading http://iotdk.intel.com/repos/1.1/iotdk/i586/Packages.
-    Updated list of available packages in /var/lib/opkg/i586.
+    Downloading http://repo.opkg.net/edison/repo/edison/Packages.gz.
+    Inflating http://repo.opkg.net/edison/repo/edison/Packages.gz.
+    Updated list of available packages in /var/lib/opkg/edison.
+    Downloading http://repo.opkg.net/edison/repo/core2-32/Packages.gz.
+    Inflating http://repo.opkg.net/edison/repo/core2-32/Packages.gz.
+    Updated list of available packages in /var/lib/opkg/core2-32.
+    Downloading http://iotdk.intel.com/repos/1.5/intelgalactic/Packages.
+    Updated list of available packages in /var/lib/opkg/iotkit.
     root@edison:~# 
 
-Install Git, Version Control System, using Opkg
+Install Git, Version Control System
 
     root@edison:~# opkg install git
 
 Install RMAA and UPM Libraries
 
-    root@edison:~# echo "src mraa-upm http://iotdk.intel.com/repos/1.1/intelgalactic" > /etc/opkg/mraa-upm.conf
-    root@edison:~# opkg update
     root@edison:~# opkg install libmraa0
     root@edison:~# opkg install upm
+
+Install Pip, Package Management System to install and manage software packages written in Python
+
+    root@edison:~# opkg install pip
 
 In case only WiFi was configure, configure also password to enable SSH on the wireless interface
 
@@ -373,24 +380,17 @@ Check IP address assigned
     eth0      Link encap:Ethernet  HWaddr 00:1C:C0:AE:B5:E6  
               inet addr:192.168.1.74  Bcast:192.168.0.255  Mask:255.255.255.0
 
-Update Opkg sources and upgrade existing packages
+Update Opkg sources, we will not upgrade to avoid consuming disk space
 
+    root@galileo:~# vi /etc/opkg/base-feeds.conf # Add the below lines to the opened file
+    src/gz all http://repo.opkg.net/galileo/repo/all
+    src/gz clanton http://repo.opkg.net/galileo/repo/clanton
+    src/gz i586 http://repo.opkg.net/galileo/repo/i586
     root@galileo:~# opkg update
-    Downloading http://iotdk.intel.com/repos/1.1/iotdk/all/Packages.
-    Updated list of available packages in /var/lib/opkg/iotdk-all.
-    Downloading http://iotdk.intel.com/repos/1.1/iotdk/i586/Packages.
-    Updated list of available packages in /var/lib/opkg/iotdk-i586.
-    Downloading http://iotdk.intel.com/repos/1.1/iotdk/quark/Packages.
-    Updated list of available packages in /var/lib/opkg/iotdk-quark.
-    Downloading http://iotdk.intel.com/repos/1.1/iotdk/x86/Packages.
-    Updated list of available packages in /var/lib/opkg/iotdk-x86.
-    Downloading http://iotdk.intel.com/repos/1.1/intelgalactic/Packages.
-    Updated list of available packages in /var/lib/opkg/mraa-upm.
-    root@galileo:~# opkg upgrade
     ...
     root@galileo:~# 
 
-Install Git, Version Control System, using Opkg
+Install Git, Version Control System
 
     root@galileo:~# opkg install git
 
@@ -400,7 +400,11 @@ Install RMAA and UPM Libraries
     root@galileo:~# opkg install libmraa0
     root@galileo:~# opkg install upm
 
-## Edison BlueTooth
+Install Pip, Package Management System to install and manage software packages written in Python
+
+    root@galileo:~# opkg install pip
+
+## BlueTooth Edison
 
     root@galileo:~# rfkill unblock bluetooth
     root@galileo:~# bluetoothctl
