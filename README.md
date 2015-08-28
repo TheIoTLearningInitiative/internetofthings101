@@ -312,20 +312,14 @@ Check IP address assigned
     wlan      Link encap:Ethernet  HWaddr 00:1C:C0:AE:B5:E6  
               inet addr:192.168.1.74  Bcast:192.168.0.255  Mask:255.255.255.0
 
-In case only WiFi was configure, configure also password to enable SSH on the wireless interface
+Update Opkg Repositories
 
-    root@edison:~# configure_edison --password
-    
-    Configure Edison: Device Password
-    
-    Enter a new password (leave empty to abort)
-    This will be used to connect to the access point and login to the device.
-    Password:       ********
-    Please enter the password again:        ********
-    First-time root password setup complete. Enabling SSH on WiFi interface.
-    The device password has been changed.
+    root@edison:~# opkg update
+    Downloading http://iotdk.intel.com/repos/1.5/intelgalactic/Packages.
+    Updated list of available packages in /var/lib/opkg/iotkit.
+    root@edison:~#
 
-Enable a Opkg feed, update and upgrade existing packages
+Enable a Opkg feed and update package list, we will not upgrade to avoid consuming disk space
 
     root@edison:~# vi /etc/opkg/base-feeds.conf  # Add the below lines to the opened file
     src all     http://iotdk.intel.com/repos/1.1/iotdk/all
@@ -338,8 +332,6 @@ Enable a Opkg feed, update and upgrade existing packages
     Updated list of available packages in /var/lib/opkg/x86.
     Downloading http://iotdk.intel.com/repos/1.1/iotdk/i586/Packages.
     Updated list of available packages in /var/lib/opkg/i586.
-    root@edison:~# opkg upgrade
-    ...
     root@edison:~# 
 
 Install Git, Version Control System, using Opkg
@@ -352,6 +344,19 @@ Install RMAA and UPM Libraries
     root@edison:~# opkg update
     root@edison:~# opkg install libmraa0
     root@edison:~# opkg install upm
+
+In case only WiFi was configure, configure also password to enable SSH on the wireless interface
+
+    root@edison:~# configure_edison --password
+    
+    Configure Edison: Device Password
+    
+    Enter a new password (leave empty to abort)
+    This will be used to connect to the access point and login to the device.
+    Password:       ********
+    Please enter the password again:        ********
+    First-time root password setup complete. Enabling SSH on WiFi interface.
+    The device password has been changed.
 
 ## Yocto Galileo
 
