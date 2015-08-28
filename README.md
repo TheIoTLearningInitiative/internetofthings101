@@ -250,12 +250,9 @@ Whatever you can think of
 ## Edison
 
 [Intel® Edison Board Get Started Guide](https://software.intel.com/en-us/iot/library/edison-getting-started)
+[[Intel® Edison Breakout Board](http://download.intel.com/support/edison/sb/edisonbreakout_hg_331190006.pdf)
 
-*Windows Device Manager Serial Ports
-**Intel Edison Virtual Com Port (COM16)
-**USB Serial Port (COM14) < PuTTY
-
-### Others 
+### Edison Others
 
 * [Sparkfun Edison Getting Started](https://learn.sparkfun.com/tutorials/edison-getting-started-guide)
 * [Instructables A Comprehensive Intel Edison Getting Started Guide](http://www.instructables.com/id/A-Comprehensive-Intel-Edison-Getting-Started-Guide/)
