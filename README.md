@@ -350,7 +350,7 @@ Install RMAA and UPM Libraries
 
 Install Pip, Package Management System to install and manage software packages written in Python
 
-    root@edison:~# opkg install pip
+    root@edison:~# opkg install python-pip
 
 In case only WiFi was configure, configure also password to enable SSH on the wireless interface
 
@@ -382,10 +382,6 @@ Check IP address assigned
 
 Update Opkg sources, we will not upgrade to avoid consuming disk space
 
-    root@galileo:~# vi /etc/opkg/base-feeds.conf # Add the below lines to the opened file
-    src/gz all http://repo.opkg.net/galileo/repo/all
-    src/gz clanton http://repo.opkg.net/galileo/repo/clanton
-    src/gz i586 http://repo.opkg.net/galileo/repo/i586
     root@galileo:~# opkg update
     ...
     root@galileo:~# 
@@ -396,13 +392,8 @@ Install Git, Version Control System
 
 Install RMAA and UPM Libraries
 
-    root@galileo:~# opkg update
     root@galileo:~# opkg install libmraa0
     root@galileo:~# opkg install upm
-
-Install Pip, Package Management System to install and manage software packages written in Python
-
-    root@galileo:~# opkg install pip
 
 ## BlueTooth Edison
 
