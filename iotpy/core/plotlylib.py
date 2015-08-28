@@ -34,7 +34,7 @@ class PlotLyLib(object):
         )
 
         fig = Figure(data=[trace1], layout=layout)
-        print py.plot(fig, filename='IotPy Streaming Temperature')
+        py.plot(fig, filename='IotPy Streaming Temperature', auto_open=False)
         i = 0
         stream = py.Stream(self.streamtoken)
         stream.open()

@@ -3,6 +3,7 @@ import plotly.plotly as py
 from plotly.graph_objs import Scatter, Layout, Figure
 import time
 import psutil
+import random
 
 class Health(object):
 
@@ -23,7 +24,7 @@ class Health(object):
             y=[],
             stream=dict(
                 token=self.streamtoken,
-                maxpoints=200
+                maxpoints=4
             )
         )
 
@@ -32,13 +33,14 @@ class Health(object):
         )
 
         fig = Figure(data=[trace1], layout=layout)
-        print py.plot(fig, filename='IotPy Streaming Cpu')
+        py.plot(fig, filename='IotPy Streaming Cpu', auto_open=False)
         i = 0
         stream = py.Stream(self.streamtoken)
         stream.open()
 
         while True:
             cpudata = psutil.cpu_times_percent(interval=1, percpu=False)
+            cpudata = random.randint(0,100)
             stream.write({'x': i, 'y': cpudata})
             i += 1
             # delay between stream posts
