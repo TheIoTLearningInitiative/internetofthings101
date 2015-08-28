@@ -412,6 +412,7 @@ More information at [Intel Edison Bluetooth Guide](http://download.intel.com/sup
     [bluetooth]# pair 40:78:6A:26:4A:C2
     [bluetooth]# connect 40:78:6A:26:4A:C2
     [bluetooth]# paired-devices
+    [bluetooth]# info 40:78:6A:26:4A:C2
     [bluetooth]# exit
     root@edison:~# rfcomm bind - 40:78:6A:26:4A:C2 1
     root@edison:~# ls /dev/rfcomm0
