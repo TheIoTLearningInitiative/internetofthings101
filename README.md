@@ -268,6 +268,28 @@ Whatever you can think of, e.g. [breakaway headers](https://www.sparkfun.com/pro
 |-----------------|---------|------------------|--------|-------|
 | Target Audience | Maker | Beginner | Intermediate | Advanced | 
 
+## Flashing Edison
+
+At the Edison
+
+    U-Boot 2014.04 (Aug 20 2014 - 16:08:32)
+       Watchdog enabled
+    DRAM:  980.6 MiB
+    MMC:   tangier_sdhci: 0
+    In:    serial
+    Out:   serial
+    Err:   serial
+    Hit any key to stop autoboot:  0
+    boot > run do_ota
+    reading ota_update.scr
+    14747 bytes read in 31 ms (463.9 KiB/s)
+    ## Executing script at 00100000
+    ...
+ 
+At the host
+
+    C:\Users\aarcemor\Downloads\edison-image-ww25.5-15>flashall.bat
+
 ## Yocto Edison
 
 Check your kernel version
