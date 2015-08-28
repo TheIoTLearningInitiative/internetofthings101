@@ -142,9 +142,7 @@ Architecture
 * [SeedStudio Grove - Starter Kit for Arduino](http://www.seeedstudio.com/depot/Grove-Starter-Kit-for-Arduino-p-1855.html)
 
 ## Sensors
-
-* Digital
-* Analog
+> A sensor is a transducer whose purpose is to sense (that is, to detect) some characteristic of its environments.
 
 ### Intel & Seeed Studio
 > Grove starter kit plus – Intel IoT Edition for Intel Galileo Gen 2 and Edison
@@ -165,14 +163,16 @@ Architecture
 ### Others
 
 * [Top DIY Electroni-cs Stores Suppliers](http://www.instructables.com/id/Top-DIY-Electronics-Stores-Suppliers/)
+
+## Miscellaneous
+
+Whatever you can think of
+
 * [Break Away Headers - Straight](https://www.sparkfun.com/products/116)
 * [Female/Male 'Extension' Jumper Wires - 40 x 12"](https://www.adafruit.com/products/824)
 * [Female/Female Jumper Wires - 40 x 12"](https://www.adafruit.com/products/793)
 * [Male/Male Jumper Wires - 40 x 12"](https://www.adafruit.com/products/760)
-
-## Miscellaneous
-
-Whatever you can think of, e.g. [breakaway headers](https://www.sparkfun.com/products/116)
+* ...
 
 # Software
 
