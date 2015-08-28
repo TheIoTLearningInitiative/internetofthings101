@@ -577,17 +577,6 @@ print uartdevice.getDevicePath()
 ```
     root@platform:~# python iot.py
 
-## Python Pip Yocto Edison
-
-Install Python Pip
-
-    root@edison:~# vi /etc/opkg/base-feeds.conf # Add the below lines to the opened file
-    src/gz all http://repo.opkg.net/edison/repo/all
-    src/gz edison http://repo.opkg.net/edison/repo/edison
-    src/gz core2-32 http://repo.opkg.net/edison/repo/core2-32
-    root@edison:~# opkg update
-    root@edison:~# opkg install python-pip
-
 ## Python Pip Yocto Galileo
 
 Install Python Pip
