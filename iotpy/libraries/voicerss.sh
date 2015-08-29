@@ -1,6 +1,7 @@
 #!/bin/bash
 
-text=$1
+language=$1
+text=$2
 mashapekey=`cat configuration/voicerss.mk`
 apikey=`cat configuration/voicerss.ak`
 
@@ -9,7 +10,7 @@ curl -X POST --include "https://voicerss-text-to-speech.p.mashape.com/?key=${api
   -H 'Content-Type: application/x-www-form-urlencoded' \
   -d 'c=mp3' \
   -d 'f=48khz_16bit_stereo' \
-  -d 'hl=en-us' \
+  -d "hl=${language}" \
   -d 'r=0' \
   -d "src=${text}" > voicerss.sound
 
