@@ -7,7 +7,7 @@ import random
 import plotly.plotly as py
 from plotly.graph_objs import Scatter, Layout, Figure, Data, Stream, YAxis
 
-class Health(object):
+class System(object):
 
     def __init__(self):
 
