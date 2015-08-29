@@ -22,30 +22,30 @@ class Climate(object):
 
     def graph(self):
 
-        trace1 = Scatter(
+        stream_temperature = Scatter(
             x=[],
             y=[],
             stream=dict(
                 token=self.streamtoken,
-                maxpoints=200
             )
         )
 
         layout = Layout(
-            title="IoTPy Streaming Temperature Data"
+            title="IoTPy Climate"
         )
 
-        fig = Figure(data=[trace1], layout=layout)
-        py.plot(fig, filename='IotPy Streaming Temperature', auto_open=False)
-        i = 0
+        this = Figure(data=[stream_temperature], layout=layout)
+        py.plot(this, filename='IotPy Climate', auto_open=False)
+
         stream = py.Stream(self.streamtoken)
         stream.open()
 
+        counter = 0
+
         while True:
             temperaturedata = self.bpta.getTemperature()
-            stream.write({'x': i, 'y': temperaturedata})
-            i += 1
-            # delay between stream posts
+            stream.write({'x': counter, 'y': temperaturedata})
+            counter += 1
             time.sleep(0.25)
 
 # End of File
