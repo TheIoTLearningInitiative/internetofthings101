@@ -1,5 +1,10 @@
 #!/usr/bin/python
 
+import ConfigParser
+from twython import Twython
+
+global twythonid
+
 def twythonConfiguration():
     configuration = ConfigParser.ConfigParser()
     configuration.read('configuration/credentials.config')
@@ -10,8 +15,8 @@ def twythonConfiguration():
     twythonid = Twython(consumer_key,consumer_secret,access_token,access_token_secret)
     return twythonid
 
-def twythonTimelineSet(twitterid, status, media):
-    logging.info(status)
+def twythonTimelineSet(status, media):
+    twythonid = twythonConfiguration()
     if media:
         photo = open(media,'rb')
         twythonid.update_status_with_media(media=photo, status=status)
