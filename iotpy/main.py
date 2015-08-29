@@ -55,13 +55,6 @@ if __name__ == '__main__':
         climate = Climate()
         climate.graph()
 
-    if args.projects == 'health':
-
-        from projects.health import Health
-
-        health = Health()
-        health.graph()
-
     if args.projects == 'selfie':
 
         from projects.selfie import Selfie
@@ -74,7 +67,13 @@ if __name__ == '__main__':
         from projects.system import System
 
         system = System()
-        print system.cpuUser()
-        print system.cpuSystem()
+        system.graph()
+
+    if args.projects == 'weather':
+
+        from projects.weather import Weather
+
+        weather = Weather()
+        weather.report()
 
 # End of File
