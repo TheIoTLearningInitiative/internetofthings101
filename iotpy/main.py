@@ -48,14 +48,6 @@ if __name__ == '__main__':
         alive = Alive()
         alive.report()
 
-    if args.projects == 'system':
-
-        from projects.system import System
-
-        system = System()
-        print system.cpuUser()
-        print system.cpuSystem()
-
     if args.projects == 'climate':
 
         from projects.climate import Climate
@@ -69,5 +61,20 @@ if __name__ == '__main__':
 
         health = Health()
         health.graph()
+
+    if args.projects == 'selfie':
+
+        from projects.selfie import Selfie
+
+        selfie = Selfie()
+        selfie.share()
+
+    if args.projects == 'system':
+
+        from projects.system import System
+
+        system = System()
+        print system.cpuUser()
+        print system.cpuSystem()
 
 # End of File
