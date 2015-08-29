@@ -8,9 +8,9 @@ class Alive(object):
         pass
 
     def report(self):
-        message = 'Hello IoT Py Learners, What will you make?'
+        message = 'Hello Internet of Things Python Learners, What will you make?'
         print message
-        command = ['libraries/voicerss.sh', message]
+        command = ['libraries/voicerss.sh', 'en-us', message]
         proc = subprocess.call(command)
 
 # End of File
