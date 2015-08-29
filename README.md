@@ -588,20 +588,17 @@ Freeing up space
     root@platform:~# cd /usr
     root@platform:~# ln -sf /home/share share
 
-## IoTpy
+## IoTPy
 
-Install IoTpy Workshop Git Repository
+Install IoTPy Workshop Git Repository
 
     root@platform:~# git clone https://github.com/xe1gyq/iot.git
     
-Run IoTpy Workshop examples
+Run IoTPy Workshop examples
 
     root@platform:~# cd iot/iotpy
-    root@platform:~# python main.py -m alive
-    root@platform:~# python main.py -m system
-    root@platform:~# python main.py -m mraa
-    root@platform:~# python main.py -m bpta
-    root@platform:~# python main.py -m gpio
+    root@platform:~# python main.py -m <module>
+    root@platform:~# python main.py -p <project>
 
 # Intel Development Kits
 
