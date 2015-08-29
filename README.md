@@ -628,6 +628,10 @@ Run IoTPy Workshop examples
 
 > MQTT is a light-weight protocol used for Machine to Machine (M2M) communication. MQTT used a publish/subscribe message forwarding model built on top of TCP/IP protocol.
 
+    root@edison:~# mosquitto
+    root@edison:~# mosquitto_sub
+    root@edison:~# mosquitto_pub
+
 [Building and running Mosquitto MQTT on Intel Edison](https://software.intel.com/en-us/blogs/2015/02/20/building-and-running-mosquitto-mqtt-on-intel-edison)
 
 ## Plot.Ly
