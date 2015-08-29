@@ -10,7 +10,7 @@ class Alive(object):
     def report(self):
         message = 'Hello IoT Py Learners, What will you make?'
         print message
-        command = ['projects/voicerss.sh', message]
+        command = ['libraries/voicerss.sh', message]
         proc = subprocess.call(command)
 
 # End of File
