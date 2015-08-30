@@ -700,6 +700,8 @@ Run IoTPy Workshop examples
 * [Internet of Things @ Intel®](http://www.intel.com/iot)
 * [Developer IBM IoT](https://developer.ibm.com/recipes/?)
 * [Wyliodrin](https://www.wyliodrin.com/)
+* [non-official blog devoted to Intel® Galileo & Edison development boards
+](http://alextgalileo.altervista.org/blog/)
 
 # Key Phrases
 
