@@ -1,14 +1,16 @@
 # Agenda
 
-1. Internet of Things 101
-2. Resources
-2. Hardware
-3. Software
-4. Getting Started
-5. Software Development
-7. Protocols
-8. Services
-9. Links
+01. Internet of Things 101
+02. Resources
+03. Hardware
+04. Software
+05. Getting Started
+06. Software Development
+07. Protocols
+08. Services
+09. IoTPy
+10. Links
+11. Key Phrases
 
 # Internet of Things
 
@@ -588,18 +590,6 @@ Freeing up space
     root@platform:~# cd /usr
     root@platform:~# ln -sf /home/share share
 
-## IoTPy
-
-Install IoTPy Workshop Git Repository
-
-    root@platform:~# git clone https://github.com/xe1gyq/iot.git
-    
-Run IoTPy Workshop examples
-
-    root@platform:~# cd iot/iotpy
-    root@platform:~# python main.py -m <module>
-    root@platform:~# python main.py -p <project>
-
 # Protocols
 
 ## MQTT
@@ -680,6 +670,18 @@ See output for the following command
 
 * [An open-source chart and map framework for realtime data](http://www.pubnub.com/developers/eon/)
 
+# IoTPy
+
+Install IoTPy Workshop Git Repository
+
+    root@platform:~# git clone https://github.com/xe1gyq/iot.git
+    
+Run IoTPy Workshop examples
+
+    root@platform:~# cd iot/iotpy
+    root@platform:~# python main.py -m <module>
+    root@platform:~# python main.py -p <project>
+
 # Links
 
 * [Robot Wpi Edu Galileo Images](http://robot.wpi.edu/wiki/index.php/Galileo_Images)
@@ -695,6 +697,8 @@ See output for the following command
 * [Wyliodrin](https://www.wyliodrin.com/)
 
 # Key Phrases
+
+Temporal section :)
 
 - Industry Standard Protocols
 - Open Environments
