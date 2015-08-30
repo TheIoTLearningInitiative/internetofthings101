@@ -55,6 +55,13 @@ if __name__ == '__main__':
         mraalib = MraaLib()
         mraalib.version()
 
+    if args.modules == 'opencv':
+
+        from modules.opencv import OpenCv
+
+        opencv = OpenCv()
+        opencv.execute()
+
     if args.projects == 'alive':
 
         from projects.alive import Alive
