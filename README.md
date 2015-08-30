@@ -9,8 +9,9 @@
 07. Protocols
 08. Services
 09. IoTPy
-10. Links
-11. Key Phrases
+10. Image Customization
+11. Links
+12. Key Phrases
 
 # Internet of Things
 
@@ -681,6 +682,10 @@ Run IoTPy Workshop examples
     root@platform:~# cd iot/iotpy
     root@platform:~# python main.py -m <module>
     root@platform:~# python main.py -p <project>
+
+# Image Customization
+
+[Intel® Edison Boards Board Support Package (BSP) User Guide](http://www.intel.com/support/edison/sb/CS-035278.htm)
 
 # Links
 
