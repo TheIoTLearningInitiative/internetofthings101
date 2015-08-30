@@ -34,6 +34,20 @@ if __name__ == '__main__':
         gpio = Gpio()
         gpio.toggle()
 
+    if args.modules == 'mqttpub':
+
+        from modules.mqttpub import MqttPub
+
+        mqttpub = MqttPub()
+        mqttpub.write()
+
+    if args.modules == 'mqttsub':
+
+        from modules.mqttsub import MqttSub
+
+        mqttsub = MqttSub()
+        mqttsub.listen()
+
     if args.modules == 'mraa':
 
         from modules.mraalib import MraaLib
