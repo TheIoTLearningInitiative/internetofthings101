@@ -167,6 +167,7 @@ Architecture
 ### Others
 
 * [Top DIY Electroni-cs Stores Suppliers](http://www.instructables.com/id/Top-DIY-Electronics-Stores-Suppliers/)
+* [Audio Block for Intel Edison](http://www.malinov.com/Home/sergeys-projects/audio-block-for-intel-edison)
 
 ## Miscellaneous
 
