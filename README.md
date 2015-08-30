@@ -6,9 +6,9 @@
 3. Software
 4. Getting Started
 5. Software Development
-6. Intel® Development Kits
-7. Services
-8. Links
+7. Protocols
+8. Services
+9. Links
 
 # Internet of Things
 
@@ -600,29 +600,7 @@ Run IoTPy Workshop examples
     root@platform:~# python main.py -m <module>
     root@platform:~# python main.py -p <project>
 
-# Intel® IoT Developer Kit Cloud-based Analytics
-
-> Intel provides a cloud-based analytics system for the Internet-of-Things (IoT) that includes resources for the collection and analysis of sensor data that the Intel® IoT Developer Kit provides. Using this service, Intel Galileo/Edison device developers can jump-start data acquisition and analysis without having to invest in large-scale storage and processing capacity.
-
-    # Create an account
-      https://dashboard.us.enableiot.com/
-    # In Edison / Galileo
-    root@galileo:~# iotkit-admin initialize  
-    root@galileo:~# iotkit-admin reset-components  
-    root@galileo:~# iotkit-admin test
-    root@galileo:~# iotkit-admin device-id
-    # From https://dashboard.us.enableiot.com/ui/dashboard#/devices, add a New Device
-    # From https://dashboard.us.enableiot.com/ui/dashboard#/account, get Activation Code
-    root@galileo:~# iotkit-admin activate <Activation Code from Webpage>
-    root@galileo:~# iotkit-admin catalog
-    root@galileo:~# iotkit-admin register temp temperature.v1.0
-    root@galileo:~# iotkit-admin observation temp 35
-    root@galileo:~# iotkit-admin observation temp 30
-
-* [Intel® IoT Developer Kit Cloud-based Analytics Homepage](www.enableiot.com)
-* [Intel® IoT Developer Kit Cloud-based Analytics User Guide](https://software.intel.com/en-us/intel-iot-developer-kit-cloud-based-analytics-user-guide)
-
-# Services
+# Protocols
 
 ## MQTT
 
@@ -657,6 +635,30 @@ See output for the following command
     root@edison:~# mosquitto_sub -h test.mosquitto.org -t "#" -v
 
 [Building and running Mosquitto MQTT on Intel Edison](https://software.intel.com/en-us/blogs/2015/02/20/building-and-running-mosquitto-mqtt-on-intel-edison)
+
+# Services
+
+## Intel® IoT Developer Kit Cloud-based Analytics
+
+> Intel provides a cloud-based analytics system for the Internet-of-Things (IoT) that includes resources for the collection and analysis of sensor data that the Intel® IoT Developer Kit provides. Using this service, Intel Galileo/Edison device developers can jump-start data acquisition and analysis without having to invest in large-scale storage and processing capacity.
+
+    # Create an account
+      https://dashboard.us.enableiot.com/
+    # In Edison / Galileo
+    root@galileo:~# iotkit-admin initialize  
+    root@galileo:~# iotkit-admin reset-components  
+    root@galileo:~# iotkit-admin test
+    root@galileo:~# iotkit-admin device-id
+    # From https://dashboard.us.enableiot.com/ui/dashboard#/devices, add a New Device
+    # From https://dashboard.us.enableiot.com/ui/dashboard#/account, get Activation Code
+    root@galileo:~# iotkit-admin activate <Activation Code from Webpage>
+    root@galileo:~# iotkit-admin catalog
+    root@galileo:~# iotkit-admin register temp temperature.v1.0
+    root@galileo:~# iotkit-admin observation temp 35
+    root@galileo:~# iotkit-admin observation temp 30
+
+* [Intel® IoT Developer Kit Cloud-based Analytics Homepage](www.enableiot.com)
+* [Intel® IoT Developer Kit Cloud-based Analytics User Guide](https://software.intel.com/en-us/intel-iot-developer-kit-cloud-based-analytics-user-guide)
 
 ## Plot.Ly
 
