@@ -57,6 +57,9 @@
 ## Consortiums
 * https://allseenalliance.org/
 * http://openinterconnect.org/
+* http://www.hypercat.io/
+* Wireless IoT Forum
+* Thread Group
 
 # Resources
 
