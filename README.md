@@ -5,13 +5,14 @@
 03. Hardware
 04. Software
 05. Getting Started
-06. Software Development
+06. Software Development Basics
 07. Protocols
-08. Services
-09. IoTPy
-10. Image Customization
-11. Links
-12. Key Phrases
+08. IoTPy
+09. Software Development Advanced
+10. Services
+11. Image Customization
+12. Links
+13. Key Phrases
 
 # Internet of Things
 
@@ -268,7 +269,7 @@ Whatever you can think of
 * [Intel® Galileo Board Get Started Guide](https://software.intel.com/en-us/iot/library/galileo-getting-started)
 * [Intel® Galileo Getting Started](https://communities.intel.com/community/makers/galileo/getting-started)
 
-# Software Development
+# Software Development Basics
 
 ## HowTo
 
@@ -565,35 +566,6 @@ print uartdevice.getDevicePath()
 ```
     root@platform:~# python iot.py
 
-## Yocto Edison Advanced
-
-Install Pip, Package Management System to install and manage software packages written in Python
-
-    root@edison:~# opkg install python-pip
-
-## Yocto Galileo Advanced
-
-Install Pip, Package Management System to install and manage software packages written in Python
-
-    https://bootstrap.pypa.io/get-pip.py
-    setuptools-12.2.tar.gz
-    tar zxf setuptools-12.2.tar.gz
-    python setuptools-12.2/ez_setup.py
-    ...
-    wget --no-check-certificate https://bootstrap.pypa.io/ez_setup.py
-    python ez_setup.py --insecure
-
-## Common
-
-Freeing up space
-
-    root@platform:~# mv /var/cache /home
-    root@platform:~# cd /var
-    root@platform:~# ln -sf /home/cache cache
-    root@platform:~# mv /usr/share /home
-    root@platform:~# cd /usr
-    root@platform:~# ln -sf /home/share share
-
 # Protocols
 
 ## MQTT
@@ -629,6 +601,49 @@ See output for the following command
     root@edison:~# mosquitto_sub -h test.mosquitto.org -t "#" -v
 
 [Building and running Mosquitto MQTT on Intel Edison](https://software.intel.com/en-us/blogs/2015/02/20/building-and-running-mosquitto-mqtt-on-intel-edison)
+
+# IoTPy
+
+Install IoTPy Workshop Git Repository
+
+    root@platform:~# git clone https://github.com/xe1gyq/iot.git
+    
+Run IoTPy Workshop examples
+
+    root@platform:~# cd iot/iotpy
+    root@platform:~# python main.py -m <module>
+    root@platform:~# python main.py -p <project>
+
+# Software Development Advanced
+
+## Yocto Edison Advanced
+
+Install Pip, Package Management System to install and manage software packages written in Python
+
+    root@edison:~# opkg install python-pip
+
+## Yocto Galileo Advanced
+
+Install Pip, Package Management System to install and manage software packages written in Python
+
+    https://bootstrap.pypa.io/get-pip.py
+    setuptools-12.2.tar.gz
+    tar zxf setuptools-12.2.tar.gz
+    python setuptools-12.2/ez_setup.py
+    ...
+    wget --no-check-certificate https://bootstrap.pypa.io/ez_setup.py
+    python ez_setup.py --insecure
+
+## Common
+
+Freeing up space
+
+    root@platform:~# mv /var/cache /home
+    root@platform:~# cd /var
+    root@platform:~# ln -sf /home/cache cache
+    root@platform:~# mv /usr/share /home
+    root@platform:~# cd /usr
+    root@platform:~# ln -sf /home/share share
 
 # Services
 
@@ -673,18 +688,6 @@ See output for the following command
 ## Project EON
 
 * [An open-source chart and map framework for realtime data](http://www.pubnub.com/developers/eon/)
-
-# IoTPy
-
-Install IoTPy Workshop Git Repository
-
-    root@platform:~# git clone https://github.com/xe1gyq/iot.git
-    
-Run IoTPy Workshop examples
-
-    root@platform:~# cd iot/iotpy
-    root@platform:~# python main.py -m <module>
-    root@platform:~# python main.py -p <project>
 
 # Image Customization
 
