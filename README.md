@@ -602,6 +602,14 @@ See output for the following command
 
 [Building and running Mosquitto MQTT on Intel Edison](https://software.intel.com/en-us/blogs/2015/02/20/building-and-running-mosquitto-mqtt-on-intel-edison)
 
+## Others
+
+- Bluetoth Low Energy
+- BT
+- ZigBee
+- Z-Wave
+- CoAP
+
 # IoTPy
 
 Install IoTPy Workshop Git Repository
