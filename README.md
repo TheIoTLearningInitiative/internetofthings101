@@ -311,7 +311,7 @@ At the host
 
 [All the Intel® Galileo Board Downloads in One Spot!](https://software.intel.com/en-us/iot/hardware/galileo/downloads)
 
-## Yocto Edison
+## Yocto Edison Basic
 
 Check your kernel version
 
@@ -369,10 +369,6 @@ Install RMAA and UPM Libraries
     root@edison:~# opkg install libmraa0
     root@edison:~# opkg install upm
 
-Install Pip, Package Management System to install and manage software packages written in Python
-
-    root@edison:~# opkg install python-pip
-
 In case only WiFi was configure, configure also password to enable SSH on the wireless interface
 
     root@edison:~# configure_edison --password
@@ -386,7 +382,7 @@ In case only WiFi was configure, configure also password to enable SSH on the wi
     First-time root password setup complete. Enabling SSH on WiFi interface.
     The device password has been changed.
 
-## Yocto Galileo
+## Yocto Galileo Basic
 
 Check your kernel version
 
@@ -569,9 +565,15 @@ print uartdevice.getDevicePath()
 ```
     root@platform:~# python iot.py
 
-## Python Pip Yocto Galileo
+## Yocto Edison Advanced
 
-Install Python Pip
+Install Pip, Package Management System to install and manage software packages written in Python
+
+    root@edison:~# opkg install python-pip
+
+## Yocto Galileo Advanced
+
+Install Pip, Package Management System to install and manage software packages written in Python
 
     https://bootstrap.pypa.io/get-pip.py
     setuptools-12.2.tar.gz
