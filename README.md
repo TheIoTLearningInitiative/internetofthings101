@@ -13,9 +13,6 @@ Freeing up space
     root@platform:~# ln -sf /home/share share
 
 
-# Image Customization
-
-[Intel® Edison Boards Board Support Package (BSP) User Guide](http://www.intel.com/support/edison/sb/CS-035278.htm)
 
 # Links
 
