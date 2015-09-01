@@ -1,7 +1,9 @@
 Internet of Things 101
 ==
 
-> Devices that are connecting to the Internet, integrating greater compute capabilities and using  data analytics to extract meaningful information ... from wikipedia.
+> Devices that are connecting to the Internet, integrating greater compute capabilities and using  data analytics to extract meaningful information ...
+
+[Intel and The Internet of Things](https://newsroom.intel.com/docs/DOC-5224)
 
 ## Process Control Systems Basic Control Loop
 * Sense
