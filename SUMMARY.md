@@ -8,6 +8,7 @@
 * [Hardware](Hardware.md)
 * [Software](Software.md)
    * [Operating Systems](OperatingSystems.md)
+   * Libraries
 * [Getting Started](GettingStarted.md)
 * [Software Development Basics](SoftwareDevelopmentBasics.md)
 * [Protocols](Protocols.md)
