@@ -7,7 +7,7 @@
 * [Resources](Resources.md)
 * [Hardware](Hardware.md)
    * [Boards](Boards.md)
-   * Sensors
+   * [Sensors](Sensors.md)
 * [Software](Software.md)
    * [Operating Systems](OperatingSystems.md)
    * [Libraries](Libraries.md)
