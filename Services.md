@@ -42,3 +42,9 @@ Services
 ## Project EON
 
 * [An open-source chart and map framework for realtime data](http://www.pubnub.com/developers/eon/)
+
+## Xively
+
+> Xively by LogMeIn offers an award-winning enterprise IoT platform and application solution for enterprises building connected products and services.
+
+[Xively Homepage](http://xively.com/)
