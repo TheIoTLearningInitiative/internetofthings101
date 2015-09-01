@@ -65,3 +65,11 @@ Architecture
 * Runtime Environment (Lua, Java, Python, OSGI)
 * Cloud Connector (Ecosystem Apps & Services, Customers)
 * Winder River Development Environment (Customized Eclipse)
+
+## Google
+
+> Google’s mission is to organize the world’s information and make it universally accessible and useful
+
+## Version Control System Github
+
+> GitHub is the best place to share code with friends, co-workers, classmates, and complete strangers. Over eight million people use GitHub to build amazing things together.
