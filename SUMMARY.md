@@ -9,6 +9,7 @@
 * [Software](Software.md)
    * [Operating Systems](OperatingSystems.md)
    * [Libraries](Libraries.md)
+   * Integrated Development Environments
 * [Getting Started](GettingStarted.md)
 * [Software Development Basics](SoftwareDevelopmentBasics.md)
 * [Protocols](Protocols.md)
