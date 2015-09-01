@@ -38,7 +38,7 @@ At the host
 
 [All your Intel® Edison Board Downloads in One Spot!](https://software.intel.com/en-us/iot/hardware/edison/downloads)
 
-# Flashing Galileo
+## Flashing Galileo
 
 [All the Intel® Galileo Board Downloads in One Spot!](https://software.intel.com/en-us/iot/hardware/galileo/downloads)
 
