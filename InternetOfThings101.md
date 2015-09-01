@@ -46,7 +46,7 @@ Internet of Things 101
 
 ![](http://www.intel.com/content/dam/www/public/us/en/images/illustrations/iot-platform-infographic.jpg)
 
-[The Intel® IoT Platform: Secure, Scalable, Interoperable](http://www.intel.com/content/www/us/en/internet-of-things/iot-platfo)rm.html
+[The Intel® IoT Platform: Secure, Scalable, Interoperable](http://www.intel.com/content/www/us/en/internet-of-things/iot-platform.html
 
 ## Consortiums
 * https://allseenalliance.org/
