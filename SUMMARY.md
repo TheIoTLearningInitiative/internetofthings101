@@ -7,7 +7,7 @@
 * [Resources](Resources.md)
 * [Hardware](Hardware.md)
 * [Software](Software.md)
-   * Operating Systems
+   * [Operating Systems](OperatingSystems.md)
 * [Getting Started](GettingStarted.md)
 * [Software Development Basics](SoftwareDevelopmentBasics.md)
 * [Protocols](Protocols.md)
