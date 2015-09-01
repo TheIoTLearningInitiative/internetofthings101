@@ -3,8 +3,8 @@ Getting Started
 
 ## Development Workstation
 
-[Edison Installer](https://software.intel.com/en-us/iot/hardware/edison/downloads)
-[Galileo Installer](https://software.intel.com/en-us/iot/hardware/galileo/downloads)
+- [Edison Installer](https://software.intel.com/en-us/iot/hardware/edison/downloads)
+- [Galileo Installer](https://software.intel.com/en-us/iot/hardware/galileo/downloads)
 
 ## Edison
 
