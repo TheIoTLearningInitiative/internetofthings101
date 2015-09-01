@@ -1,5 +1,6 @@
 # Summary
 
-* [Introduction](Introduction.md)
+* [Introduction](introduction.md)
 * [Summary](SUMMARY.md)
+* Internet Of Things 101
 
