@@ -12,4 +12,5 @@
 * [IoTPy](IoTPy.md)
 * [Software Development Advanced](SoftwareDevelopmentAdvanced.md)
 * [Services](Services.md)
+* Software Customization
 
