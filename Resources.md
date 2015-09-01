@@ -7,6 +7,8 @@ Intel Resources
 
 http://www.intel.com/content/www/us/en/internet-of-things/iot-platform.html
 
+## Intel® IoT Developer Kit
+
 > Our complete hardware and software solution will help you explore the IoT space and create innovative projects. You'll find everything you need to get going: a development board and starter kit; Intel® XDK IoT Edition, Eclipse*, and Arduino* IDEs; a set of libraries; IoT Cloud Analytics; and more.
 
 [Intel® IoT Developer Kit](https://software.intel.com/en-us/iot/hardware/devkit)
@@ -23,6 +25,7 @@ http://www.intel.com/content/www/us/en/internet-of-things/iot-platform.html
 [Intel® Developer Zone Internet of Things](https://software.intel.com/en-us/iot/home)
 
 ## Intel® IoT Devkit
+
 > The Intel® Development Kit for IoT (IoTDK) is a complete solution to create and test applications for Intel IoT platforms like the Intel® Galileo and Edison maker boards.
 * Intel® XDK IoT Edition
 * Yocto Project
