@@ -37,35 +37,6 @@ Intel® System Studio is a fully validated and Intel-supported product optimized
 
 [Intel® System Studio](https://software.intel.com/en-us/intel-system-studio)
 
-## Intel® Gateway Solutions
-
-Why do they exist?
-
-* Unconnected devices
-* Systems always connected and monitored
-* Local filtering and analysis
-
-What are they?
-
-* Scalable Gateways Platforms
-* Integrated, Validated with McAfee and WindRiver
-* Optimized Solutions, Ecosystem Apos and Services
-
-How?
-
-* Reference designs
-
-Architecture
-
-* Board Support Package (Quark, Atom)
-* Wind River Linux
-* Connectivity
-* Security
-* Manageability
-* Runtime Environment (Lua, Java, Python, OSGI)
-* Cloud Connector (Ecosystem Apps & Services, Customers)
-* Winder River Development Environment (Customized Eclipse)
-
 ## Google
 
 > Google’s mission is to organize the world’s information and make it universally accessible and useful
