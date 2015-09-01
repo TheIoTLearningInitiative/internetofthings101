@@ -5,7 +5,7 @@ Internet of Things 101
 
 [Intel and The Internet of Things](https://newsroom.intel.com/docs/DOC-5224)
 
-## Process Control Systems Basic Control Loop
+# Process Control Systems Basic Control Loop
 * Sense
 * Monitor
 * Analize
