@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](introduction.md)
-* Agenda
+* [Agenda](agenda.md)
 
