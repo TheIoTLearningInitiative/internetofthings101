@@ -13,6 +13,11 @@ Hardware
 * [IoT Intel® Galileo Board](https://software.intel.com/en-us/iot/hardware/galileo)
 * [SeedStudio Grove - Starter Kit for Arduino](http://www.seeedstudio.com/depot/Grove-Starter-Kit-for-Arduino-p-1855.html)
 
+## MinnowBoard MAX
+> A compact, affordable, and powerful development board for both professionals and makers, this open-hardware design allows for endless customization and integration potential. It is a platform with diverse strengths that empowers developers to innovate in the deeply embedded market.
+
+[MinnowBoard MAX* Development Board](https://software.intel.com/en-us/iot/hardware/minnow-board-max)
+
 ## Intel® Gateway Solutions
 
 Why do they exist?
