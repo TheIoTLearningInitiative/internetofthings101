@@ -1,17 +1,46 @@
 Hardware
 ==
 
-## Edison
+## Intel® Edison
 
 * [IoT Intel® Edison Board](https://software.intel.com/en-us/iot/hardware/edison)
 * [Sparkfun Intel® Edison](https://www.sparkfun.com/categories/272)
 * [SeedStudio Xadow Wearable Kit For Intel® Edison](http://www.seeedstudio.com/depot/Xadow-Wearable-Kit-For-Intel-Edison-p-2428.html?cPath=84_120)
 * [Intel® Edison Breakout Board](http://download.intel.com/support/edison/sb/edisonbreakout_hg_331190006.pdf)
 
-## Galileo
+## Intel® Galileo
 
 * [IoT Intel® Galileo Board](https://software.intel.com/en-us/iot/hardware/galileo)
 * [SeedStudio Grove - Starter Kit for Arduino](http://www.seeedstudio.com/depot/Grove-Starter-Kit-for-Arduino-p-1855.html)
+
+## Intel® Gateway Solutions
+
+Why do they exist?
+
+* Unconnected devices
+* Systems always connected and monitored
+* Local filtering and analysis
+
+What are they?
+
+* Scalable Gateways Platforms
+* Integrated, Validated with McAfee and WindRiver
+* Optimized Solutions, Ecosystem Apos and Services
+
+How?
+
+* Reference designs
+
+Architecture
+
+* Board Support Package (Quark, Atom)
+* Wind River Linux
+* Connectivity
+* Security
+* Manageability
+* Runtime Environment (Lua, Java, Python, OSGI)
+* Cloud Connector (Ecosystem Apps & Services, Customers)
+* Winder River Development Environment (Customized Eclipse)
 
 ## Sensors
 > A sensor is a transducer whose purpose is to sense (that is, to detect) some characteristic of its environments.
@@ -47,31 +76,3 @@ Whatever you can think of
 * [Male/Male Jumper Wires - 40 x 12"](https://www.adafruit.com/products/760)
 * ...
 
-## Intel® Gateway Solutions
-
-Why do they exist?
-
-* Unconnected devices
-* Systems always connected and monitored
-* Local filtering and analysis
-
-What are they?
-
-* Scalable Gateways Platforms
-* Integrated, Validated with McAfee and WindRiver
-* Optimized Solutions, Ecosystem Apos and Services
-
-How?
-
-* Reference designs
-
-Architecture
-
-* Board Support Package (Quark, Atom)
-* Wind River Linux
-* Connectivity
-* Security
-* Manageability
-* Runtime Environment (Lua, Java, Python, OSGI)
-* Cloud Connector (Ecosystem Apps & Services, Customers)
-* Winder River Development Environment (Customized Eclipse)
