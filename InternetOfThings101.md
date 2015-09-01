@@ -47,3 +47,10 @@ Internet of Things 101
 * http://www.hypercat.io/
 * Wireless IoT Forum
 * Thread Group
+
+## Internet of Things @ Intel
+
+> Secure, Scalable, Interoperable, The Intel® IoT Platform is an end-to-end reference model and family of products from Intel, that works with third party solutions to provide a foundation for seamlessly and securely connecting devices, delivering trusted data to the cloud, and delivering value through analytics.
+
+[The Intel® IoT Platform: Secure, Scalable, Interoperable](http://www.intel.com/content/www/us/en/internet-of-things/iot-platfo)rm.html
+
