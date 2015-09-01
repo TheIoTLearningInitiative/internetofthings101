@@ -8,7 +8,7 @@
 * [Hardware](Hardware.md)
    * [Boards](Boards.md)
    * [Sensors](Sensors.md)
-   * Gateways
+   * [Gateways](Gateways.md)
 * [Software](Software.md)
    * [Operating Systems](OperatingSystems.md)
    * [Libraries](Libraries.md)
