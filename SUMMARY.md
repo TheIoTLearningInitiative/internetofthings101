@@ -6,7 +6,7 @@
 * [Internet Of Things 101](InternetOfThings101.md)
 * [Resources](Resources.md)
 * [Hardware](Hardware.md)
-   * Boards
+   * [Boards](Boards.md)
 * [Software](Software.md)
    * [Operating Systems](OperatingSystems.md)
    * [Libraries](Libraries.md)
