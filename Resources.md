@@ -70,6 +70,6 @@ Architecture
 
 > Google’s mission is to organize the world’s information and make it universally accessible and useful
 
-## Version Control System Github
+## Github Version Control System
 
 > GitHub is the best place to share code with friends, co-workers, classmates, and complete strangers. Over eight million people use GitHub to build amazing things together.
