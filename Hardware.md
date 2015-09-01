@@ -46,3 +46,32 @@ Whatever you can think of
 * [Female/Female Jumper Wires - 40 x 12"](https://www.adafruit.com/products/793)
 * [Male/Male Jumper Wires - 40 x 12"](https://www.adafruit.com/products/760)
 * ...
+
+## Intel® Gateway Solutions
+
+Why do they exist?
+
+* Unconnected devices
+* Systems always connected and monitored
+* Local filtering and analysis
+
+What are they?
+
+* Scalable Gateways Platforms
+* Integrated, Validated with McAfee and WindRiver
+* Optimized Solutions, Ecosystem Apos and Services
+
+How?
+
+* Reference designs
+
+Architecture
+
+* Board Support Package (Quark, Atom)
+* Wind River Linux
+* Connectivity
+* Security
+* Manageability
+* Runtime Environment (Lua, Java, Python, OSGI)
+* Cloud Connector (Ecosystem Apps & Services, Customers)
+* Winder River Development Environment (Customized Eclipse)
