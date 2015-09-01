@@ -6,4 +6,5 @@
 * [Resources](Resources.md)
 * [Hardware](Hardware.md)
 * [Software](Software.md)
+* Getting Started
 
