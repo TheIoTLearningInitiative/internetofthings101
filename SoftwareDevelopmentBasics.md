@@ -42,7 +42,7 @@ At the host
 
 [All the Intel® Galileo Board Downloads in One Spot!](https://software.intel.com/en-us/iot/hardware/galileo/downloads)
 
-## Yocto Edison Basic
+## Yocto Edison Basics
 
 Check your kernel version
 
@@ -113,7 +113,7 @@ In case only WiFi was configure, configure also password to enable SSH on the wi
     First-time root password setup complete. Enabling SSH on WiFi interface.
     The device password has been changed.
 
-## Yocto Galileo Basic
+## Yocto Galileo Basics
 
 Check your kernel version
 
