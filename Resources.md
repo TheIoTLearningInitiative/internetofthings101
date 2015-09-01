@@ -1,6 +1,12 @@
 Intel Resources
 ==
 
+## The Intel® IoT Platform: Secure, Scalable, Interoperable
+
+> Secure, Scalable, Interoperable The Intel® IoT Platform is an end-to-end reference model and family of products from Intel, that works with third party solutions to provide a foundation for seamlessly and securely connecting devices, delivering trusted data to the cloud, and delivering value through analytics.
+
+http://www.intel.com/content/www/us/en/internet-of-things/iot-platform.html
+
 > Our complete hardware and software solution will help you explore the IoT space and create innovative projects. You'll find everything you need to get going: a development board and starter kit; Intel® XDK IoT Edition, Eclipse*, and Arduino* IDEs; a set of libraries; IoT Cloud Analytics; and more.
 
 [Intel® IoT Developer Kit](https://software.intel.com/en-us/iot/hardware/devkit)
