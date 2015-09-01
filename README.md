@@ -1,18 +1,4 @@
-# Agenda
 
-01. Internet of Things 101
-02. Resources
-03. Hardware
-04. Software
-05. Getting Started
-06. Software Development Basics
-07. Protocols
-08. IoTPy
-09. Software Development Advanced
-10. Services
-11. Image Customization
-12. Links
-13. Key Phrases
 
 # Internet of Things
 
