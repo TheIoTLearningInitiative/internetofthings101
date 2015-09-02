@@ -1,15 +1,6 @@
 Getting Started
 ==
 
-## Development Workstation
-
-Choose your Operating System
-
-- Windows* 64-bit
-- Windows* 32-bit
-- OS X*
-- Linux*
-
 ## Edison
 
 * [Intel® Edison Board Get Started Guide](https://software.intel.com/en-us/iot/library/edison-getting-started)
