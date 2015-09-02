@@ -14,6 +14,9 @@ Boards
 
     root@edison:~# uname -a
     Linux edison 3.10.17-poky-edison+ #1 SMP PREEMPT Fri Jun 19 12:06:40 CEST 2015 i686 GNU/Linux
+    root@edison:~# cat /proc/cpuinfo | grep processor
+    processor       : 0
+    processor       : 1
 
 ## Intel® Galileo
 
