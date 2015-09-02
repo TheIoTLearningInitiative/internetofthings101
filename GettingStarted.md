@@ -13,7 +13,6 @@ Choose your Operating System
 ## Edison
 
 * [Intel® Edison Board Get Started Guide](https://software.intel.com/en-us/iot/library/edison-getting-started)
-* [Intel® Edison Board Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
 
 ### Community Guides
 
@@ -33,7 +32,7 @@ Choose your Operating System
 
 > Download drivers, installers, new firmware images, IDEs and components like cloud analytics and gateway software.
 
-[All your Intel® Edison Board Downloads in One Spot!](https://software.intel.com/en-us/iot/hardware/edison/downloads)
+[Intel® Edison Board Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
 
 At the Edison
 
