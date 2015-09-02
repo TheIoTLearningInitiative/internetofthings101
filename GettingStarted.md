@@ -25,7 +25,6 @@ Choose your Operating System
 ## Galileo
 
 * [Intel® Galileo Board Get Started Guide](https://software.intel.com/en-us/iot/library/galileo-getting-started)
-* [Intel® Galileo Board Downloads](https://software.intel.com/en-us/iot/hardware/galileo/downloads)
 * [Intel® Galileo Makers Getting Started](https://communities.intel.com/community/makers/galileo/getting-started)
 
 ## Image Flashing
@@ -60,5 +59,5 @@ At the Development Workstation
 
 > Keep your development environment up-to-date with software downloads for the Intel® Galileo board.
 
-[All the Intel® Galileo Board Downloads in One Spot!](https://software.intel.com/en-us/iot/hardware/galileo/downloads)
+* [Intel® Galileo Board Downloads](https://software.intel.com/en-us/iot/hardware/galileo/downloads)
 
