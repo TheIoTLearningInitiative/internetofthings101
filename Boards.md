@@ -11,9 +11,9 @@ Boards
 * [Intel® Edison Breakout Board](http://download.intel.com/support/edison/sb/edisonbreakout_hg_331190006.pdf)
 * [Intel® Edison Compute Module, Boards, and Kits](https://www-ssl.intel.com/content/www/us/en/do-it-yourself/edison.html#kits)
 
+
     root@edison:~# uname -a
     Linux edison 3.10.17-poky-edison+ #1 SMP PREEMPT Fri Jun 19 12:06:40 CEST 2015 i686 GNU/Linux
-
 
 ## Intel® Galileo
 
