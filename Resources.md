@@ -1,9 +1,10 @@
 Intel Resources
 ==
 
-## The Intel® IoT Platform: Secure, Scalable, Interoperable
+## The Intel® IoT Platform
+**Secure, Scalable, Interoperable**
 
-> Secure, Scalable, Interoperable The Intel® IoT Platform is an end-to-end reference model and family of products from Intel, that works with third party solutions to provide a foundation for seamlessly and securely connecting devices, delivering trusted data to the cloud, and delivering value through analytics.
+> The Intel® IoT Platform is an end-to-end reference model and family of products from Intel, that works with third party solutions to provide a foundation for seamlessly and securely connecting devices, delivering trusted data to the cloud, and delivering value through analytics.
 
 http://www.intel.com/content/www/us/en/internet-of-things/iot-platform.html
 
