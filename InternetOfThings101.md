@@ -8,11 +8,10 @@ Internet of Things 101
 [Intel and The Internet of Things](https://newsroom.intel.com/docs/DOC-5224)
 
 
-Areas
-
-Mobile Internet of Things
-Home Internet of Things
-
+# Areas
+- Mobile Internet of Things
+- Home Internet of Things
+- Industrial Internet of Things
 
 # Process Control Systems Basic Control Loop
 * Sense
