@@ -27,7 +27,7 @@ At the Development Workstation
 
     C:\Users\aarcemor\Downloads\edison-image-ww25.5-15>flashall.bat
 
-### Galileo
+## Galileo
 
 > Keep your development environment up-to-date with software downloads for the Intel® Galileo board.
 
