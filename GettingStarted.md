@@ -1,4 +1,4 @@
-Setting Up
+Getting Started
 ==
 
 ## Development Workstation
