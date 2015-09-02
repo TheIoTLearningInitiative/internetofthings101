@@ -1,7 +1,7 @@
 Development Workstation
 ==
 
-Choose your Operating System
+Operating System
 
 - Windows* 64-bit
 - Windows* 32-bit
