@@ -15,7 +15,7 @@
    * [Integrated Development Environments](IntegratedDevelopmentEnvironments.md)
 * [Getting Started](GettingStarted.md)
    * [Development Workstation](DevelopmentWorkstation.md)
-   * [Edison](Edison.md)
+   * [Setup](Setup.md)
    * [Image Flashing](ImageFlashing.md)
 * [Software Development Basics](SoftwareDevelopmentBasics.md)
 * [Protocols](Protocols.md)
