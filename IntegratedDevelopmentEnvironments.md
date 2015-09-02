@@ -1,6 +1,6 @@
 ## Integrated Development Environment
 
-> Which programming environment do you prefer? Choose between *Arduino, JavaScript (Intel® XDK IoT Edition), C/C++ (Eclipse or Linux*)
+> Which programming environment do you prefer? Choose between *Arduino, JavaScript (Intel® XDK IoT Edition), C/C++ (Eclipse) or Linux*
 
 ### Arduino IDE
 
