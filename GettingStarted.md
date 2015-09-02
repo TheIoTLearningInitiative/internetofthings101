@@ -4,7 +4,6 @@ Getting Started
 ## Development Workstation
 
 - [Edison Installer](https://software.intel.com/en-us/iot/hardware/edison/downloads)
-- [Galileo Installer](https://software.intel.com/en-us/iot/hardware/galileo/downloads)
 
 ## Edison
 
@@ -20,4 +19,6 @@ Getting Started
 ## Galileo
 
 * [Intel® Galileo Board Get Started Guide](https://software.intel.com/en-us/iot/library/galileo-getting-started)
+* [Intel® Galileo Board Downloads](https://software.intel.com/en-us/iot/hardware/galileo/downloads)
+
 * [Intel® Galileo Makers Getting Started](https://communities.intel.com/community/makers/galileo/getting-started)
