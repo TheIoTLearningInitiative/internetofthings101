@@ -3,7 +3,16 @@ Internet of Things 101
 
 > Devices that are connecting to the Internet, integrating greater compute capabilities and using  data analytics to extract meaningful information ...
 
+> Evolution of the Computing, devices that ar econnecting to the Internet, generating greater and greater amounts of data, integrating compute capabilities into de the devices end to end, using data analytics to extract informaiton from all the data they are producing.
+
 [Intel and The Internet of Things](https://newsroom.intel.com/docs/DOC-5224)
+
+
+Areas
+
+Mobile Internet of Things
+Home Internet of Things
+
 
 # Process Control Systems Basic Control Loop
 * Sense
