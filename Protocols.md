@@ -67,4 +67,4 @@ See output for the following command
 - BT
 - ZigBee
 - Z-Wave
-- CoAP
+- Constrained Application Protocol (CoAP)
