@@ -66,7 +66,6 @@ See output for the following command
 ### Bluetoth Low Energy
 ### BT
 ### ZigBee
-### Z-Wave
 
 ### Z-Wave
 
