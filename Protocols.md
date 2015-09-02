@@ -63,8 +63,12 @@ See output for the following command
 
 ## Others
 
-- Bluetoth Low Energy
-- BT
-- ZigBee
-- Z-Wave
-- Constrained Application Protocol (CoAP)
+### Bluetoth Low Energy
+### BT
+### ZigBee
+### Z-Wave
+### Constrained Application Protocol (CoAP)
+
+### Z-Wave
+
+> Z-Wave is a wireless communications specification designed to allow devices in the home (lighting, access controls, entertainment systems and household appliances, for example) to communicate with one another for the purposes of home automation ... *From Wikipedia, the free encyclopedia*
