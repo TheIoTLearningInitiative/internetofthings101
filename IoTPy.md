@@ -31,6 +31,7 @@ Install Pip, Package Management System to install and manage software packages w
     Partially Working
     <compile> mpg123 mosquitto
     <python get-pip.py> python-pip
+    
     pip install psutil paho-mqtt
     pip install --allow-all-external pywapi --allow-unverified pywapi
     pip install --allow-all-external plotly --allow-unverified plotly
