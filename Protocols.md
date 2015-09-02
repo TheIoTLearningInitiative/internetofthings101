@@ -17,13 +17,13 @@ Protocols
     root@edison:~# mosquitto_sub
     root@edison:~# mosquitto_pub
 
-### Mosquitto Demo Temperature Gauge
+#### Mosquitto Demo Temperature Gauge
 
 Go to http://test.mosquitto.org/gauge/ and execute
 
     root@edison:~# mosquitto_pub -h test.mosquitto.org -t temp/random -m 23.0
 
-###  Mosquitto MQTT Server/Broker
+####  Mosquitto MQTT Server/Broker
 
 As subscriber
 
