@@ -48,7 +48,7 @@ At the Edison
     ## Executing script at 00100000
     ...
  
-At the Workstation
+At the Development Workstation
 
     C:\Users\aarcemor\Downloads\edison-image-ww25.5-15>flashall.bat
 
