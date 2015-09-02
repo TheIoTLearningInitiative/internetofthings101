@@ -17,7 +17,7 @@
    * [Development Workstation](DevelopmentWorkstation.md)
    * [Edison](Edison.md)
    * [Galileo](Galileo.md)
-   * Image Flashing
+   * [Image Flashing](ImageFlashing.md)
 * [Software Development Basics](SoftwareDevelopmentBasics.md)
 * [Protocols](Protocols.md)
 * [IoTPy](IoTPy.md)
