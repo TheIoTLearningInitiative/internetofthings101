@@ -12,6 +12,11 @@ Internet of Things 101
 - Home Internet of Things
 - Industrial Internet of Things
 
+# Costs Past 10 Years
+- Cost of Sensors 2x Decreased
+- Cost of Bandwidth 40x Decreased
+- Cost of Processing 60x Decreased
+
 # Process Control Systems Basic Control Loop
 * Sense
 * Monitor
