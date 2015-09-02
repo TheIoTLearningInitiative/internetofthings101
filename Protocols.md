@@ -19,7 +19,7 @@ Protocols
 
 Go to http://test.mosquitto.org/gauge/ and execute
 
-    root@edison:~# mosquitto_pub -h test.mosquitto.org -t temp/random -m 23.0
+    root@platform:~# mosquitto_pub -h test.mosquitto.org -t temp/random -m 23.0
 
 ####  Mosquitto MQTT Server/Broker
 
