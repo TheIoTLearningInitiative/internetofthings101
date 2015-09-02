@@ -7,7 +7,6 @@ Intel® Gateway Solutions
 
 [Transform Business with Intelligent Gateway Solutions for IoT](http://www.intel.com/content/www/us/en/internet-of-things/gateway-solutions.html)
 
-
 ## Why do they exist?
 
 * Unconnected devices
