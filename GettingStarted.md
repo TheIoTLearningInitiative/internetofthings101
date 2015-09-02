@@ -32,6 +32,11 @@ Choose your Operating System
 
 ### Edison
 
+> Download drivers, installers, new firmware images, IDEs and components like cloud analytics and gateway software.
+
+[All your Intel® Edison Board Downloads in One Spot!](https://software.intel.com/en-us/iot/hardware/edison/downloads)
+
+
 At the Edison
 
     U-Boot 2014.04 (Aug 20 2014 - 16:08:32)
@@ -51,8 +56,6 @@ At the Edison
 At the Development Workstation
 
     C:\Users\aarcemor\Downloads\edison-image-ww25.5-15>flashall.bat
-
-[All your Intel® Edison Board Downloads in One Spot!](https://software.intel.com/en-us/iot/hardware/edison/downloads)
 
 ### Galileo
 
