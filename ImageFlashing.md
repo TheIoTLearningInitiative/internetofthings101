@@ -1,7 +1,7 @@
 Image Flashing
 ==
 
-### Edison
+## Edison
 
 > Download drivers, installers, new firmware images, IDEs and components like cloud analytics and gateway software.
 
