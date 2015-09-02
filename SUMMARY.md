@@ -13,7 +13,7 @@
    * [Operating Systems](OperatingSystems.md)
    * [Libraries](Libraries.md)
    * [Integrated Development Environments](IntegratedDevelopmentEnvironments.md)
-* [Getting Started](GettingStarted.md)
+* [Setting Up](SettingUp.md)
 * [Software Development Basics](SoftwareDevelopmentBasics.md)
 * [Protocols](Protocols.md)
 * [IoTPy](IoTPy.md)
