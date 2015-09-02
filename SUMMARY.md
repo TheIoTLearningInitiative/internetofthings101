@@ -5,6 +5,7 @@
 * [Summary](SUMMARY.md)
 * [Internet Of Things 101](InternetOfThings101.md)
 * [Resources](Resources.md)
+   * Development Environment
 * [Hardware](Hardware.md)
    * [Boards](Boards.md)
    * [Sensors](Sensors.md)
