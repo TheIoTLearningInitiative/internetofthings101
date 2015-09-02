@@ -18,6 +18,8 @@ Protocols
 
 #### Mosquitto Intel® Galileo Setup
 
+
+
 #### Mosquitto Applications
 
     root@platform:~# mosquitto
