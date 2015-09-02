@@ -11,9 +11,9 @@ Protocols
 
 [Mosquitto Homepage](http://mosquitto.org/)
 
-    root@edison:~# mosquitto
-    root@edison:~# mosquitto_sub
-    root@edison:~# mosquitto_pub
+    root@platform:~# mosquitto
+    root@platform:~# mosquitto_sub
+    root@platform:~# mosquitto_pub
 
 #### Mosquitto Demo Temperature Gauge
 
