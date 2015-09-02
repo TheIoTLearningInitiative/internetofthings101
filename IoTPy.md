@@ -20,7 +20,6 @@ Install Pip, Package Management System to install and manage software packages w
     root@edison:~# tar zxf setuptools-12.2.tar.gz
     root@edison:~# python setuptools-12.2/ez_setup.py
     ...
-    
     root@edison:~# wget --no-check-certificate https://bootstrap.pypa.io/ez_setup.py
     root@edison:~# python ez_setup.py --insecure
     ...
