@@ -18,6 +18,7 @@
 * [Getting Started](GettingStarted.md)
 * [Software Development](SoftwareDevelopment.md)
    * Package Management System
+   * Yocto Edison
 * [Protocols](Protocols.md)
 * [IoTPy](IoTPy.md)
 * [Cloud and Analytics](CloudAndAnalytics.md)
