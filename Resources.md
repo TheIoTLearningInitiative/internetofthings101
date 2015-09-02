@@ -1,4 +1,4 @@
-Intel Resources
+Resources
 ==
 
 ## The Intel® IoT Platform
