@@ -29,9 +29,6 @@ Install Pip, Package Management System to install and manage software packages w
     root@edison:~# pip install --allow-all-external pywapi --allow-unverified pywapi
     root@edison:~# pip install --allow-all-external plotly --allow-unverified plotly
     root@edison:~# opkg install python-numpy opencv python-opencv nano alsa-utils plotly
-    
-    Working!
-    opkg install python-numpy opencv python-opencv nano alsa-utils plotly
 
     Steps to follow
 
@@ -56,6 +53,8 @@ Install Pip, Package Management System to install and manage software packages w
     
     https://software.intel.com/en-us/blogs/2015/02/20/building-and-running-mosquitto-mqtt-on-intel-edison
     
+    Working!
+    opkg install python-numpy opencv python-opencv nano alsa-utils plotly
 
     root@galileo:~/iot/iotpy# ls configuration/
     credentials.config  voicerss.ak  voicerss.mk
