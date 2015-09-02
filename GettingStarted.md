@@ -36,7 +36,6 @@ Choose your Operating System
 
 [All your Intel® Edison Board Downloads in One Spot!](https://software.intel.com/en-us/iot/hardware/edison/downloads)
 
-
 At the Edison
 
     U-Boot 2014.04 (Aug 20 2014 - 16:08:32)
