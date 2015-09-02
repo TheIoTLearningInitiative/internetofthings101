@@ -20,6 +20,7 @@
    * [Package Management System](PackageManagementSystem.md)
    * [Yocto Edison](YoctoEdison.md)
    * [Yocto Galileo](YoctoGalileo.md)
+   * Python Scripting Language
 * [Protocols](Protocols.md)
 * [IoTPy](IoTPy.md)
 * [Cloud and Analytics](CloudAndAnalytics.md)
