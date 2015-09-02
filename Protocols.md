@@ -5,7 +5,9 @@ Protocols
 
 > MQTT is a light-weight protocol used for Machine to Machine (M2M) communication. MQTT used a publish/subscribe message forwarding model built on top of TCP/IP protocol.
 
-### Mosquitto Applications
+
+
+### Mosquitto
 
     root@edison:~# mosquitto
     root@edison:~# mosquitto_sub
