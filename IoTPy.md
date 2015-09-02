@@ -1,6 +1,8 @@
 IoTPy
 ==
 
+> Internet of Things Python
+
 ## Setup Edison
 
 Install Pip, Package Management System to install and manage software packages written in Python
