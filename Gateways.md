@@ -8,23 +8,23 @@ Intel® Gateway Solutions
 [Transform Business with Intelligent Gateway Solutions for IoT](http://www.intel.com/content/www/us/en/internet-of-things/gateway-solutions.html)
 
 
-Why do they exist?
+## Why do they exist?
 
 * Unconnected devices
 * Systems always connected and monitored
 * Local filtering and analysis
 
-What are they?
+## What are they?
 
 * Scalable Gateways Platforms
 * Integrated, Validated with McAfee and WindRiver
 * Optimized Solutions, Ecosystem Apos and Services
 
-How?
+## How?
 
 * Reference designs
 
-Architecture
+## How are they architectured?
 
 * Board Support Package (Quark, Atom)
 * Wind River Linux
