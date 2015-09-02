@@ -16,13 +16,6 @@ Install Pip, Package Management System to install and manage software packages w
     root@edison:~# curl -O https://bootstrap.pypa.io/get-pip.py
     root@edison:~# python get-pip.py
     
-    root@edison:~# setuptools-12.2.tar.gz
-    root@edison:~# tar zxf setuptools-12.2.tar.gz
-    root@edison:~# python setuptools-12.2/ez_setup.py
-    ...
-    root@edison:~# wget --no-check-certificate https://bootstrap.pypa.io/ez_setup.py
-    root@edison:~# python ez_setup.py --insecure
-    ...
     root@edison:~# curl https://bootstrap.pypa.io/ez_setup.py -o - | python
     
     Not Working!
@@ -48,6 +41,15 @@ Install Pip, Package Management System to install and manage software packages w
     make
     make install
     
+
+    root@edison:~# setuptools-12.2.tar.gz
+    root@edison:~# tar zxf setuptools-12.2.tar.gz
+    root@edison:~# python setuptools-12.2/ez_setup.py
+    ...
+    root@edison:~# wget --no-check-certificate https://bootstrap.pypa.io/ez_setup.py
+    root@edison:~# python ez_setup.py --insecure
+    ...
+
     pip
     python get-pip.py
     
