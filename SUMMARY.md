@@ -18,7 +18,6 @@
 * [Software Development](SoftwareDevelopment.md)
 * [Protocols](Protocols.md)
 * [IoTPy](IoTPy.md)
-* [Software Development Advanced](SoftwareDevelopmentAdvanced.md)
 * [Cloud and Analytics](CloudAndAnalytics.md)
 * [Services](Services.md)
 * [Software Customization](SoftwareCustomization.md)
