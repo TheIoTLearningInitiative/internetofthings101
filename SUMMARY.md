@@ -14,7 +14,6 @@
    * [Libraries](Libraries.md)
    * [Integrated Development Environments](IntegratedDevelopmentEnvironments.md)
 * [Getting Started](GettingStarted.md)
-   * [Image Flashing](ImageFlashing.md)
 * [Software Development Basics](SoftwareDevelopmentBasics.md)
 * [Protocols](Protocols.md)
 * [IoTPy](IoTPy.md)
