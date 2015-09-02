@@ -19,7 +19,7 @@
 * [Software Development](SoftwareDevelopment.md)
    * Package Management System
    * [Yocto Edison](YoctoEdison.md)
-   * Yocto Galileo
+   * [Yocto Galileo](YoctoGalileo.md)
 * [Protocols](Protocols.md)
 * [IoTPy](IoTPy.md)
 * [Cloud and Analytics](CloudAndAnalytics.md)
