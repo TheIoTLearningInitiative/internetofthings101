@@ -10,7 +10,7 @@ Operating System
 - OS X*
 - Linux*
 
-## Getting Started Edison
+## Intel® Edison
 
 [Intel® Edison Board Get Started Guide](https://software.intel.com/en-us/iot/library/edison-getting-started)
 
@@ -21,7 +21,7 @@ Operating System
 * [Codefoster Setting up an Intel Edison](http://www.codefoster.com/edison-setup/)
 * [Edison Mini Breakout: The Real Getting Started Guide](http://blog.microcasts.tv/2014/10/16/edison-mini-breakout-the-real-getting-started-guide)
 
-## Getting Started Galileo
+## Intel® Galileo
 
 * [Intel® Galileo Board Get Started Guide](https://software.intel.com/en-us/iot/library/galileo-getting-started)
 * [Intel® Galileo Makers Getting Started](https://communities.intel.com/community/makers/galileo/getting-started)
