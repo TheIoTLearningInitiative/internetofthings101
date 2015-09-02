@@ -17,7 +17,12 @@ Internet of Things 101
 - Home Internet of Things
 - Industrial Internet of Things
 
+## IoT Building Blocks
 
+- Things
+- Gateways
+- Network and Cloud
+- Services Creation and Solutions Layers
 
 ## Process Control Systems Basic Control Loop
 * Sense
