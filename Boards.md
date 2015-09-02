@@ -25,9 +25,10 @@ Boards
 * [IoT Intel® Galileo Board](https://software.intel.com/en-us/iot/hardware/galileo)
 * [SeedStudio Grove - Starter Kit for Arduino](http://www.seeedstudio.com/depot/Grove-Starter-Kit-for-Arduino-p-1855.html)
 
-    root@edison:~# uname -a
+
+    root@galileo:~# uname -a
     Linux edison 3.10.17-poky-edison+ #1 SMP PREEMPT Fri Jun 19 12:06:40 CEST 2015 i686 GNU/Linux
-    root@edison:~# cat /proc/cpuinfo | grep processor
+    root@galileo:~# cat /proc/cpuinfo | grep processor
     processor       : 0
     processor       : 1
 
