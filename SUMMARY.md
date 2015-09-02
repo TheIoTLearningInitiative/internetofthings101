@@ -14,6 +14,7 @@
        * [Operating Systems](OperatingSystems.md)
        * [Libraries](Libraries.md)
        * [Integrated Development Environments](IntegratedDevelopmentEnvironments.md)
+       * Programming Languages
 * [Getting Started](GettingStarted.md)
 * [Software Development](SoftwareDevelopment.md)
 * [Protocols](Protocols.md)
