@@ -11,6 +11,11 @@ Protocols
 
 [Mosquitto Homepage](http://mosquitto.org/)
 
+
+#### Mosquitto Edison Setup
+
+#### Mosquitto Applications
+
     root@platform:~# mosquitto
     root@platform:~# mosquitto_sub
     root@platform:~# mosquitto_pub
