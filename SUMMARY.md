@@ -16,6 +16,7 @@
 * [Getting Started](GettingStarted.md)
    * [Development Workstation](DevelopmentWorkstation.md)
    * [Edison](Edison.md)
+   * Galileo
 * [Software Development Basics](SoftwareDevelopmentBasics.md)
 * [Protocols](Protocols.md)
 * [IoTPy](IoTPy.md)
