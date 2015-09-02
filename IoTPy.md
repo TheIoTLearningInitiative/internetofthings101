@@ -13,13 +13,15 @@ Install Pip, Package Management System to install and manage software packages w
 
 Install Pip, Package Management System to install and manage software packages written in Python
 
-    https://bootstrap.pypa.io/get-pip.py
-    setuptools-12.2.tar.gz
-    tar zxf setuptools-12.2.tar.gz
-    python setuptools-12.2/ez_setup.py
+    root@edison:~# curl -O https://bootstrap.pypa.io/get-pip.py
+    root@edison:~# python get-pip.py
+    
+    root@edison:~# setuptools-12.2.tar.gz
+    root@edison:~# tar zxf setuptools-12.2.tar.gz
+    root@edison:~# python setuptools-12.2/ez_setup.py
     ...
-    wget --no-check-certificate https://bootstrap.pypa.io/ez_setup.py
-    python ez_setup.py --insecure
+    root@edison:~# wget --no-check-certificate https://bootstrap.pypa.io/ez_setup.py
+    root@edison:~# python ez_setup.py --insecure
     
     Not Working!
     opkg update python-pygame
