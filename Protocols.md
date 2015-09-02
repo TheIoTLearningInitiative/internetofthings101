@@ -21,7 +21,7 @@ None
     root@galileo:~# wget http://mosquitto.org/files/source/mosquitto-1.3.5.tar.gz
     root@galileo:~# tar xvf mosquitto-1.3.5.tar.gz
     root@galileo:~# cd mosquitto-1.3.5
-    root@galileo:~# make
+    root@galileo:~# make WITH_SRV=no
     root@galileo:~# adduser mosquitto
     root@galileo:~# cd test/broker
     root@galileo:~# make test
