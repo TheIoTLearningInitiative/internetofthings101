@@ -8,7 +8,7 @@ Getting Started
 
 ## Edison
 
-[Intel® Edison Board Get Started Guide](https://software.intel.com/en-us/iot/library/edison-getting-started)
+* [Intel® Edison Board Get Started Guide](https://software.intel.com/en-us/iot/library/edison-getting-started)
 
 ### Other Guides
 
