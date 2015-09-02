@@ -53,6 +53,7 @@ Install Pip, Package Management System to install and manage software packages w
     root@galileo:~/iot/iotpy# ls configuration/
     credentials.config  voicerss.ak  voicerss.mk
 
+## IoTPy
 
 Install IoTPy Workshop Git Repository
 
