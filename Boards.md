@@ -36,3 +36,9 @@ Boards
 > A compact, affordable, and powerful development board for both professionals and makers, this open-hardware design allows for endless customization and integration potential. It is a platform with diverse strengths that empowers developers to innovate in the deeply embedded market.
 
 * [MinnowBoard MAX* Development Board](https://software.intel.com/en-us/iot/hardware/minnow-board-max)
+
+
+    root@minnowboard:~# uname -a
+    ...
+    root@minnowboard:~# cat /proc/cpuinfo | grep processor
+    processor       : 0
