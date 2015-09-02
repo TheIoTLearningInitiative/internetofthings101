@@ -58,5 +58,5 @@ At the Development Workstation
 
 > Keep your development environment up-to-date with software downloads for the Intel® Galileo board.
 
-* [Intel® Galileo Board Downloads](https://software.intel.com/en-us/iot/hardware/galileo/downloads)
+[Intel® Galileo Board Downloads](https://software.intel.com/en-us/iot/hardware/galileo/downloads)
 
