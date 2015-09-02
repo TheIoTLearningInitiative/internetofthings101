@@ -3,6 +3,8 @@ Intel® Gateway Solutions
 
 > Transform Business with Intelligent Gateway Solutions for IoT
 
+> Unlock the Value of Data Today Without Replacing Equipment
+
 > Manage sensor data, connect existing devices, and create new applications to bring all of your systems together. Pre-integrated hardware and software building blocks let you scale through security, manageability, and connectivity capabilities.
 
 http://www.intel.com/content/www/us/en/internet-of-things/gateway-solutions.html
