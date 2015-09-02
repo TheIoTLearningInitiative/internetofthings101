@@ -21,7 +21,7 @@ Operating System
 * [Codefoster Setting up an Intel Edison](http://www.codefoster.com/edison-setup/)
 * [Edison Mini Breakout: The Real Getting Started Guide](http://blog.microcasts.tv/2014/10/16/edison-mini-breakout-the-real-getting-started-guide)
 
-## Galileo Getting Started
+## Galileo
 
 * [Intel® Galileo Board Get Started Guide](https://software.intel.com/en-us/iot/library/galileo-getting-started)
 * [Intel® Galileo Makers Getting Started](https://communities.intel.com/community/makers/galileo/getting-started)
