@@ -17,6 +17,8 @@ Internet of Things 101
 - Home Internet of Things
 - Industrial Internet of Things
 
+
+
 ## Process Control Systems Basic Control Loop
 * Sense
 * Monitor
