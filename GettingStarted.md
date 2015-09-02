@@ -3,11 +3,10 @@ Getting Started
 
 ## Development Workstation
 
-- [Edison Installer](https://software.intel.com/en-us/iot/hardware/edison/downloads)
-
 ## Edison
 
 * [Intel® Edison Board Get Started Guide](https://software.intel.com/en-us/iot/library/edison-getting-started)
+* [Intel® Edison Board Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
 
 ### Other Guides
 
