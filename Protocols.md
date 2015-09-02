@@ -64,6 +64,9 @@ See output for the following command
 ## Others
 
 ### Bluetoth Low Energy
+
+> Bluetooth low energy (Bluetooth LE, BLE, marketed as Bluetooth Smart[1]) is a wireless personal area network technology designed and marketed by the Bluetooth Special Interest Group aimed at novel applications in the healthcare, fitness, beacons,[2] security, and home entertainment industries.[3] Compared to Classic Bluetooth, Bluetooth Smart is intended to provide considerably reduced power consumption and cost while maintaining a similar communication range ... *From Wikipedia, the free encyclopedia* 
+
 ### BT
 
 
