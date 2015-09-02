@@ -1,14 +1,13 @@
 IoTPy
 ==
 
-## Setup
 ## Setup Edison
 
 Install Pip, Package Management System to install and manage software packages written in Python
 
     root@edison:~# opkg install python-pip
 
-## Yocto Galileo Advanced
+## Setup Galileo
 
 Install Pip, Package Management System to install and manage software packages written in Python
 
