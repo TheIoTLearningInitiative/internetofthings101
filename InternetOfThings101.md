@@ -25,6 +25,7 @@ Internet of Things 101
 - Services Creation and Solutions Layers
 
 ## Process Control Systems Basic Control Loop
+
 * Sense
 * Monitor
 * Analize
@@ -32,6 +33,7 @@ Internet of Things 101
 * Actuate
 
 ## Internet of Things System
+
 * Sensors, Actuators
 * Protocol
 * Storage / Control
