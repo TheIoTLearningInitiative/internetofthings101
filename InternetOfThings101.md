@@ -8,11 +8,13 @@ Internet of Things 101
 [Intel and The Internet of Things](https://newsroom.intel.com/docs/DOC-5224)
 
 ## Costs Past 10 Years
+
 - Cost of Sensors 2x Decreased
 - Cost of Bandwidth 40x Decreased
 - Cost of Processing 60x Decreased
 
 ## Areas
+
 - Mobile Internet of Things
 - Home Internet of Things
 - Industrial Internet of Things
