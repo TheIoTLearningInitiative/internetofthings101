@@ -17,6 +17,7 @@
        * [Integrated Development Environments](IntegratedDevelopmentEnvironments.md)
 * [Getting Started](GettingStarted.md)
 * [Software Development](SoftwareDevelopment.md)
+   * Package Management System
 * [Protocols](Protocols.md)
 * [IoTPy](IoTPy.md)
 * [Cloud and Analytics](CloudAndAnalytics.md)
