@@ -1,7 +1,7 @@
 Software Development
 ==
 
-## Yocto Edison Basics
+## Yocto Edison
 
 Check your kernel version
 
