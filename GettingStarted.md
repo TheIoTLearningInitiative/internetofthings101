@@ -3,7 +3,7 @@ Getting Started
 
 ## Development Workstation
 
-Choose your Operating System:
+Choose your Operating System
 
 - Windows* 64-bit
 - Windows* 32-bit
