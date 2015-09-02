@@ -30,7 +30,6 @@ Boards
     ...
     root@galileo:~# cat /proc/cpuinfo | grep processor
     processor       : 0
-    processor       : 1
 
 ## MinnowBoard MAX
 
