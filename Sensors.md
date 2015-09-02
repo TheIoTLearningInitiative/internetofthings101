@@ -1,7 +1,7 @@
 Sensors
 ==
 
-> A sensor is a transducer whose purpose is to sense (that is, to detect) some characteristic of its environments.
+> A sensor is a transducer whose purpose is to sense (that is, to detect) some characteristic of its environments... From Wikipedia, the free encyclopedia
 
 ### Intel & Seeed Studio
 > Grove starter kit plus – Intel IoT Edition for Intel Galileo Gen 2 and Edison
