@@ -72,7 +72,7 @@ In case only WiFi was configure, configure also password to enable SSH on the wi
     First-time root password setup complete. Enabling SSH on WiFi interface.
     The device password has been changed.
 
-## Yocto Galileo Basics
+## Yocto Galileo
 
 Check your kernel version
 
