@@ -27,3 +27,34 @@ Choose your Operating System
 * [Intel® Galileo Board Get Started Guide](https://software.intel.com/en-us/iot/library/galileo-getting-started)
 * [Intel® Galileo Board Downloads](https://software.intel.com/en-us/iot/hardware/galileo/downloads)
 * [Intel® Galileo Makers Getting Started](https://communities.intel.com/community/makers/galileo/getting-started)
+
+## Image Flashing
+
+### Edison
+
+At the Edison
+
+    U-Boot 2014.04 (Aug 20 2014 - 16:08:32)
+       Watchdog enabled
+    DRAM:  980.6 MiB
+    MMC:   tangier_sdhci: 0
+    In:    serial
+    Out:   serial
+    Err:   serial
+    Hit any key to stop autoboot:  0
+    boot > run do_ota
+    reading ota_update.scr
+    14747 bytes read in 31 ms (463.9 KiB/s)
+    ## Executing script at 00100000
+    ...
+ 
+At the host
+
+    C:\Users\aarcemor\Downloads\edison-image-ww25.5-15>flashall.bat
+
+[All your Intel® Edison Board Downloads in One Spot!](https://software.intel.com/en-us/iot/hardware/edison/downloads)
+
+### Galileo
+
+[All the Intel® Galileo Board Downloads in One Spot!](https://software.intel.com/en-us/iot/hardware/galileo/downloads)
+
