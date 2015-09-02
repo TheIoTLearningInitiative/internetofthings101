@@ -35,7 +35,7 @@ As publisher
 
 See output for the following command
 
-    root@edison:~# mosquitto_sub -h test.mosquitto.org -t "#" -v
+    root@platform:~# mosquitto_sub -h test.mosquitto.org -t "#" -v
 
 [Building and running Mosquitto MQTT on Intel Edison](https://software.intel.com/en-us/blogs/2015/02/20/building-and-running-mosquitto-mqtt-on-intel-edison)
 
