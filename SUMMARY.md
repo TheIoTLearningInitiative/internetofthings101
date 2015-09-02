@@ -18,7 +18,7 @@
 * [Getting Started](GettingStarted.md)
 * [Software Development](SoftwareDevelopment.md)
    * Package Management System
-   * Yocto Edison
+   * [Yocto Edison](YoctoEdison.md)
    * Yocto Galileo
 * [Protocols](Protocols.md)
 * [IoTPy](IoTPy.md)
