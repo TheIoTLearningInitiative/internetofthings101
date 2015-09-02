@@ -15,7 +15,7 @@ Sensors
 > SparkFun Electronics (sometimes known by its abbreviation, SFE) is an electronics retailer in Niwot, Colorado, United States. It manufactures and sells microcontroller development boards and breakout boards.
 
 * [Sparkfun](https://www.sparkfun.com/)
-* [Intel Edison @ Sparkfun](https://www.sparkfun.com/categories/272)
+* [Intel® Edison @ Sparkfun](https://www.sparkfun.com/categories/272)
 
 ### Adafruit
 
