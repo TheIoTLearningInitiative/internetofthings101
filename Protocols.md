@@ -12,7 +12,7 @@ Protocols
 [Mosquitto Homepage](http://mosquitto.org/)
 
 
-#### Mosquitto Edison Setup
+#### Mosquitto Intel® Edison Setup
 
 #### Mosquitto Applications
 
