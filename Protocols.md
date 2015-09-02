@@ -14,6 +14,8 @@ Protocols
 
 #### Mosquitto Intel® Edison Setup
 
+
+
 #### Mosquitto Intel® Galileo Setup
 
 #### Mosquitto Applications
