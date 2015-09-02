@@ -17,7 +17,7 @@
        * [Integrated Development Environments](IntegratedDevelopmentEnvironments.md)
 * [Getting Started](GettingStarted.md)
 * [Software Development](SoftwareDevelopment.md)
-   * Package Management System
+   * [Package Management System](PackageManagementSystem.md)
    * [Yocto Edison](YoctoEdison.md)
    * [Yocto Galileo](YoctoGalileo.md)
 * [Protocols](Protocols.md)
