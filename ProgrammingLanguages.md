@@ -1,4 +1,4 @@
-## Programming 
+## Programming Languages
 
 - Arduino
 - Intel XDK
