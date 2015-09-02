@@ -1,8 +1,7 @@
 Getting Started
 ==
 
-Development Workstation
-==
+## Development Workstation
 
 ## Operating System
 
