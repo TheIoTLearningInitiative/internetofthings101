@@ -29,8 +29,9 @@ Enable IoTPy Workshop credentials
     access_token=
     access_token_secret=
     
-    [thingspeak]
-    apikey=
+    [voicerss]
+    mashapekey = 
+    mashapekey = 
     
     # End of File
 
