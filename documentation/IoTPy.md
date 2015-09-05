@@ -13,8 +13,7 @@ Enable IoTPy Workshop credentials
     root@platform:~/InternetOfThings101/iotpy# mkdir configuration
     root@platform:~/InternetOfThings101/iotpy# nano configuration/credentials
     
-    
-    root@edison:~/InternetOfThings101/iotpy# cat README.md                          
+    root@platform:~/InternetOfThings101/iotpy# cat README.md                          
     # IoTPy File Configuration                                                      
     
     [twitter]
