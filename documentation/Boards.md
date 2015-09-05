@@ -46,4 +46,4 @@ Boards
 
 ## Intel® Curie™ Module
 
->
+> Unleashing Wearable Device Innovation
