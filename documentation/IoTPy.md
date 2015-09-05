@@ -78,17 +78,18 @@ Install Pip, Python Package Index to install and manage software packages writte
     
     root@edison:~# curl https://bootstrap.pypa.io/ez_setup.py -o - | python
     
+    root@edison:~# pip install psutil paho-mqtt twython
+    root@edison:~# pip install --allow-all-external pywapi --allow-unverified pywapi
+    root@edison:~# pip install --allow-all-external plotly --allow-unverified plotly
+    root@edison:~# opkg install python-numpy opencv python-opencv nano alsa-utils plotly
+
+
     Not Working!
     opkg update python-pygame
     
     Partially Working
     <compile> mpg123 mosquitto
     <python get-pip.py> python-pip
-    
-    root@edison:~# pip install psutil paho-mqtt twython
-    root@edison:~# pip install --allow-all-external pywapi --allow-unverified pywapi
-    root@edison:~# pip install --allow-all-external plotly --allow-unverified plotly
-    root@edison:~# opkg install python-numpy opencv python-opencv nano alsa-utils plotly
 
     Steps to follow
 
