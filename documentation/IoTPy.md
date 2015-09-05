@@ -7,7 +7,7 @@ Install IoTPy Workshop Git Repository
 
     root@platform:~# git clone https://github.com/TheIoTLearningInitiative/InternetOfThings101.git
     
-Create IoTPy Workshop
+Enable IoTPy Workshop credentials
 
     root@platform:~# cd iot/iotpy
     root@platform:~# mkdir configuration
