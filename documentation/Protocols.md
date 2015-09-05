@@ -18,18 +18,7 @@ None
 
 #### Mosquitto Intel® Galileo Setup
 
-    root@galileo:~# wget http://mosquitto.org/files/source/mosquitto-1.3.5.tar.gz
-    root@galileo:~# tar xvf mosquitto-1.3.5.tar.gz
-    root@galileo:~# cd mosquitto-1.3.5
-    root@galileo:~# make WITH_SRV=no
-    root@galileo:~# adduser mosquitto
-    root@galileo:~# cd test/broker
-    root@galileo:~# make test
-    root@galileo:~# cd ../../
-    root@galileo:~# cp client/mosquitto_pub /usr/bin
-    root@galileo:~# cp client/mosquitto_sub /usr/bin
-    root@galileo:~# cp lib/libmosquitto.so.1 /usr/lib
-    root@galileo:~# cp src/mosquitto /usr/bin
+
 
 #### Mosquitto Applications
 
