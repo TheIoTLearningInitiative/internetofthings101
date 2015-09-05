@@ -5,7 +5,7 @@ IoTPy
 
 ## Setup Edison
 
-Install Pip, Package Management System to install and manage software packages written in Python
+Install Pip, Python Package Index to install and manage software packages written in Python
 
     root@edison:~# opkg install python-pip
     
