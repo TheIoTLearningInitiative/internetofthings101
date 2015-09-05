@@ -57,3 +57,4 @@ The Intel Curie Module includes:
 - Battery charging circuitry (PMIC)
 
 [Intel® Curie™ Module Factsheet](http://download.intel.com/newsroom/kits/ces/2015/pdfs/Intel_CURIE_Module_Factsheet.pdf)
+[Intel's Newest Wearable Module: Intel® Curie™](https://software.intel.com/en-us/articles/intels-newest-wearable-module-intel-curie)
