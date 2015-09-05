@@ -27,7 +27,12 @@ Enable IoTPy Workshop credentials
     
     # End of File
 
+Run IoTPy Modules
+
     root@platform:~/InternetOfThings101/iotpy# python main.py -m aio
+
+Run IoTPy Projects
+
     root@platform:~/InternetOfThings101/iotpy# python main.py -p <project>
 
 ## Setup Edison
