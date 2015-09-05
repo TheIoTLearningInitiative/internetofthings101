@@ -102,15 +102,5 @@ Install Pip, Python Package Index to install and manage software packages writte
     root@edison:~# python ez_setup.py --insecure
     ...
 
-    pip
-    python get-pip.py
-    
-    curl https://bootstrap.pypa.io/ez_setup.py -o - | python
-    
-    https://software.intel.com/en-us/blogs/2015/02/20/building-and-running-mosquitto-mqtt-on-intel-edison
-    
-    Working!
-    opkg install python-numpy opencv python-opencv nano alsa-utils plotly
-
     root@galileo:~/iot/iotpy# ls configuration/
     credentials.config  voicerss.ak  voicerss.mk
