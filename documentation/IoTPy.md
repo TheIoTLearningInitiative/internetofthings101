@@ -39,7 +39,7 @@ Run IoTPy Modules
 
 Run IoTPy Projects
 
-    root@platform:~/InternetOfThings101/iotpy# python main.py -p <project>
+    root@platform:~/InternetOfThings101/iotpy# python main.py -p 
 
 ## Setup Edison
 
