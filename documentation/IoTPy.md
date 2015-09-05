@@ -63,7 +63,7 @@ Install Pip, Python Package Index to install and manage software packages writte
 
     root@edison:~# opkg install python-pip
     
-    root@edison:~# pip install psutil paho-mqtt
+    root@edison:~# pip install psutil paho-mqtt twython
     root@edison:~# pip install --allow-all-external pywapi --allow-unverified pywapi
     root@edison:~# pip install --allow-all-external plotly --allow-unverified plotly
     
