@@ -30,7 +30,8 @@ Enable IoTPy Workshop credentials
 Run IoTPy Modules
 
     root@platform:~/InternetOfThings101/iotpy# python main.py -m aio
-    root@platform:~/InternetOfThings101/iotpy# python main.py -m aio
+    root@platform:~/InternetOfThings101/iotpy# python main.py -m bpta
+    root@platform:~/InternetOfThings101/iotpy# python main.py -m gpio    
 
 Run IoTPy Projects
 
