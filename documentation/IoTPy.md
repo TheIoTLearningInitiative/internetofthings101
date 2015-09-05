@@ -13,7 +13,20 @@ Enable IoTPy Workshop credentials
     root@platform:~# mkdir configuration
     root@platform:~# nano configuration/credentials
     
-
+    
+    root@edison:~/InternetOfThings101/iotpy# cat README.md                          
+    # IoTPy File Configuration                                                      
+    
+    [twitter]                                                                       
+    consumer_key=                                                                   
+    consumer_secret=                                                                
+    access_token=                                                                   
+    access_token_secret=                                                            
+    
+    [thingspeak]                                                                    
+    apikey=                                                                         
+    
+    # End of File
 
     root@platform:~# python main.py -m <module>
     root@platform:~# python main.py -p <project>
