@@ -36,3 +36,4 @@
 
 ### Intel® IQ Software Kits
 
+[Designing a Great Wearables Experience](http://blogs.intel.com/technology/2014/08/designing-great-wearables-experience/)
