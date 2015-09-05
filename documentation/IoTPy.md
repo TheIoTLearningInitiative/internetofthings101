@@ -12,6 +12,7 @@ Enable IoTPy Workshop credentials
     root@platform:~# cd InternetOfThings101/iotpy
     root@platform:~/InternetOfThings101/iotpy# mkdir configuration
     root@platform:~/InternetOfThings101/iotpy# nano configuration/credentials
+    
     # IoTPy File Configuration
     
     [plotly]
