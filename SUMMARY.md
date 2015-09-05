@@ -25,4 +25,5 @@
 * [Cloud and Analytics](CloudAndAnalytics.md)
 * [Services](Services.md)
 * [Software Customization](SoftwareCustomization.md)
+* Communication
 
