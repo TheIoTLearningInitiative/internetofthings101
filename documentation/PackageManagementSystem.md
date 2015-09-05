@@ -36,6 +36,9 @@ Install RMAA and UPM Libraries
     root@edison:~# opkg install libmraa0
     root@edison:~# opkg install upm
 
+
+    root@edison:~# opkg list
+
 ## OPKG Galileo
 
 Update Opkg sources, we will not upgrade to avoid consuming disk space
