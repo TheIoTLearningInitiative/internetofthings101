@@ -34,6 +34,10 @@ Enable IoTPy Workshop credentials
     apikey = 
     
     # End of File
+    
+    root@platform:~/InternetOfThings101/iotpy# echo <voicerss mashapekey> > configuration/voicerss.ak
+    root@platform:~/InternetOfThings101/iotpy# echo <voicerss apikey> > configuration/voicerss.mk    
+
 
 Run IoTPy Modules
 
