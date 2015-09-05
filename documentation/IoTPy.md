@@ -84,6 +84,7 @@ Install Pip, Python Package Index to install and manage software packages writte
 
     root@edison:~# wget http://downloads.sourceforge.net/project/mpg123/mpg123/1.22.4/mpg123-1.22.4.tar.bz2
     root@edison:~# tar xvf mpg123-1.22.4.tar.bz2
+    root@edison:~# cd mpg123-1.22.4/
     root@edison:~# ./configure
     root@edison:~# make
     root@edison:~# make install
