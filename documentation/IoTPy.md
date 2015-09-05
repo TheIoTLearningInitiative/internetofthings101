@@ -83,6 +83,11 @@ Install Pip, Python Package Index to install and manage software packages writte
     root@edison:~# pip install --allow-all-external plotly --allow-unverified plotly
     root@edison:~# opkg install python-numpy opencv python-opencv nano alsa-utils plotly
 
+    root@edison:~# mpg123
+    root@edison:~# get source code
+    root@edison:~# ./configure
+    root@edison:~# make
+    root@edison:~# make install
 
     Not Working!
     opkg update python-pygame
@@ -93,11 +98,6 @@ Install Pip, Python Package Index to install and manage software packages writte
 
     Steps to follow
 
-    mpg123
-    get source code
-    ./configure
-    make
-    make install
     
     root@edison:~# setuptools-12.2.tar.gz
     root@edison:~# tar zxf setuptools-12.2.tar.gz
