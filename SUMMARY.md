@@ -1,6 +1,5 @@
 # Summary
 
-* [Cover](README.md)
 * [Introduction](documentation/Introduction.md)
 * [Summary](SUMMARY.md)
 * [Internet Of Things 101](documentation/InternetOfThings101.md)
