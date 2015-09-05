@@ -36,23 +36,6 @@ Check IP address assigned
     wlan      Link encap:Ethernet  HWaddr 00:1C:C0:AE:B5:E6  
               inet addr:192.168.1.74  Bcast:192.168.0.255  Mask:255.255.255.0
 
-
-### BlueTooth
-
-More information at [Intel Edison Bluetooth Guide](http://download.intel.com/support/edison/sb/edisonbluetooth_331704004.pdf)
-
-    root@galileo:~# rfkill unblock bluetooth
-    root@galileo:~# bluetoothctl
-    [bluetooth]# scan on
-    [bluetooth]# scan off
-    [bluetooth]# pair 40:78:6A:26:4A:C2
-    [bluetooth]# connect 40:78:6A:26:4A:C2
-    [bluetooth]# paired-devices
-    [bluetooth]# info 40:78:6A:26:4A:C2
-    [bluetooth]# exit
-    root@edison:~# rfcomm bind - 40:78:6A:26:4A:C2 1
-    root@edison:~# ls /dev/rfcomm0
-
 ## Yocto Galileo
 
 Check your kernel version
