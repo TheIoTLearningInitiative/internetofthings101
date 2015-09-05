@@ -21,7 +21,7 @@
    * [Yocto Edison](YoctoEdison.md)
    * [Yocto Galileo](YoctoGalileo.md)
    * [Python Programming Language](PythonProgrammingLanguage.md)
-* Communication
+* [Communication](Communication.md)
    * [Protocols](Protocols.md)
 * [IoTPy](IoTPy.md)
 * [Cloud and Analytics](CloudAndAnalytics.md)
