@@ -3,6 +3,19 @@ IoTPy
 
 > Internet of Things Python
 
+## IoTPy
+
+Install IoTPy Workshop Git Repository
+
+    root@platform:~# git clone https://github.com/xe1gyq/iot.git
+    
+Run IoTPy Workshop examples
+
+    root@platform:~# cd iot/iotpy
+    root@platform:~# python main.py -m <module>
+    root@platform:~# python main.py -p <project>
+
+
 ## Setup Edison
 
 Install Pip, Python Package Index to install and manage software packages written in Python
@@ -64,15 +77,3 @@ Install Pip, Python Package Index to install and manage software packages writte
 
     root@galileo:~/iot/iotpy# ls configuration/
     credentials.config  voicerss.ak  voicerss.mk
-
-## IoTPy
-
-Install IoTPy Workshop Git Repository
-
-    root@platform:~# git clone https://github.com/xe1gyq/iot.git
-    
-Run IoTPy Workshop examples
-
-    root@platform:~# cd iot/iotpy
-    root@platform:~# python main.py -m <module>
-    root@platform:~# python main.py -p <project>
