@@ -17,13 +17,13 @@ Enable IoTPy Workshop credentials
     root@edison:~/InternetOfThings101/iotpy# cat README.md                          
     # IoTPy File Configuration                                                      
     
-    [twitter]                                                                       
+    [twitter]
     consumer_key=                                                                   
     consumer_secret=                                                                
     access_token=                                                                   
     access_token_secret=                                                            
     
-    [thingspeak]                                                                    
+    [thingspeak]
     apikey=                                                                         
     
     # End of File
