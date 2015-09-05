@@ -101,6 +101,3 @@ Install Pip, Python Package Index to install and manage software packages writte
     root@edison:~# wget --no-check-certificate https://bootstrap.pypa.io/ez_setup.py
     root@edison:~# python ez_setup.py --insecure
     ...
-
-    root@galileo:~/iot/iotpy# ls configuration/
-    credentials.config  voicerss.ak  voicerss.mk
