@@ -18,13 +18,13 @@ Enable IoTPy Workshop credentials
     # IoTPy File Configuration                                                      
     
     [twitter]
-    consumer_key=                                                                   
-    consumer_secret=                                                                
-    access_token=                                                                   
-    access_token_secret=                                                            
+    consumer_key=
+    consumer_secret=
+    access_token=
+    access_token_secret=
     
     [thingspeak]
-    apikey=                                                                         
+    apikey=
     
     # End of File
 
