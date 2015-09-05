@@ -30,6 +30,8 @@
 
 > Wyliodrin is an online service that allows you to visually create applications for Linux development boards and control them from your browser. You can use their service to program a Raspberry Pi and they've recently partnered with Intel to allow you to program second generation Galileo boards...
 
-## Linux Development
+### Linux Development
 
 > Tbd
+
+### Intel® IQ Software Kits
