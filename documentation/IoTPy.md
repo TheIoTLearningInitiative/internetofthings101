@@ -61,13 +61,13 @@ Run IoTPy Projects
 
 Install Pip, Python Package Index to install and manage software packages written in Python
 
-    root@edison:~# opkg install python-pip mpg123
+    root@edison:~# opkg install python-pip
     
     root@edison:~# pip install psutil paho-mqtt twython
     root@edison:~# pip install --allow-all-external pywapi --allow-unverified pywapi
     root@edison:~# pip install --allow-all-external plotly --allow-unverified plotly
     
-    root@edison:~# opkg install python-numpy opencv python-opencv nano alsa-utils
+    root@edison:~# opkg install python-numpy opencv python-opencv nano alsa-utils mpg123
 
 ## Setup Galileo
 
