@@ -89,7 +89,7 @@ Install Pip, Python Package Index to install and manage software packages writte
     root@edison:~# make
     root@edison:~# make install
 
-    Steps to follow
+    Pending To Process
 
     Not Working!
     opkg update python-pygame
