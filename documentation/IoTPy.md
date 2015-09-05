@@ -89,10 +89,10 @@ Install Pip, Python Package Index to install and manage software packages writte
     root@edison:~# make
     root@edison:~# make install
 
+    Steps to follow
+
     Not Working!
     opkg update python-pygame
-    
-    Steps to follow
 
     root@edison:~# setuptools-12.2.tar.gz
     root@edison:~# tar zxf setuptools-12.2.tar.gz
