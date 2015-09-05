@@ -28,4 +28,5 @@
 * [Cloud and Analytics](documentation/CloudAndAnalytics.md)
 * [Services](documentation/Services.md)
 * [Software Customization](documentation/SoftwareCustomization.md)
+* Challenges
 
