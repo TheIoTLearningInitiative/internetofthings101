@@ -10,7 +10,7 @@
        * [Boards](documentation/Boards.md)
        * [Sensors](documentation/Sensors.md)
        * [Gateways](documentation/Gateways.md)
-       * Miscellaneous
+       * [Miscellaneous](documentation/Miscellaneous.md)
    * [Software](documentation/Software.md)
        * [Programming Languages](documentation/ProgrammingLanguages.md)
        * [Operating Systems](documentation/OperatingSystems.md)
