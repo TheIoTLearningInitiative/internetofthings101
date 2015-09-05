@@ -27,8 +27,8 @@ Enable IoTPy Workshop credentials
     
     # End of File
 
-    root@platform:~# python main.py -m <module>
-    root@platform:~# python main.py -p <project>
+    root@platform:~/InternetOfThings101/iotpy# python main.py -m <module>
+    root@platform:~/InternetOfThings101/iotpy# python main.py -p <project>
 
 ## Setup Edison
 
