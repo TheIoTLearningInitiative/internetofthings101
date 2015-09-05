@@ -67,7 +67,7 @@ Install Pip, Python Package Index to install and manage software packages writte
     root@edison:~# pip install --allow-all-external pywapi --allow-unverified pywapi
     root@edison:~# pip install --allow-all-external plotly --allow-unverified plotly
     
-    root@edison:~# opkg install python-numpy opencv python-opencv nano alsa-utils plotly
+    root@edison:~# opkg install python-numpy opencv python-opencv nano alsa-utils
 
 ## Setup Galileo
 
