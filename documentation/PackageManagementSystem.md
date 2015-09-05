@@ -48,3 +48,20 @@ In case only WiFi was configure, configure also password to enable SSH on the wi
     Please enter the password again:        ********
     First-time root password setup complete. Enabling SSH on WiFi interface.
     The device password has been changed.
+
+## OPKG Galileo
+
+Update Opkg sources, we will not upgrade to avoid consuming disk space
+
+    root@galileo:~# opkg update
+    ...
+    root@galileo:~# 
+
+Install Git, Version Control System
+
+    root@galileo:~# opkg install git
+
+Install RMAA and UPM Libraries
+
+    root@galileo:~# opkg install libmraa0
+    root@galileo:~# opkg install upm
