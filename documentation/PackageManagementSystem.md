@@ -36,6 +36,7 @@ Install RMAA and UPM Libraries
     root@edison:~# opkg install libmraa0
     root@edison:~# opkg install upm
 
+List available package to be installed
 
     root@edison:~# opkg list
 
@@ -55,3 +56,7 @@ Install RMAA and UPM Libraries
 
     root@galileo:~# opkg install libmraa0
     root@galileo:~# opkg install upm
+
+List available package to be installed
+
+    root@edison:~# opkg list
