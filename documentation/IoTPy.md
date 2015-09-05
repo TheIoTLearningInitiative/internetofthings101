@@ -8,6 +8,7 @@ IoTPy
 Install Pip, Package Management System to install and manage software packages written in Python
 
     root@edison:~# opkg install python-pip
+    root@edison:~# pip install psutil paho-mqtt
 
 ## Setup Galileo
 
