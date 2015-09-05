@@ -82,8 +82,8 @@ Install Pip, Python Package Index to install and manage software packages writte
     root@edison:~# pip install --allow-all-external plotly --allow-unverified plotly
     root@edison:~# opkg install python-numpy opencv python-opencv nano alsa-utils
 
-    root@edison:~# mpg123
-    root@edison:~# get source code
+    root@edison:~# wget http://downloads.sourceforge.net/project/mpg123/mpg123/1.22.4/mpg123-1.22.4.tar.bz2
+    root@edison:~# tar xvf mpg123-1.22.4.tar.bz2
     root@edison:~# ./configure
     root@edison:~# make
     root@edison:~# make install
