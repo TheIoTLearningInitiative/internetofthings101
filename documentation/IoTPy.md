@@ -97,4 +97,3 @@ Install Pip, Python Package Index to install and manage software packages writte
     root@edison:~# setuptools-12.2.tar.gz
     root@edison:~# tar zxf setuptools-12.2.tar.gz
     root@edison:~# python setuptools-12.2/ez_setup.py
-    ...
