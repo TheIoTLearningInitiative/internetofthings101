@@ -36,6 +36,7 @@ Run IoTPy Modules
     root@platform:~/InternetOfThings101/iotpy# python main.py -m mqttsub
     root@platform:~/InternetOfThings101/iotpy# python main.py -m mraa
     root@platform:~/InternetOfThings101/iotpy# time python main.py -m opencv    
+
 Run IoTPy Projects
 
     root@platform:~/InternetOfThings101/iotpy# python main.py -p <project>
