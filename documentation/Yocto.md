@@ -1,7 +1,7 @@
 Yocto
 ==
 
-## Yocto Edison 
+## Yocto Edison
 
 Check your kernel version
 
