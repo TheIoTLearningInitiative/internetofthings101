@@ -1,7 +1,7 @@
 IoTPy
 ==
 
-> Internet of Things Python
+> Internet of Things with Python
 
 Clone the IoTPy Workshop Git Repository
 
