@@ -15,7 +15,6 @@ Run IoTPy Workshop examples
     root@platform:~# python main.py -m <module>
     root@platform:~# python main.py -p <project>
 
-
 ## Setup Edison
 
 Install Pip, Python Package Index to install and manage software packages written in Python
