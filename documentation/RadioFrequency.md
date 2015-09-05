@@ -5,11 +5,23 @@ Radio Frequency
 
 ## Bluetoth Low Energy
 
-> Bluetooth low energy (Bluetooth LE, BLE, marketed as Bluetooth Smart[1]) is a wireless personal area network technology designed and marketed by the Bluetooth Special Interest Group aimed at novel applications in the healthcare, fitness, beacons,[2] security, and home entertainment industries.[3] Compared to Classic Bluetooth, Bluetooth Smart is intended to provide considerably reduced power consumption and cost while maintaining a similar communication range ... *From Wikipedia, the free encyclopedia* 
+> Bluetooth low energy (Bluetooth LE, BLE, marketed as Bluetooth Smart[1]) is a wireless personal area network technology designed and marketed by the Bluetooth Special Interest Group aimed at novel applications in the healthcare, fitness, beacons,[2] security, and home entertainment industries.[3] Compared to Classic Bluetooth, Bluetooth Smart is intended to provide considerably reduced power consumption and cost while maintaining a similar communication range ... *From Wikipedia, the free encyclopedia*
 
-## BT
+## BlueTooth
 
-Tbd
+More information at [Intel Edison Bluetooth Guide](http://download.intel.com/support/edison/sb/edisonbluetooth_331704004.pdf)
+
+    root@galileo:~# rfkill unblock bluetooth
+    root@galileo:~# bluetoothctl
+    [bluetooth]# scan on
+    [bluetooth]# scan off
+    [bluetooth]# pair 40:78:6A:26:4A:C2
+    [bluetooth]# connect 40:78:6A:26:4A:C2
+    [bluetooth]# paired-devices
+    [bluetooth]# info 40:78:6A:26:4A:C2
+    [bluetooth]# exit
+    root@edison:~# rfcomm bind - 40:78:6A:26:4A:C2 1
+    root@edison:~# ls /dev/rfcomm0
 
 ## ZigBee
 
