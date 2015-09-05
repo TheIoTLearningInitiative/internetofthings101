@@ -45,3 +45,4 @@ Boards
     processor       : 0
 
 ## Intel® Curie™ Module
+
