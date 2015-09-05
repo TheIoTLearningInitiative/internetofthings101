@@ -43,7 +43,7 @@ Run IoTPy Projects
     root@platform:~/InternetOfThings101/iotpy# python main.py -p climate
     root@platform:~/InternetOfThings101/iotpy# python main.py -p selfie
     root@platform:~/InternetOfThings101/iotpy# python main.py -p system
-    root@platform:~/InternetOfThings101/iotpy# python main.py -p alive    
+    root@platform:~/InternetOfThings101/iotpy# python main.py -p weather   
 
 ## Setup Edison
 
