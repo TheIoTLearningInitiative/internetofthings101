@@ -3,7 +3,7 @@
 * [Cover](README.md)
 * [Introduction](documentation/Introduction.md)
 * [Summary](SUMMARY.md)
-* [Internet Of Things 101](documentation/InternetOfThings101.md)
+* [Internet Of Things](documentation/InternetOfThings.md)
 * [Resources](documentation/Resources.md)
 * [Development Environment](documentation/DevelopmentEnvironment.md)
    * [Hardware](documentation/Hardware.md)
