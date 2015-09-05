@@ -9,6 +9,9 @@ Install Pip, Package Management System to install and manage software packages w
 
     root@edison:~# opkg install python-pip
     root@edison:~# pip install psutil paho-mqtt
+    root@edison:~# pip install --allow-all-external pywapi --allow-unverified pywapi
+    root@edison:~# pip install --allow-all-external plotly --allow-unverified plotly
+    root@edison:~# opkg install python-numpy opencv python-opencv nano alsa-utils plotly
 
 ## Setup Galileo
 
