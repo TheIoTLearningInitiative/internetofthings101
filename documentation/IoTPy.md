@@ -10,8 +10,8 @@ Install IoTPy Workshop Git Repository
 Enable IoTPy Workshop credentials
 
     root@platform:~# cd iot/iotpy
-    root@platform:~# mkdir configuration
-    root@platform:~# nano configuration/credentials
+    root@platform:~/InternetOfThings101/iotpy# mkdir configuration
+    root@platform:~/InternetOfThings101/iotpy# nano configuration/credentials
     
     
     root@edison:~/InternetOfThings101/iotpy# cat README.md                          
