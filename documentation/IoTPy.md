@@ -92,13 +92,8 @@ Install Pip, Python Package Index to install and manage software packages writte
     Not Working!
     opkg update python-pygame
     
-    Partially Working
-    <compile> mpg123 mosquitto
-    <python get-pip.py> python-pip
-
     Steps to follow
 
-    
     root@edison:~# setuptools-12.2.tar.gz
     root@edison:~# tar zxf setuptools-12.2.tar.gz
     root@edison:~# python setuptools-12.2/ez_setup.py
