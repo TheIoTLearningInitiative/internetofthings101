@@ -17,7 +17,7 @@ Install Pip, Python Package Index to install and manage software packages writte
 
 ## Setup Galileo
 
-Install Pip, Package Management System to install and manage software packages written in Python
+Install Pip, Python Package Index to install and manage software packages written in Python
 
     root@edison:~# curl -O https://bootstrap.pypa.io/get-pip.py
     root@edison:~# python get-pip.py
