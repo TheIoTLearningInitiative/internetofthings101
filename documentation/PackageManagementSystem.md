@@ -36,19 +36,6 @@ Install RMAA and UPM Libraries
     root@edison:~# opkg install libmraa0
     root@edison:~# opkg install upm
 
-In case only WiFi was configure, configure also password to enable SSH on the wireless interface
-
-    root@edison:~# configure_edison --password
-    
-    Configure Edison: Device Password
-    
-    Enter a new password (leave empty to abort)
-    This will be used to connect to the access point and login to the device.
-    Password:       ********
-    Please enter the password again:        ********
-    First-time root password setup complete. Enabling SSH on WiFi interface.
-    The device password has been changed.
-
 ## OPKG Galileo
 
 Update Opkg sources, we will not upgrade to avoid consuming disk space
