@@ -32,7 +32,10 @@ Run IoTPy Modules
     root@platform:~/InternetOfThings101/iotpy# python main.py -m aio
     root@platform:~/InternetOfThings101/iotpy# python main.py -m bpta
     root@platform:~/InternetOfThings101/iotpy# python main.py -m gpio    
-
+    root@platform:~/InternetOfThings101/iotpy# python main.py -m mqtt_sub
+    root@platform:~/InternetOfThings101/iotpy# python main.py -m mqtt_pub
+    root@platform:~/InternetOfThings101/iotpy# python main.py -m gpio
+    root@platform:~/InternetOfThings101/iotpy# python main.py -m gpio    
 Run IoTPy Projects
 
     root@platform:~/InternetOfThings101/iotpy# python main.py -p <project>
