@@ -85,7 +85,7 @@ Install Pip, Python Package Index to install and manage software packages writte
     <compile> mpg123 mosquitto
     <python get-pip.py> python-pip
     
-    root@edison:~# pip install psutil paho-mqtt
+    root@edison:~# pip install psutil paho-mqtt twython
     root@edison:~# pip install --allow-all-external pywapi --allow-unverified pywapi
     root@edison:~# pip install --allow-all-external plotly --allow-unverified plotly
     root@edison:~# opkg install python-numpy opencv python-opencv nano alsa-utils plotly
