@@ -15,6 +15,19 @@ Configure your Edison
     Configure Edison: Device Password
     Configure Edison: WiFi Connection
 
+In case only WiFi was configure, configure also password to enable SSH on the wireless interface
+
+    root@edison:~# configure_edison --password
+    
+    Configure Edison: Device Password
+    
+    Enter a new password (leave empty to abort)
+    This will be used to connect to the access point and login to the device.
+    Password:       ********
+    Please enter the password again:        ********
+    First-time root password setup complete. Enabling SSH on WiFi interface.
+    The device password has been changed.
+
 Check IP address assigned
 
     root@edison:~# ifconfig
