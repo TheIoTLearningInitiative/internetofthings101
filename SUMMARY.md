@@ -18,7 +18,6 @@
 * [Getting Started](documentation/GettingStarted.md)
 * [Software Development](documentation/SoftwareDevelopment.md)
    * [Yocto Edison](documentation/YoctoEdison.md)
-   * [Yocto Galileo](documentation/YoctoGalileo.md)
    * [Package Management System](documentation/PackageManagementSystem.md)
    * [Python Programming Language](documentation/PythonProgrammingLanguage.md)
 * [Communication](documentation/Communication.md)
