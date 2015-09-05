@@ -12,6 +12,7 @@ Enable IoTPy Workshop credentials
     root@platform:~# cd iot/iotpy
     root@platform:~# mkdir configuration
     root@platform:~# nano configuration/credentials
+    
 
 
     root@platform:~# python main.py -m <module>
