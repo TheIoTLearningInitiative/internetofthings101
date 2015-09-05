@@ -48,3 +48,4 @@ Boards
 
 > Unleashing Wearable Device Innovation, Reimagining wearable technology solutions, Highly integrated hardware module that can power a solution the size of a button.
 
+[Intel® Curie™ Module Factsheet](http://download.intel.com/newsroom/kits/ces/2015/pdfs/Intel_CURIE_Module_Factsheet.pdf)
