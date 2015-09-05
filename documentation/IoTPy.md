@@ -31,7 +31,7 @@ Enable IoTPy Workshop credentials
     
     [voicerss]
     mashapekey = 
-    mashapekey = 
+    apikey = 
     
     # End of File
 
