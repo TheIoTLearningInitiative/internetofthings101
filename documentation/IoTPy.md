@@ -3,7 +3,7 @@ IoTPy
 
 > Internet of Things Python
 
-Install IoTPy Workshop Git Repository
+Clone IoTPy Workshop Git Repository
 
     root@platform:~# git clone https://github.com/TheIoTLearningInitiative/InternetOfThings101.git
     
