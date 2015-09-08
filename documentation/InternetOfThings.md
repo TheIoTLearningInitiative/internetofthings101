@@ -73,4 +73,5 @@ Internet of Things 101
 * http://www.hypercat.io/
 * Wireless IoT Forum
 * Thread Group
+* http://iofthings.org/#home
 
