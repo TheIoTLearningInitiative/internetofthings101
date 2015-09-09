@@ -43,6 +43,7 @@ Boards
     ...
     root@minnowboard:~# cat /proc/cpuinfo | grep processor
     processor       : 0
+    processor       : 1
 
 ## Intel® Curie™ Module
 
