@@ -1,2 +1,2 @@
-<center>Experiment, Make, Innovate<center>
+<center><h1>Experiment, Make, Innovate</h1></center>
 
