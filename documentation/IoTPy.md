@@ -3,6 +3,50 @@ IoTPy
 
 > Internet of Things with Python
 
+## Setup Edison
+
+Install Pip, Python Package Index to install and manage software packages written in Python
+
+    root@edison:~# opkg install python-pip
+    
+    root@edison:~# pip install psutil paho-mqtt twython
+    root@edison:~# pip install --allow-all-external pywapi --allow-unverified pywapi
+    root@edison:~# pip install --allow-all-external plotly --allow-unverified plotly
+    
+    root@edison:~# opkg install python-numpy opencv python-opencv nano alsa-utils mpg123
+
+## Setup Galileo
+
+Install Pip, Python Package Index to install and manage software packages written in Python
+
+    root@edison:~# curl -O https://bootstrap.pypa.io/get-pip.py
+    root@edison:~# python get-pip.py
+    
+    root@edison:~# curl https://bootstrap.pypa.io/ez_setup.py -o - | python
+    
+    root@edison:~# pip install psutil paho-mqtt twython
+    root@edison:~# pip install --allow-all-external pywapi --allow-unverified pywapi
+    root@edison:~# pip install --allow-all-external plotly --allow-unverified plotly
+    root@edison:~# opkg install python-numpy opencv python-opencv nano alsa-utils
+
+    root@edison:~# wget http://downloads.sourceforge.net/project/mpg123/mpg123/1.22.4/mpg123-1.22.4.tar.bz2
+    root@edison:~# tar xvf mpg123-1.22.4.tar.bz2
+    root@edison:~# cd mpg123-1.22.4/
+    root@edison:~# ./configure
+    root@edison:~# make
+    root@edison:~# make install
+
+    Pending To Process
+
+    Not Working!
+    opkg update python-pygame
+
+    root@edison:~# setuptools-12.2.tar.gz
+    root@edison:~# tar zxf setuptools-12.2.tar.gz
+    root@edison:~# python setuptools-12.2/ez_setup.py
+
+## IoTPy
+
 Clone the IoTPy Workshop Git Repository
 
     root@platform:~# git clone https://github.com/TheIoTLearningInitiative/InternetOfThings101.git
@@ -56,44 +100,3 @@ Run IoTPy Projects
     root@platform:~/InternetOfThings101/iotpy# python main.py -p system
     root@platform:~/InternetOfThings101/iotpy# python main.py -p weather   
 
-## Setup Edison
-
-Install Pip, Python Package Index to install and manage software packages written in Python
-
-    root@edison:~# opkg install python-pip
-    
-    root@edison:~# pip install psutil paho-mqtt twython
-    root@edison:~# pip install --allow-all-external pywapi --allow-unverified pywapi
-    root@edison:~# pip install --allow-all-external plotly --allow-unverified plotly
-    
-    root@edison:~# opkg install python-numpy opencv python-opencv nano alsa-utils mpg123
-
-## Setup Galileo
-
-Install Pip, Python Package Index to install and manage software packages written in Python
-
-    root@edison:~# curl -O https://bootstrap.pypa.io/get-pip.py
-    root@edison:~# python get-pip.py
-    
-    root@edison:~# curl https://bootstrap.pypa.io/ez_setup.py -o - | python
-    
-    root@edison:~# pip install psutil paho-mqtt twython
-    root@edison:~# pip install --allow-all-external pywapi --allow-unverified pywapi
-    root@edison:~# pip install --allow-all-external plotly --allow-unverified plotly
-    root@edison:~# opkg install python-numpy opencv python-opencv nano alsa-utils
-
-    root@edison:~# wget http://downloads.sourceforge.net/project/mpg123/mpg123/1.22.4/mpg123-1.22.4.tar.bz2
-    root@edison:~# tar xvf mpg123-1.22.4.tar.bz2
-    root@edison:~# cd mpg123-1.22.4/
-    root@edison:~# ./configure
-    root@edison:~# make
-    root@edison:~# make install
-
-    Pending To Process
-
-    Not Working!
-    opkg update python-pygame
-
-    root@edison:~# setuptools-12.2.tar.gz
-    root@edison:~# tar zxf setuptools-12.2.tar.gz
-    root@edison:~# python setuptools-12.2/ez_setup.py
