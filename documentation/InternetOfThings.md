@@ -37,8 +37,6 @@ Internet of Things 101
 ## Internet of Things System
 
 * Cloud, Data Format
-  * Application Service
-  * Data Visualization
   * Big Data Processing, Services
     * Analytics
     * Data Mining
@@ -46,6 +44,8 @@ Internet of Things 101
     * Prediction
     * Application
     * Services
+  * Data Visualization
+  * Application Service
 * Sensor Database
 * Communications
 * Gateway
