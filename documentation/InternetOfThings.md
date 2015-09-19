@@ -36,12 +36,6 @@ Internet of Things 101
 
 ## Internet of Things System
 
-* Sensors, Actuators
-* Protocol
-* Storage / Control
-* Gateway
-* Communications
-* Sensor Database
 * Cloud, Data Format
   * Application Service
   * Data Visualization
@@ -52,6 +46,12 @@ Internet of Things 101
     * Prediction
     * Application
     * Services
+* Sensor Database
+* Communications
+* Gateway
+* Storage / Control
+* Protocol
+* Sensors, Actuators
 
 ## The Internet of Things Brings
 * Scale in every Form
