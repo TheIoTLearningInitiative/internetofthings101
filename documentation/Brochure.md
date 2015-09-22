@@ -6,13 +6,28 @@ El Internet de las Cosas es una realidad, se parte de la próxima revolución en
 
 ## Contenido
 - El Internet de las Cosas
-- Recursos de Intel
-- Hardware
-- Software
+- Recursos
+- Ambiente de Desarrollo
+  - Hardware
+    - Tarjetas
+    - Sensores
+  - Software
+    - Lenguages de Programacion
+    - Sistemas Operativos
+    - Librerias
+    - IDEs
 - Primeros Pasos
-- Desarrollo de Software con Python
-- Servicios de Soporte
-- Sitios Interesantes
+- Desarrollo de Software
+  - Yocto
+  - Sistema de Administracion de Paquetes
+  - Python
+- Comunicaciones
+  - Protocolos
+  - Radio Frecuencia
+- IoTPy
+- La Nube y Analitica
+- Servicios
+- Customizacion del Software
 
 ## Audiencia
 Profesionales interesados en aprender sobre el Internet de la Cosas usando Plataformas de Hardware Intel Galileo e Intel Edison.
