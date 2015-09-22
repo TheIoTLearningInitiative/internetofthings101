@@ -39,7 +39,7 @@ Install Git, Version Control System
 
     root@edison:~# opkg install git
 
-Install RMAA and UPM Libraries
+Try to install RMAA and UPM Libraries
 
     root@edison:~# opkg install libmraa0
     root@edison:~# opkg install upm
