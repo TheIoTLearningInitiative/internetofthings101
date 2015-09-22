@@ -51,6 +51,6 @@ Check IP address assigned
     eth0      Link encap:Ethernet  HWaddr 00:1C:C0:AE:B5:E6  
               inet addr:192.168.1.74  Bcast:192.168.0.255  Mask:255.255.255.0
 
-Setup Ethernet Interface
+If IP address is not assigned then bring up Ethernet interface
 
     root@galileo:~# ifup eth0 up
