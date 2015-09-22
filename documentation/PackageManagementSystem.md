@@ -7,6 +7,10 @@ Update Opkg Repositories
     Updated list of available packages in /var/lib/opkg/iotkit.
     root@edison:~#
 
+Try to install nano command line editor
+
+    root@edison:~# opkg install nano
+
 Enable a Opkg feed and update package list, we will not upgrade to avoid consuming disk space
 
     root@edison:~# vi /etc/opkg/base-feeds.conf # Add the below lines to the opened file
