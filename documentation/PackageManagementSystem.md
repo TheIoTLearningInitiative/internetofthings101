@@ -31,6 +31,10 @@ Enable a Opkg feed and update package list, we will not upgrade to avoid consumi
     Updated list of available packages in /var/lib/opkg/iotkit.
     root@edison:~# 
 
+Install nano command line editor
+
+    root@edison:~# opkg install nano
+
 Install Git, Version Control System
 
     root@edison:~# opkg install git
