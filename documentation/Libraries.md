@@ -25,3 +25,6 @@ I/O, Sensor, and Communications Libraries
 ### The IoT Kit Communications (IoTkitcomm) Library
 
 > The IoTkitcomm library allows network-connected devices to easily discover and communicate with each other and the cloud.
+
+[Javascript Version](https://github.com/intel-iot-devkit/iotkit-comm-js)
+[C/C++ Version](https://github.com/intel-iot-devkit/iotkit-comm-c)
