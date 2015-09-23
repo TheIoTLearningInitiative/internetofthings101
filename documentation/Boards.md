@@ -61,3 +61,6 @@ The Intel Curie Module includes:
 - [Intel's Newest Wearable Module: Intel® Curie™](https://software.intel.com/en-us/articles/intels-newest-wearable-module-intel-curie)
 - [Intel® Curie™ Module Factsheet](http://download.intel.com/newsroom/kits/ces/2015/pdfs/Intel_CURIE_Module_Factsheet.pdf)
 
+## Generic Microcontroller Unit (MCU) on an Intel® Edison board
+
+https://software.intel.com/en-us/creating-applications-with-mcu-sdk-for-intel-edison-board
