@@ -102,6 +102,7 @@ Let's work with General Purpose Input Output, Direction Output
 
 # Libraries
 import mraa
+import time
 
 # Mraa GPIO Direction Output
 if mraa.getPlatformType() == 1:
