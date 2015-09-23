@@ -34,7 +34,7 @@ Operating System
 
 [Intel® Edison Board Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
 
-Download the latest Yocto Image, unzip its content, go from a the terminal to the directory where the content has been unzipped and flash the image
+At your Windows Development Workstation, download the latest Yocto Image, unzip its content, go from a the terminal to the directory where the content has been unzipped and flash the image
 
     C:\Users\aarcemor\Downloads\edison-image-ww25.5-15>flashall.bat
 
