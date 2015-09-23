@@ -8,7 +8,6 @@ Boards
 * [IoT Intel® Edison Board](https://software.intel.com/en-us/iot/hardware/edison)
 * [IoT Intel® Edison Board User Guide](https://software.intel.com/en-us/intel-edison-board-user-guide)
 * [Sparkfun Intel® Edison](https://www.sparkfun.com/categories/272)
-* [SeedStudio Xadow Wearable Kit For Intel® Edison](http://www.seeedstudio.com/depot/Xadow-Wearable-Kit-For-Intel-Edison-p-2428.html?cPath=84_120)
 * [Intel® Edison Breakout Board](http://download.intel.com/support/edison/sb/edisonbreakout_hg_331190006.pdf)
 * [Intel® Edison Compute Module, Boards, and Kits](https://www-ssl.intel.com/content/www/us/en/do-it-yourself/edison.html#kits)
 
