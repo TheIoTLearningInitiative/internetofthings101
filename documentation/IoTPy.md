@@ -37,9 +37,8 @@ Install Pip, Python Package Index to install and manage software packages writte
     root@galileo:~# make
     root@galileo:~# make install
 
-    Pending To Process
-
 Not Working!
+
     opkg update python-pygame
 
 ## IoTPy Framework
