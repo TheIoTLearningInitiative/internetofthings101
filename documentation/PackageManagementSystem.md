@@ -39,14 +39,10 @@ Install Git, Version Control System
 
     root@edison:~# opkg install git
 
-Try to install RMAA and UPM Libraries
+Check if RMAA and UPM Libraries are installed
 
-    root@edison:~# opkg install libmraa0
-    root@edison:~# opkg install upm
-
-List available package to be installed
-
-    root@edison:~# opkg list
+    root@galileo:~# opkg list-installed | grep mraa
+    root@galileo:~# opkg list-installed | grep upm
 
 ## OPKG Galileo
 
@@ -60,11 +56,7 @@ Install Git, Version Control System
 
     root@galileo:~# opkg install git
 
-Install RMAA and UPM Libraries
+Check if RMAA and UPM Libraries are installed
 
-    root@galileo:~# opkg install libmraa0
-    root@galileo:~# opkg install upm
-
-List available package to be installed
-
-    root@edison:~# opkg list
+    root@galileo:~# opkg list-installed | grep mraa
+    root@galileo:~# opkg list-installed | grep upm
