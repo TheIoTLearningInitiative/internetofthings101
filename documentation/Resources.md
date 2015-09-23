@@ -28,7 +28,7 @@ http://www.intel.com/content/www/us/en/internet-of-things/iot-platform.html
 
 [Intel® Developer Zone Internet of Things](https://software.intel.com/en-us/iot/home)
 
-## Intel® IoT Devkit
+## Intel® XDK IoT
 
 > The Intel® Development Kit for IoT (IoTDK) is a complete solution to create and test applications for Intel IoT platforms like the Intel® Galileo and Edison maker boards.
 * Intel® XDK IoT Edition
