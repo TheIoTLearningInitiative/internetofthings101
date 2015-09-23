@@ -3,11 +3,11 @@ Sensors
 
 > A sensor is a transducer whose purpose is to sense (that is, to detect) some characteristic of its environments... *From Wikipedia, the free encyclopedia*
 
-### Intel Resource
+### Intel® Resource
 
 * [Kits to Expand Your Intel® Edison Ecosystem and Get You Started Making, Faster](https://www-ssl.intel.com/content/www/us/en/do-it-yourself/edison.html#kits)
 
-### Intel & Seeed Studio
+### Intel® & Seeed Studio
 
 > Grove starter kit plus – Intel IoT Edition for Intel Galileo Gen 2 and Edison
 
