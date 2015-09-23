@@ -47,8 +47,8 @@ Go to http://test.mosquitto.org/gauge/ and execute
 
 As subscriber
 
-    root@galileo:~# mosquitto_sub -h test.mosquitto.org -p 1883 -t workshop/all
-    root@edison:~# mosquitto_sub -h test.mosquitto.org -p 1883 -t workshop/all
+    root@galileo:~# mosquitto_sub -h test.mosquitto.org -p 1883 -t workshop/galileo
+    root@edison:~# mosquitto_sub -h test.mosquitto.org -p 1883 -t workshop/edison
 
 As publisher
 
@@ -57,11 +57,11 @@ As publisher
 
 As subscriber
 
-    root@galileo:~# mosquitto_sub -h test.mosquitto.org -p 1883 -t workshop/galileo
+    root@galileo:~# mosquitto_sub -h test.mosquitto.org -p 1883 -t workshop/all
 
 As publisher
 
-    root@galileo:~# mosquitto_pub -h test.mosquitto.org -p 1883 -t workshop/galileo -m "Hello Galileo Users!"
+    root@galileo:~# mosquitto_pub -h test.mosquitto.org -p 1883 -t workshop/all -m "Hello All Operators!"
 
 See output for the following command
 
