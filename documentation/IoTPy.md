@@ -19,22 +19,22 @@ Install Pip, Python Package Index to install and manage software packages writte
 
 Install Pip, Python Package Index to install and manage software packages written in Python
 
-    root@edison:~# curl -O https://bootstrap.pypa.io/get-pip.py
-    root@edison:~# python get-pip.py
+    root@galileo:~# curl -O https://bootstrap.pypa.io/get-pip.py
+    root@galileo:~# python get-pip.py
     
-    root@edison:~# curl https://bootstrap.pypa.io/ez_setup.py -o - | python
+    root@galileo:~# curl https://bootstrap.pypa.io/ez_setup.py -o - | python
     
-    root@edison:~# pip install psutil paho-mqtt twython
-    root@edison:~# pip install --allow-all-external pywapi --allow-unverified pywapi
-    root@edison:~# pip install --allow-all-external plotly --allow-unverified plotly
-    root@edison:~# opkg install python-numpy opencv python-opencv nano alsa-utils
+    root@galileo:~# pip install psutil paho-mqtt twython
+    root@galileo:~# pip install --allow-all-external pywapi --allow-unverified pywapi
+    root@galileo:~# pip install --allow-all-external plotly --allow-unverified plotly
+    root@galileo:~# opkg install python-numpy opencv python-opencv nano alsa-utils
 
-    root@edison:~# wget http://downloads.sourceforge.net/project/mpg123/mpg123/1.22.4/mpg123-1.22.4.tar.bz2
-    root@edison:~# tar xvf mpg123-1.22.4.tar.bz2
-    root@edison:~# cd mpg123-1.22.4/
-    root@edison:~# ./configure
-    root@edison:~# make
-    root@edison:~# make install
+    root@galileo:~# wget http://downloads.sourceforge.net/project/mpg123/mpg123/1.22.4/mpg123-1.22.4.tar.bz2
+    root@galileo:~# tar xvf mpg123-1.22.4.tar.bz2
+    root@galileo:~# cd mpg123-1.22.4/
+    root@galileo:~# ./configure
+    root@galileo:~# make
+    root@galileo:~# make install
 
     Pending To Process
 
