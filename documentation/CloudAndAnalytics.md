@@ -1,4 +1,4 @@
-Clound and Analytics
+Cloud and Analytics
 ==
 
 ## Mashery
