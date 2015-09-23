@@ -63,4 +63,4 @@ The Intel Curie Module includes:
 
 ## Generic Microcontroller Unit (MCU) on an Intel® Edison board
 
-[](https://software.intel.com/en-us/creating-applications-with-mcu-sdk-for-intel-edison-board)
+[Creating applications with the MCU SDK for the Intel® Edison board](https://software.intel.com/en-us/creating-applications-with-mcu-sdk-for-intel-edison-board)
