@@ -1,11 +1,6 @@
 Programming Languages
 ==
 
-- Arduino
-- Intel XDK
-- Eclipse
-- Linux
-
 | | Arduino | Visual Programming | Node.JS | C / C++ |  C / C++ / Python / NodeJS
 |-----------------|---------|------------------|--------|-------|----------------|
 | Target Audience | Maker | Beginner | Intermediate | Advanced | Advanced |
