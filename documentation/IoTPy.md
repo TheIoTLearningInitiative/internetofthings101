@@ -39,12 +39,8 @@ Install Pip, Python Package Index to install and manage software packages writte
 
     Pending To Process
 
-    Not Working!
+Not Working!
     opkg update python-pygame
-
-    root@edison:~# setuptools-12.2.tar.gz
-    root@edison:~# tar zxf setuptools-12.2.tar.gz
-    root@edison:~# python setuptools-12.2/ez_setup.py
 
 ## IoTPy Framework
 
