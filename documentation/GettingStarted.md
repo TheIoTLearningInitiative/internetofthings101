@@ -34,6 +34,8 @@ Operating System
 
 [Intel® Edison Board Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
 
+Download the latest Yocto Image and unzip its content
+
 At the Edison
 
     U-Boot 2014.04 (Aug 20 2014 - 16:08:32)
@@ -50,7 +52,7 @@ At the Edison
     ## Executing script at 00100000
     ...
  
-At the Development Workstation
+At the Development Workstation, image and flash
 
     C:\Users\aarcemor\Downloads\edison-image-ww25.5-15>flashall.bat
 
