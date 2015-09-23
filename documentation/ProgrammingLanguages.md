@@ -4,11 +4,11 @@ Programming Languages
 - Arduino
 - Intel XDK
 - Eclipse
-- Linux 
+- Linux
 
 | | Arduino | Visual Programming | Node.JS | C / C++ |  C / C++ / Python / NodeJS
 |-----------------|---------|------------------|--------|-------|----------------|
 | Target Audience | Maker | Beginner | Intermediate | Advanced | Advanced |
-| IDE | Arduino IDE | Wyliodrin | Intel XDK | Eclipse IDE | None |
+| IDE | Arduino IDE | Wyliodrin | Intel XDK | Eclipse IDE | Linux |
 | Platform | Win / Mac / Linux | Browser | Win / Mac / Linux | Win / Mac /Linux | Edison |
 
