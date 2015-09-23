@@ -45,3 +45,6 @@ Temporal section :)
 > Xively by LogMeIn offers an award-winning enterprise IoT platform and application solution for enterprises building connected products and services.
 
 [Xively Homepage](http://xively.com/)
+
+## 
+https://github.com/enableiot/iotkit-samples/blob/master/api/python/iotkit_client.py
