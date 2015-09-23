@@ -34,11 +34,11 @@ Operating System
 
 [Intel® Edison Board Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
 
-At your Windows Development Workstation, download the latest Yocto Image, unzip its content, go from a the terminal to the directory where the content has been unzipped and flash the image
+In your Windows Development Workstation, download the latest Yocto Image, unzip its content, go from the terminal to the directory where the content has been unzipped and flash the image
 
     C:\Users\aarcemor\Downloads\edison-image-ww25.5-15>flashall.bat
 
-At the Edison
+It the Edison, connect both USB cables
 
     U-Boot 2014.04 (Aug 20 2014 - 16:08:32)
        Watchdog enabled
