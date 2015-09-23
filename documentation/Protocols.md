@@ -47,13 +47,21 @@ Go to http://test.mosquitto.org/gauge/ and execute
 
 As subscriber
 
-    root@galileo:~# mosquitto_sub -h test.mosquitto.org -p 1883 -t workshop/galileo
-    root@edison:~# mosquitto_sub -h test.mosquitto.org -p 1883 -t workshop/edison
+    root@galileo:~# mosquitto_sub -h test.mosquitto.org -p 1883 -t workshop/all
+    root@edison:~# mosquitto_sub -h test.mosquitto.org -p 1883 -t workshop/all
 
 As publisher
 
     root@galileo:~# mosquitto_pub -h test.mosquitto.org -p 1883 -t workshop/galileo -m "Hello Galileo Users!"
     root@edison:~# mosquitto_pub -h test.mosquitto.org -p 1883 -t workshop/edison -m "Hello Edison Users!"
+
+As subscriber
+
+    root@galileo:~# mosquitto_sub -h test.mosquitto.org -p 1883 -t workshop/galileo
+
+As publisher
+
+    root@galileo:~# mosquitto_pub -h test.mosquitto.org -p 1883 -t workshop/galileo -m "Hello Galileo Users!"
 
 See output for the following command
 
