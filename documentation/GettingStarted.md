@@ -62,4 +62,6 @@ Finally, open your Serial Terminal
 
 [Intel® Galileo Board Downloads](https://software.intel.com/en-us/iot/hardware/galileo/downloads)
 
+[Win32DiskImager](http://sourceforge.net/projects/win32diskimager)
+
 In your Windows Development Workstation, download the latest Yocto Image, unzip its content, open Win32DiskImager and flash the image, finally power cycle Galileo and open your Serial Terminal
