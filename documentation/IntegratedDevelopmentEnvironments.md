@@ -14,10 +14,6 @@
 
 > Run sketches on your Intel® IoT board using the Arduino IDE
 
-### Intel® IoT Developer Kit Eclipse
-
-> Intel® IoT Developer Kit version of the Eclipse IDE
-
 ### Intel® XDK IoT Edition
 
 > Create, Test, and Deliver Internet of Things Solutions. Software tool for JavaScript on-board app and HTML5 companion app development, create and test applications on Intel®-based IoT platforms. It helps you write applications in C and C++ languages and provides two libraries (mraa and upm), specially designed for the Intel IoT Developer Kit
@@ -33,6 +29,10 @@
    sudo apt-get install libavahi-compat-libdnssd1 avahi-utils
 5. Create Manual Connection via IoT Device Manual Connection through the IP Address assigned to your board
 6. Yes when asked to update your Board IoT Daemon
+
+### Intel® IoT Developer Kit Eclipse
+
+> Intel® IoT Developer Kit version of the Eclipse IDE
 
 ### Wyliodrin
 
