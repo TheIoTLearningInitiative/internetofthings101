@@ -9,8 +9,6 @@ Freeing up space
     root@platform:~# cd /usr
     root@platform:~# ln -sf /home/share share
 
-
-
 # Links
 
 * [Robot Wpi Edu Galileo Images](http://robot.wpi.edu/wiki/index.php/Galileo_Images)
