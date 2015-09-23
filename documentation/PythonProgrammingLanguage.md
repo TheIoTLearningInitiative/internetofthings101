@@ -106,7 +106,7 @@ import time
 
 # Mraa GPIO Direction Output
 if mraa.getPlatformType() == 1:
-    gpioline = mraa.Gpio(12)
+    gpioline = mraa.Gpio(13)
 if mraa.getPlatformType() == 2:
     gpioline = mraa.Gpio(44)
 gpioline.dir(mraa.DIR_OUT)
