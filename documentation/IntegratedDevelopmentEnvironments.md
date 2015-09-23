@@ -2,6 +2,12 @@
 
 > Which programming environment do you prefer? Choose between *Arduino, JavaScript (Intel® XDK IoT Edition), C/C++ (Eclipse) or Linux*
 
+## Just Add Inspiration with the Intel® IoT Developer Kit v1.5
+
+> Our complete hardware and software solution will help you explore the IoT space and create innovative projects. You'll find everything you need to get going: a development board and starter kit; Intel® XDK IoT Edition, Eclipse*, and Arduino* IDEs; a set of libraries; IoT Cloud Analytics; and more.
+
+[Intel® IoT Developer Kit](https://software.intel.com/en-us/iot/hardware/devkit)
+
 ### Arduino IDE
 
 > Run sketches on your Intel® IoT board using the Arduino IDE
