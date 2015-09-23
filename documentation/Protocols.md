@@ -61,7 +61,7 @@ As subscriber
 
 As publisher
 
-    root@galileo:~# mosquitto_pub -h test.mosquitto.org -p 1883 -t workshop/all -m "Hello All Operators!"
+    root@platform:~# mosquitto_pub -h test.mosquitto.org -p 1883 -t workshop/all -m "Hello All Operators!"
 
 See output for the following command
 
