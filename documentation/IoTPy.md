@@ -29,6 +29,7 @@ Install Pip, Python Package Index to install and manage software packages writte
     root@galileo:~# pip install --allow-all-external plotly --allow-unverified plotly
     root@galileo:~# opkg install python-numpy opencv python-opencv nano alsa-utils
 
+    root@galileo:~# cd
     root@galileo:~# wget http://downloads.sourceforge.net/project/mpg123/mpg123/1.22.4/mpg123-1.22.4.tar.bz2
     root@galileo:~# tar xvf mpg123-1.22.4.tar.bz2
     root@galileo:~# cd mpg123-1.22.4/
