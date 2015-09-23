@@ -7,6 +7,7 @@ Sensors
 
 > Grove starter kit plus – Intel IoT Edition for Intel Galileo Gen 2 and Edison
 
+* [](https://www-ssl.intel.com/content/www/us/en/do-it-yourself/edison.html#kits)
 * [IoT Intel® Sensors Bring IoT Projects to Life](https://software.intel.com/en-us/iot/hardware/sensors)
 * [Grove starter kit plus – Intel IoT Edition for Intel Galileo Gen 2 and Edison](http://www.seeedstudio.com/depot/Grove-starter-kit-plus-Intel-IoT-Edition-for-Intel-Galileo-Gen-2-and-Edison-p-1978.html)
 
