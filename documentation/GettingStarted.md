@@ -34,7 +34,9 @@ Operating System
 
 [Intel® Edison Board Software Downloads](https://software.intel.com/en-us/iot/hardware/edison/downloads)
 
-Download the latest Yocto Image and unzip its content
+Download the latest Yocto Image, unzip its content, go from a the terminal to the directory where the content has been unzipped and flash the image
+
+    C:\Users\aarcemor\Downloads\edison-image-ww25.5-15>flashall.bat
 
 At the Edison
 
@@ -51,10 +53,6 @@ At the Edison
     14747 bytes read in 31 ms (463.9 KiB/s)
     ## Executing script at 00100000
     ...
- 
-At the Development Workstation, image and flash
-
-    C:\Users\aarcemor\Downloads\edison-image-ww25.5-15>flashall.bat
 
 ### Galileo
 
