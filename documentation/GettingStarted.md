@@ -38,7 +38,7 @@ In your Windows Development Workstation, download the latest Yocto Image, unzip 
 
     C:\Users\aarcemor\Downloads\edison-image-ww25.5-15>flashall.bat
 
-It the Edison, connect both USB cables
+It the Edison, connect both USB cables and wait for flashall.bat to start the flashing process
 
     U-Boot 2014.04 (Aug 20 2014 - 16:08:32)
        Watchdog enabled
