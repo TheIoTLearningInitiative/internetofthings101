@@ -57,7 +57,7 @@ As publisher
 
 As subscriber
 
-    root@galileo:~# mosquitto_sub -h test.mosquitto.org -p 1883 -t workshop/all
+    root@platform:~# mosquitto_sub -h test.mosquitto.org -p 1883 -t workshop/all
 
 As publisher
 
