@@ -65,6 +65,7 @@ The Intel Curie Module includes:
 
 > Intel's added the SoC Quark to do low-level dirty work rather than eat-up bandwidth on the Atom CPU's.
 
-[Creating applications with the MCU SDK for the Intel® Edison board](https://software.intel.com/en-us/creating-applications-with-mcu-sdk-for-intel-edison-board)
+- [Creating applications with the MCU SDK for the Intel® Edison board](https://software.intel.com/en-us/creating-applications-with-mcu-sdk-for-intel-edison-board)
+- [Intel Quark](https://en.wikipedia.org/wiki/Intel_Quark)
 
 <center><img src="https://software.intel.com/sites/default/files/did_feeds_images/4335AAD2-4104-48BC-8F26-127EB1102AF8/4335AAD2-4104-48BC-8F26-127EB1102AF8-imageId=78a88837-3b20-4f47-9cb5-0e56f795102e.png"></center>
