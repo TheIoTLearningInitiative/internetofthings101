@@ -4,7 +4,7 @@
 
 > Intel's feature-rich IoT solution offers three IDEs: Arduino, C/C++ using Eclipse, or JavaScript*/Node.js* via the Intel® XDK IoT Edition. While we don't offer an IDE for Python, it comes pre-installed on your board.
 
-## Just Add Inspiration with the Intel® IoT Developer Kit v1.5
+## Intel® IoT Developer Kit
 
 > Our complete hardware and software solution will help you explore the IoT space and create innovative projects. You'll find everything you need to get going: a development board and starter kit; Intel® XDK IoT Edition, Eclipse*, and Arduino* IDEs; a set of libraries; IoT Cloud Analytics; and more.
 
