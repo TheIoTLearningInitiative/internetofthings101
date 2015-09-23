@@ -54,8 +54,12 @@ It the Edison, connect both USB cables and wait for flashall.bat to start the fl
     ## Executing script at 00100000
     ...
 
+Finally, open your Serial Terminal
+
 ### Galileo
 
 > Keep your development environment up-to-date with software downloads for the Intel® Galileo board.
 
 [Intel® Galileo Board Downloads](https://software.intel.com/en-us/iot/hardware/galileo/downloads)
+
+In your Windows Development Workstation, download the latest Yocto Image, unzip its content, open Win32DiskImager and flash the image, finally power cycle Galileo and open your Serial Terminal
