@@ -5,4 +5,4 @@ Cloud and Analytics
 
 [Mashery Homepage](http://www.mashery.com/)
 
-## This is intentionally incomplete
+## This is intentionally incompleted!
