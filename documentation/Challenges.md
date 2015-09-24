@@ -1,4 +1,7 @@
 Challenges
 ==
 
-1. 
+# Hardware
+
+1. Review Technical Specifications 
+2. 
