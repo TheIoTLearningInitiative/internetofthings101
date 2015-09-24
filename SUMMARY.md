@@ -20,8 +20,8 @@
 * [Software Development](documentation/SoftwareDevelopment.md)
    * [Yocto](documentation/Yocto.md)
    * [Package Management System](documentation/PackageManagementSystem.md)
-   * [Python Programming Language](documentation/PythonProgrammingLanguage.md)
    * Kernel Interfaces
+   * [Python Programming Language](documentation/PythonProgrammingLanguage.md)
 * [Communication](documentation/Communication.md)
    * [Radio Frequency](documentation/RadioFrequency.md)
    * [Protocols](documentation/Protocols.md)
