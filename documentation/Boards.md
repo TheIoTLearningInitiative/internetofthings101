@@ -25,6 +25,7 @@ Boards
 > Designed specifically for makers, students, educators, and DIY electronics enthusiasts, the Intel® Galileo Gen 2 board is Arduino*-certified with a fully open-source hardware and software environment for advanced compute functionality.
 
 * [IoT Intel® Galileo Board](https://software.intel.com/en-us/iot/hardware/galileo)
+* [Intel® Galileo Datasheet](http://download.intel.com/support/galileo/sb/galileo_datasheet_329681_003.pdf)
 * [Intel® Galileo Board User Guide](http://download.intel.com/support/galileo/sb/galileo_boarduserguide_330237_001.pdf)
 * [SeedStudio Grove - Starter Kit for Arduino](http://www.seeedstudio.com/depot/Grove-Starter-Kit-for-Arduino-p-1855.html)
 
