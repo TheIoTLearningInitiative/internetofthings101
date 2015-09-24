@@ -10,4 +10,4 @@ Kernel Interfaces
     active_low  direction  drive  edge  power  subsystem  uevent  value
     root@platform:~# echo out > /sys/class/gpio/gpio13
     root@platform:~# 
-    root@edison:~# 
+    root@platform:~# 
