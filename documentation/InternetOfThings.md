@@ -5,7 +5,7 @@ Internet of Things 101
 
 > Evolution of the Computing, devices that are connecting to the Internet, generating greater and greater amounts of data, integrating compute capabilities into the devices end to end, using data analytics to extract information from all the data they are producing.
 
-[Intel and The Internet of Things](https://newsroom.intel.com/docs/DOC-5224)
+[Intel® and The Internet of Things](https://newsroom.intel.com/docs/DOC-5224)
 
 ## Costs Past 10 Years
 
