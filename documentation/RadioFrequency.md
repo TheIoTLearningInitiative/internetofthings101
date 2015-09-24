@@ -9,7 +9,7 @@ Radio Frequency
 
 ## BlueTooth @ Intel® Edison
 
-More information at [Intel Edison Bluetooth Guide](http://download.intel.com/support/edison/sb/edisonbluetooth_331704004.pdf)
+More information at [Intel® Edison Bluetooth Guide](http://download.intel.com/support/edison/sb/edisonbluetooth_331704004.pdf)
 
     root@galileo:~# rfkill unblock bluetooth
     root@galileo:~# bluetoothctl
