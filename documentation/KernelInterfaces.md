@@ -1,7 +1,7 @@
 Kernel Interfaces
 ==
 
-## Galileo
+## General Purpose Input Output
 
     root@platform:~# ls /sys/class/gpio/
     root@platform:~# ls /sys/class/gpio/gpio13
