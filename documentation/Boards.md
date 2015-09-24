@@ -20,6 +20,15 @@ Boards
     processor       : 0
     processor       : 1
 
+### Generic Microcontroller Unit (MCU) on an Intel® Edison board
+
+> Intel's added the SoC Quark to do low-level dirty work rather than eat-up bandwidth on the Atom CPU's.
+
+- [Creating applications with the MCU SDK for the Intel® Edison board](https://software.intel.com/en-us/creating-applications-with-mcu-sdk-for-intel-edison-board)
+- [Intel Quark](https://en.wikipedia.org/wiki/Intel_Quark)
+
+<center><img src="https://software.intel.com/sites/default/files/did_feeds_images/4335AAD2-4104-48BC-8F26-127EB1102AF8/4335AAD2-4104-48BC-8F26-127EB1102AF8-imageId=78a88837-3b20-4f47-9cb5-0e56f795102e.png"></center>
+
 ## Intel® Galileo
 
 > Designed specifically for makers, students, educators, and DIY electronics enthusiasts, the Intel® Galileo Gen 2 board is Arduino*-certified with a fully open-source hardware and software environment for advanced compute functionality.
@@ -63,12 +72,3 @@ The Intel Curie Module includes:
 
 - [Intel's Newest Wearable Module: Intel® Curie™](https://software.intel.com/en-us/articles/intels-newest-wearable-module-intel-curie)
 - [Intel® Curie™ Module Factsheet](http://download.intel.com/newsroom/kits/ces/2015/pdfs/Intel_CURIE_Module_Factsheet.pdf)
-
-## Generic Microcontroller Unit (MCU) on an Intel® Edison board
-
-> Intel's added the SoC Quark to do low-level dirty work rather than eat-up bandwidth on the Atom CPU's.
-
-- [Creating applications with the MCU SDK for the Intel® Edison board](https://software.intel.com/en-us/creating-applications-with-mcu-sdk-for-intel-edison-board)
-- [Intel Quark](https://en.wikipedia.org/wiki/Intel_Quark)
-
-<center><img src="https://software.intel.com/sites/default/files/did_feeds_images/4335AAD2-4104-48BC-8F26-127EB1102AF8/4335AAD2-4104-48BC-8F26-127EB1102AF8-imageId=78a88837-3b20-4f47-9cb5-0e56f795102e.png"></center>
