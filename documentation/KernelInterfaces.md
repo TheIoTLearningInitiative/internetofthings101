@@ -22,3 +22,4 @@ Kernel Interfaces
     root@platform:~# ls /sys/class/i2c-dev/
     i2c-0
     root@platform:~# i2cdetect -y -r 0
+    root@platform:~# i2cdetect -y -r 0
