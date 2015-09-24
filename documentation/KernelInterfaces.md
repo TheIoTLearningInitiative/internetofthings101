@@ -17,4 +17,4 @@ Kernel Interfaces
 
 ## I2C (Inter-IC)
 
-    root@platform:~# i2cget
+    root@platform:~# ls /sys/class/i2c-dev/
