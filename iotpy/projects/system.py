@@ -62,6 +62,7 @@ class System(object):
 
         stream_network_rx = py.Stream(self.streamtokenrx)
         stream_network_rx.open()
+        time.sleep(5)
 
         counter = 0
 

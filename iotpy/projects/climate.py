@@ -39,6 +39,7 @@ class Climate(object):
 
         stream = py.Stream(self.streamtoken)
         stream.open()
+        time.sleep(5)
 
         counter = 0
 
