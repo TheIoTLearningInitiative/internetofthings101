@@ -4,7 +4,7 @@ Kernel Interfaces
 ## Galileo
 
     root@platform:~# ls /sys/class/gpio/
-    root@edison:~# ls /sys/class/gpio/gpio13
+    root@platform:~# ls /sys/class/gpio/gpio13
     root@edison:~# echo 13 > /sys/class/gpio/export
     root@edison:~# ls /sys/class/gpio/gpio13
     active_low  direction  drive  edge  power  subsystem  uevent  value
