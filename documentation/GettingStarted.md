@@ -25,6 +25,7 @@ Operating System
 
 * [Intel® Galileo Board Get Started Guide](https://software.intel.com/en-us/iot/library/galileo-getting-started)
 * [Intel® Galileo Makers Getting Started](https://communities.intel.com/community/makers/galileo/getting-started)
+* [Getting Started with Intel® Galileo Gen 2 ](http://www.emutexlabs.com/project/203-getting-started-with-intel-galileo-gen-2)
 
 ## Flashing the Latest Software
 
