@@ -1,7 +1,7 @@
 Kernel Interfaces
 ==
 
-## General Purpose Input Output (General Purpose Input Output)
+## GPIO (General Purpose Input Output)
 
     root@platform:~# ls /sys/class/gpio/
     root@platform:~# ls /sys/class/gpio/gpio13
