@@ -17,5 +17,5 @@ Profesionales interesados en aprender sobre el Internet de la Cosas usando Plata
 ## License
 
 [Creative Commons Attribution - Share Alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
-Copyright 2015, Abraham Arce Moreno
-xe1gyq@gmail..com
+- Copyright 2015, Abraham Arce Moreno
+- xe1gyq@gmail..com
