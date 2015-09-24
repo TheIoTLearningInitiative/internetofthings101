@@ -10,5 +10,5 @@ Kernel Interfaces
     active_low  direction  drive  edge  power  subsystem  uevent  value
     root@platform:~# echo in > /sys/class/gpio/gpio13/direction
     root@platform:~# echo out > /sys/class/gpio/gpio13/direction
-    root@platform:~# echo 1 > /sys/class/gpio/gpio13/direction
+    root@platform:~# echo 1 > /sys/class/gpio/gpio13/value
     root@platform:~# echo 0 > /sys/class/gpio/gpio13/direction
