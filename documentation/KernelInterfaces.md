@@ -16,3 +16,4 @@ Kernel Interfaces
     root@platform:~# cat /sys/class/gpio/gpio13/value
 
 ## I2C (Inter-IC)
+
