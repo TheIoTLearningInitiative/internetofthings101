@@ -17,6 +17,7 @@ Kernel Interfaces
 
 ## I2C (Inter-IC)
 
+    root@platform:~# dmesg | grep -i i2c
     root@platform:~# ls /sys/class/i2c-dev/
     i2c-0
     root@platform:~# i2cdetect -y -r 0
