@@ -90,7 +90,7 @@ Run IoTPy Modules
 
 Run IoTPy Projects
 
-    root@platform:~/InternetOfThings101/iotpy# python main.py -p alive # Twitter, Audio
+    root@platform:~/InternetOfThings101/iotpy# python main.py -p alive # Audio, Twitter
     root@platform:~/InternetOfThings101/iotpy# python main.py -p climate
     root@platform:~/InternetOfThings101/iotpy# python main.py -p selfie
     root@platform:~/InternetOfThings101/iotpy# python main.py -p system
