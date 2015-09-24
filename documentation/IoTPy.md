@@ -83,7 +83,7 @@ Run IoTPy Modules
     root@platform:~/InternetOfThings101/iotpy# python main.py -m aio
     root@platform:~/InternetOfThings101/iotpy# python main.py -m bpta
     root@platform:~/InternetOfThings101/iotpy# python main.py -m gpio    
-    root@platform:~/InternetOfThings101/iotpy# python main.py -m mqttpub
+    root@platform:~/InternetOfThings101/iotpy# python main.py -m mqttpub # IoTPy/Temperature
     root@platform:~/InternetOfThings101/iotpy# python main.py -m mqttsub
     root@platform:~/InternetOfThings101/iotpy# python main.py -m mraa
     root@platform:~/InternetOfThings101/iotpy# time python main.py -m opencv    
