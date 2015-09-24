@@ -94,5 +94,5 @@ Run IoTPy Projects
     root@platform:~/InternetOfThings101/iotpy# python main.py -p climate
     root@platform:~/InternetOfThings101/iotpy# python main.py -p selfie # Camera, Twitter
     root@platform:~/InternetOfThings101/iotpy# python main.py -p system # Network, Plotly
-    root@platform:~/InternetOfThings101/iotpy# python main.py -p weather   
+    root@platform:~/InternetOfThings101/iotpy# python main.py -p weather # 
 
