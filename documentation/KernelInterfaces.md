@@ -11,3 +11,4 @@ Kernel Interfaces
     root@platform:~# echo in > /sys/class/gpio/gpio13
     root@platform:~# echo out > /sys/class/gpio/gpio13
     root@platform:~# echo 1 > /sys/class/gpio/gpio13/direction
+    root@platform:~# echo 0 > /sys/class/gpio/gpio13/direction
