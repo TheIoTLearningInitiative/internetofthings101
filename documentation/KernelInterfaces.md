@@ -17,4 +17,4 @@ Kernel Interfaces
 
 ## I2C (Inter-IC)
 
-    root@platform:~# 
+    root@platform:~# i2cget
