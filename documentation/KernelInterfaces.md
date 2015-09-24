@@ -20,6 +20,6 @@ Kernel Interfaces
 
     root@platform:~# dmesg | grep -i i2c
     root@platform:~# ls /sys/class/i2c-dev/
-    i2c-0
-    root@platform:~# i2cdetect -y -r 0
-    root@platform:~# i2cdump -f -y 0 <0xAddress>
+    i2c-Bus
+    root@platform:~# i2cdetect -y -r <Bus>
+    root@platform:~# i2cdump -f -y <Bus> <0xAddress>
