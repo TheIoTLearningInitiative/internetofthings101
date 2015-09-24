@@ -21,6 +21,7 @@
    * [Yocto](documentation/Yocto.md)
    * [Package Management System](documentation/PackageManagementSystem.md)
    * [Python Programming Language](documentation/PythonProgrammingLanguage.md)
+   * Kernel Interfaces
 * [Communication](documentation/Communication.md)
    * [Radio Frequency](documentation/RadioFrequency.md)
    * [Protocols](documentation/Protocols.md)
