@@ -3,7 +3,7 @@ Kernel Interfaces
 
 ## GPIO (General Purpose Input Output)
 
-    root@platform:~# dmesg | grep -i i2c
+    root@platform:~# dmesg | grep -i gpio
     root@platform:~# ls /sys/class/gpio/
     root@platform:~# ls /sys/class/gpio/gpio13
     root@platform:~# echo 13 > /sys/class/gpio/export
