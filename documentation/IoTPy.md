@@ -83,16 +83,16 @@ Run IoTPy Modules
     root@platform:~/InternetOfThings101/iotpy# python main.py -m aio
     root@platform:~/InternetOfThings101/iotpy# python main.py -m bpta
     root@platform:~/InternetOfThings101/iotpy# python main.py -m gpio    
-    root@platform:~/InternetOfThings101/iotpy# python main.py -m mqttpub
+    root@platform:~/InternetOfThings101/iotpy# python main.py -m mqttpub # IoTPy/Temperature
     root@platform:~/InternetOfThings101/iotpy# python main.py -m mqttsub
     root@platform:~/InternetOfThings101/iotpy# python main.py -m mraa
-    root@platform:~/InternetOfThings101/iotpy# time python main.py -m opencv    
+    root@platform:~/InternetOfThings101/iotpy# time python main.py -m opencv
 
 Run IoTPy Projects
 
-    root@platform:~/InternetOfThings101/iotpy# python main.py -p alive
-    root@platform:~/InternetOfThings101/iotpy# python main.py -p climate
-    root@platform:~/InternetOfThings101/iotpy# python main.py -p selfie
-    root@platform:~/InternetOfThings101/iotpy# python main.py -p system
-    root@platform:~/InternetOfThings101/iotpy# python main.py -p weather   
+    root@platform:~/InternetOfThings101/iotpy# python main.py -p alive # Audio, Twitter
+    root@platform:~/InternetOfThings101/iotpy# python main.py -p climate # BMP180, PlotLy, https://plot.ly/~TheIoTLearningInitiative
+    root@platform:~/InternetOfThings101/iotpy# python main.py -p selfie # Camera, Twitter
+    root@platform:~/InternetOfThings101/iotpy# python main.py -p system # Network, Plotly, https://plot.ly/~TheIoTLearningInitiative
+    root@platform:~/InternetOfThings101/iotpy# python main.py -p weather # Audio, Pywapi
 
