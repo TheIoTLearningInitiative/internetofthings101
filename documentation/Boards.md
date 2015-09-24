@@ -6,6 +6,7 @@ Boards
 > Intel® Edison technology is a hardware/software platform that, when combined with sensors and your imagination, enables you to invent new internet-enabled products and solutions.
 
 * [IoT Intel® Edison Board](https://software.intel.com/en-us/iot/hardware/edison)
+* [](http://download.intel.com/support/edison/sb/edisonmodule_hg_331189004.pdf)
 * [Intel® Edison Compute Module, Boards, and Kits](http://www.intel.com/content/www/us/en/do-it-yourself/edison.html)
 * [IoT Intel® Edison Board User Guide](https://software.intel.com/en-us/intel-edison-board-user-guide)
 * [Intel® Edison Breakout Board](http://download.intel.com/support/edison/sb/edisonbreakout_hg_331190006.pdf)
