@@ -4,8 +4,7 @@ Kernel Interfaces
 ## Galileo
 
     root@edison:~# ls /sys/class/gpio/
-    root@edison:~# ls 
-    root@edison:~# ls gpio13
+    root@edison:~# ls /sys/class/gpio/gpio13
     root@edison:~# echo 13 > export
     root@edison:~# ls gpio13
     root@edison:~# cd gpio13
