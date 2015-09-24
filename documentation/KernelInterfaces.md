@@ -9,5 +9,5 @@ Kernel Interfaces
     root@platform:~# ls /sys/class/gpio/gpio13
     active_low  direction  drive  edge  power  subsystem  uevent  value
     root@platform:~# echo in > /sys/class/gpio/gpio13
-    root@platform:~# echo out > /sys/class/gpio/gpio13    
-    root@platform:~# 
+    root@platform:~# echo out > /sys/class/gpio/gpio13
+    root@platform:~# echo 1 > /sys/class/gpio/gpio13/direction
