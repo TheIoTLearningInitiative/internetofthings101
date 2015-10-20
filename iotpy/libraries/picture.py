@@ -37,5 +37,4 @@ class Picture(object):
         status, output = commands.getstatusoutput(self.fswebcamcommand)
 
     def path(self):
-        #return self.picturepygame
         return self.picturefswebcam
