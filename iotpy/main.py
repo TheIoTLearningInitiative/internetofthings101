@@ -83,6 +83,13 @@ if __name__ == '__main__':
         selfie = Selfie()
         selfie.share()
 
+    if args.projects == 'randomizer':
+
+        from projects.randomizer import Randomizer
+
+        randomizer = Randomizer()
+        randomizer.graph()
+
     if args.projects == 'system':
 
         from projects.system import System
