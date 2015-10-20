@@ -2,6 +2,7 @@
 
 from libraries.picture import Picture
 from libraries.tweet import twythonTimelineSet
+from random import randint
 
 class Selfie(object):
 
@@ -11,6 +12,7 @@ class Selfie(object):
     def share(self):
         self.picture.capture()
         picturepath = self.picture.path()
-        twythonTimelineSet("#NuupXe IoTPy Selfie Project!", picturepath)
+        id = str(randint(0,99))
+        twythonTimelineSet("0x" + id + " #IoT #IoTLearningInit #IoTLearningInitiative IoTPy Selfie Project!", picturepath)
 
 # End of File

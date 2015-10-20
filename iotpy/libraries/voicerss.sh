@@ -5,7 +5,7 @@ text=$2
 mashapekey=`cat configuration/voicerss.mk`
 apikey=`cat configuration/voicerss.ak`
 
-curl -X POST --include "https://voicerss-text-to-speech.p.mashape.com/?key=${apikey}" \
+curl -k -X POST --include "https://voicerss-text-to-speech.p.mashape.com/?key=${apikey}" \
   -H "X-Mashape-Key: ${mashapekey}" \
   -H 'Content-Type: application/x-www-form-urlencoded' \
   -d 'c=mp3' \

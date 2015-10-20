@@ -9,7 +9,7 @@ class Alive(object):
         pass
 
     def report(self):
-        message = 'Hello Internet of Things Python Learners, What Will You Make?'
+        message = 'Hello Internet of Things Python Learners, Now another test!'
         print message
         twythonTimelineSet(message, None)
         command = ['libraries/voicerss.sh', 'en-us', message]
