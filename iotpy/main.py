@@ -69,6 +69,13 @@ if __name__ == '__main__':
         alive = Alive()
         alive.report()
 
+    if args.projects == 'faces':
+
+        from projects.faces import Faces
+
+        faces = Faces()
+        faces.share()
+
     if args.projects == 'climate':
 
         from projects.climate import Climate
