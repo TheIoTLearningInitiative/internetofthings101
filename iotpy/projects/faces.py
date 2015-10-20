@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import numpy as np
 import subprocess
 import sys
 import cv2
@@ -32,6 +33,7 @@ class Faces(object):
             cv2.rectangle(image, (x, y), (x+w, y+h), (0, 255, 0), 2)
         cv2.imwrite(self.imageoutput, image)
         cv2.waitKey(0)
+        cv2.putText(image,"Hello World!", (2,2), cv2.FONT_HERSHEY_SIMPLEX, 5, 255)
         return len(faces)
 
     def share(self):
