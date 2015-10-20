@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import subprocess
 import sys
 import cv2
 
@@ -31,11 +32,16 @@ class Faces(object):
             cv2.rectangle(image, (x, y), (x+w, y+h), (0, 255, 0), 2)
         cv2.imwrite(self.imageoutput, image)
         cv2.waitKey(0)
+        return len(faces)
 
     def share(self):
+        command = ['libraries/voicerss.sh', 'es-mx', "Hola! Buscare identificar el numero de personas en la foto! Listos? Comenzamos!"]
+        proc = subprocess.call(command)
         self.picture.capture()
         self.imageinput = self.picture.path()
-        self.execute()
-        #twythonTimelineSet("#IoT #IoTLearningInit #IoTLearningInitiative IoTPy Selfie Project!", picturepath)
+        faces = self.execute()
+        messagefaces = "Segun mi algoritmo, hay {0} personas en la foto".format(faces)
+        command = ['libraries/voicerss.sh', 'es-mx', messagefaces]
+        proc = subprocess.call(command)
 
 # End of File
