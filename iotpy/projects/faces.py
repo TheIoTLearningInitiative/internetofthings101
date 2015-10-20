@@ -27,13 +27,17 @@ class Faces(object):
             minSize=(30, 30),
             flags = cv2.cv.CV_HAAR_SCALE_IMAGE
         )
+
         print "Found {0} faces!".format(len(faces))
 
         for (x, y, w, h) in faces:
             cv2.rectangle(image, (x, y), (x+w, y+h), (0, 255, 0), 2)
-        cv2.imwrite(self.imageoutput, image)
         cv2.waitKey(0)
-        cv2.putText(image,"Hello World!", (2,2), cv2.FONT_HERSHEY_SIMPLEX, 5, 255)
+
+        font = cv2.FONT_HERSHEY_SIMPLEX
+        cv2.putText(image,'IoT Lab!',(10,100), font, 4,(255,255,255),2)
+
+        cv2.imwrite(self.imageoutput, image)
         return len(faces)
 
     def share(self):
