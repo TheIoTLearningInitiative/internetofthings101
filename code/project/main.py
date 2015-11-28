@@ -2,6 +2,6 @@
 
 if __name__ == '__main__':
 
-    pass
+    print "Hello Internet of Things 101"
 
 # End of File
