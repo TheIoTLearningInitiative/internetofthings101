@@ -3,6 +3,8 @@
 import psutil
 import paho.mqtt.client as paho
 import pywapi
+import signal
+import sys
 
 def dataNetwork():
 
@@ -13,11 +15,17 @@ def on_publish(mosq, obj, msg):
 
     print("MQTT Message Sent!")
 
+
+def interruptHandler(signal, frame):
+	sys.exit(0)
+
 if __name__ == '__main__':
+
+    signal.signal(signal.SIGINT, interruptHandler)
 
     print "Hello Internet of Things 101"
     packets = dataNetwork()
-    print "Packets: %d " % packets
+    print "Network Packets: %d " % packets
 
     mqttclient = paho.Client()
     mqttclient.on_publish = on_publish
@@ -29,5 +37,8 @@ if __name__ == '__main__':
     message = message + ", Temperatura " + weather['condition']['temp'] + " grados centigrados"
     message = message + ", Presion Atmosferica " + weather['atmosphere']['pressure'] + " milibares"
     print message
+
+    while True:
+        pass
 
 # End of File
