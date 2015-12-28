@@ -6,6 +6,8 @@ import signal
 import sys
 import time
 
+from flask import Flask
+from flask_restful import Api, Resource
 from threading import Thread
 
 def interruptHandler(signal, frame):
@@ -41,6 +43,11 @@ def dataMessageHandler():
     while mqttclient.loop() == 0:
         pass
 
+class Network(Resource):
+    def get(self):
+        data = dataNetwork()
+        return data
+
 if __name__ == '__main__':
 
     signal.signal(signal.SIGINT, interruptHandler)
@@ -50,6 +57,11 @@ if __name__ == '__main__':
 
     threadx = Thread(target=dataMessageHandler)
     threadx.start()
+
+    app = Flask(__name__)
+    api = Api(app)
+    api.add_resource(Network, '/network')
+    #app.run(debug=True)
 
     while True:
         print "Hello Internet of Things 101"
