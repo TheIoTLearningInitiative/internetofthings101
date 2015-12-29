@@ -12,6 +12,8 @@ from threading import Thread
 import plotly.plotly as py
 from plotly.graph_objs import Scatter, Layout, Figure
 
+from tendo import singleton
+
 username = 'your_plotly_username'
 api_key = 'your_api_key'
 stream_token = 'your_stream_token'
@@ -91,6 +93,8 @@ def dataPlotlyHandler():
         time.sleep(0.25)
 
 if __name__ == '__main__':
+
+    me = singleton.SingleInstance()
 
     signal.signal(signal.SIGINT, interruptHandler)
 
