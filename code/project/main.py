@@ -2,11 +2,15 @@
 
 import paho.mqtt.client as paho
 import psutil
+import pywapi
 import signal
 import sys
 import time
 
 from threading import Thread
+
+import plotly.plotly as py
+from plotly.graph_objs import Scatter, Layout, Figure
 
 def interruptHandler(signal, frame):
     sys.exit(0)
@@ -26,12 +30,12 @@ def dataNetworkHandler():
     while True:
         packets = dataNetwork()
         message = idDevice + " " + str(packets)
-        print "dataNetworkHandler " + message  
+        print "MQTT dataNetworkHandler " + message  
         mqttclient.publish("IoT101/Network", message)
         time.sleep(1)
 
 def on_message(mosq, obj, msg):
-    print "dataMessageHandler %s %s" % (msg.topic, msg.payload)
+    print "MQTT dataMessageHandler %s %s" % (msg.topic, msg.payload)
 
 def dataMessageHandler():
     mqttclient = paho.Client()
@@ -41,6 +45,47 @@ def dataMessageHandler():
     while mqttclient.loop() == 0:
         pass
 
+def dataWeatherHandler():
+    weather = pywapi.get_weather_from_yahoo('MXJO0043', 'metric')
+    message = "Weather report in " + weather['location']['city']
+    message = message + ", Temperature " + weather['condition']['temp'] + " C"
+    message = message + ", Atmospheric Pressure " + weather['atmosphere']['pressure'] + " mbar"
+    print message
+
+def dataPlotly():
+    return dataNetwork()
+
+def dataPlotlyHandler():
+
+    py.sign_in(username, api_key)
+
+    trace1 = Scatter(
+        x=[],
+        y=[],
+        stream=dict(
+            token=stream_token,
+            maxpoints=200
+        )
+    )
+
+    layout = Layout(
+        title='Hello Internet of Things 101 Data'
+    )
+
+    fig = Figure(data=[trace1], layout=layout)
+
+    print py.plot(fig, filename='Hello Internet of Things 101 Plotly')
+
+    i = 0
+    stream = py.Stream(stream_token)
+    stream.open()
+
+    while True:
+        stream_data = dataPlotly()
+        stream.write({'x': i, 'y': stream_data})
+        i += 1
+        time.sleep(0.25)
+
 if __name__ == '__main__':
 
     signal.signal(signal.SIGINT, interruptHandler)
@@ -48,13 +93,16 @@ if __name__ == '__main__':
     threadx = Thread(target=dataNetworkHandler)
     threadx.start()
 
-    threadx = Thread(target=dataMessageHandler)
-    threadx.start()
+    thready = Thread(target=dataMessageHandler)
+    thready.start()
+
+    threadz = Thread(target=dataPlotlyHandler)
+    threadz.start()
 
     while True:
         print "Hello Internet of Things 101"
+        dataWeatherHandler()
         time.sleep(5)
-        
 
 # End of File
 
