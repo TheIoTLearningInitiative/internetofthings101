@@ -12,6 +12,10 @@ from threading import Thread
 import plotly.plotly as py
 from plotly.graph_objs import Scatter, Layout, Figure
 
+username = 'your_plotly_username'
+api_key = 'your_api_key'
+stream_token = 'your_stream_token'
+
 def interruptHandler(signal, frame):
     sys.exit(0)
 
