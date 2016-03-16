@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import dweepy
 import ConfigParser
 import paho.mqtt.client as paho
 import psutil
@@ -39,7 +40,7 @@ def dataNetworkHandler(mqttclient):
     while True:
         packets = dataNetwork()
         message = idDevice + " " + str(packets)
-        print "MQTT dataNetworkHandler " + message  
+        #print "MQTT dataNetworkHandler " + message  
         mqttclient.publish("IoT101/Demo", message)
         time.sleep(1)
 
@@ -108,7 +109,6 @@ def dataPlotlyHandler():
 
     stream_network_rx = py.Stream(streamtokenrx)
     stream_network_rx.open()
-    time.sleep(1)
 
     counter = 0
 
@@ -119,7 +119,6 @@ def dataPlotlyHandler():
         stream_network_tx.write({'x': counter, 'y': randoma })
         stream_network_rx.write({'x': counter, 'y': randomb })
         counter += 1
-        print counter
         time.sleep(0.25)
 
     stream_network_tx.close()
@@ -143,21 +142,35 @@ def dataRotary(mqttclient):
     knob = grove.GroveRotary(3)
     myLcd = lcd.Jhd1313m1(0, 0x3E, 0x62)
     twythonid = twitterHandler()
+
+    data = {}
+    data['alive'] = "1"
+    data['warning'] = "0"
+    dweepy.dweet_for('IoTHealthSystem', data)
     
     while True:
         abs = knob.abs_value()
         myLcd.setCursor(0,0)
-        myLcd.setColor(255, 0, 0)
+        myLcd.write('Health System')
+        myLcd.setColor(0, 128, 0)
+        myLcd.setCursor(1,0)
         myLcd.write('Heart Rate %s' % abs)
         while (abs > 950):
+            myLcd.setColor(255, 0, 0)
             id = str(randint(0,99))
             status = "0x" + id + " #IoTLab Health System Heart Rate Warning " + str(abs)
-            print status
             mqttclient.publish("IoTPy/Buzzer", "None")
             twythonid.update_status(status=status)
+            data = {}
+            data['alive'] = "1"
+            data['warning'] = "1"
+            data['message'] = status
+            dweepy.dweet_for('IoTHealthSystem', data)
             time.sleep(2)
+            data['warning'] = "0"
+            dweepy.dweet_for('IoTHealthSystem', data)
             break
-        time.sleep(0.1)
+        time.sleep(0.25)
 
 if __name__ == '__main__':
 
@@ -170,8 +183,8 @@ if __name__ == '__main__':
     threadx = Thread(target=dataNetworkHandler, args=(mqttclient,))
     threadx.start()
 
-    #thready = Thread(target=dataMessageHandler)
-    #thready.start()
+    thready = Thread(target=dataMessageHandler)
+    thready.start()
 
     threadz = Thread(target=dataPlotlyHandler)
     threadz.start()
@@ -185,7 +198,7 @@ if __name__ == '__main__':
 
     while True:
         while button.value():
-            print "Button!"
+            print "Help Needed!"
             time.sleep(1)
         time.sleep(0.1)
 
