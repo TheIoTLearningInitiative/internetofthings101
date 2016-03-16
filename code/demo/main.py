@@ -1,31 +1,25 @@
 #!/usr/bin/python
 
+import ConfigParser
 import paho.mqtt.client as paho
 import psutil
 import signal
 import sys
 import time
+from twython import Twython
 
 from threading import Thread
 
 import plotly.plotly as py
-from plotly.graph_objs import Scatter, Layout, Figure
+from plotly.graph_objs import Scatter, Layout, Figure, Data, Stream, YAxis
 
 from tendo import singleton
-
-username = 'your_plotly_username'
-api_key = 'your_api_key'
-stream_token = 'your_stream_token'
 
 def interruptHandler(signal, frame):
     sys.exit(0)
 
 def on_publish(mosq, obj, msg):
     pass
-
-def credentialsConfig():
-    configuration = ConfigParser.ConfigParser()
-    return configuration
 
 def dataNetwork():
     netdata = psutil.net_io_counters()
@@ -59,45 +53,75 @@ def dataPlotly():
 
 def dataPlotlyHandler():
 
+    configuration = ConfigParser.ConfigParser()
+    configuration.read('credentials.config')
+    username = configuration.get('plotly','username')
+    api_key = configuration.get('plotly','api_key')
+    stream_token_a = configuration.get('plotly','stream_token_a')
+    stream_token_b = configuration.get('plotly','stream_token_b')
+
     py.sign_in(username, api_key)
 
     trace1 = Scatter(
         x=[],
         y=[],
-        stream=dict(
-            token=stream_token,
-            maxpoints=200
-        )
+        stream=Stream(
+            token=stream_token_a,
+        ),
+        yaxis='a'
+    )
+
+    trace2 = Scatter(
+        x=[],
+        y=[],
+        stream=Stream(
+            token=stream_token_b,
+        ),
+        yaxis='b'
     )
 
     layout = Layout(
-        title='Hello Internet of Things 101 Data'
+        title='Internet of Things Lab Demo',
+        yaxis=YAxis(
+            title='A'
+        ),
+        yaxis2=YAxis(
+            title='%',
+            side='right',
+            overlaying="y"
+        )
     )
 
-    fig = Figure(data=[trace1], layout=layout)
+    data = Data([trace1, trace2])
+    fig = Figure(data=data, layout=layout)
 
-    print py.plot(fig, filename='Hello Internet of Things 101 Plotly')
+    print py.plot(fig, filename='IoTPy Network Health System', auto_open=False)
 
-    i = 0
-    stream = py.Stream(stream_token)
-    stream.open()
+    counter = 0
+    stream_a = py.Stream(self.stream_token_a)
+    stream_a.open()
+    stream_b = py.Stream(self.stream_token_b)
+    stream_b.open()
+    time.sleep(5)
 
     while True:
         stream_data = dataPlotly()
-        stream.write({'x': i, 'y': stream_data})
-        i += 1
+        stream_a.write({'x': counter, 'y': stream_data})
+        stream_b.write({'x': counter, 'y': stream_data})
+        counter += 1
         time.sleep(0.25)
 
-def twitterHandler(configuration):
+def twitterHandler():
+    configuration = ConfigParser.ConfigParser()
     configuration.read('credentials.config')
-    consumer_key = self.configuration.get('twitter','consumer_key')
-    consumer_secret = self.configuration.get('twitter','consumer_secret')
-    access_token = self.configuration.get('twitter','access_token')
-    access_token_secret = self.configuration.get('twitter','access_token_secret')
-    twythonid = Twython(self.consumer_key, \
-                         self.consumer_secret, \
-                         self.access_token, \
-                         self.access_token_secret)
+    consumer_key = configuration.get('twitter','consumer_key')
+    consumer_secret = configuration.get('twitter','consumer_secret')
+    access_token = configuration.get('twitter','access_token')
+    access_token_secret = configuration.get('twitter','access_token_secret')
+    twythonid = Twython(consumer_key, \
+                        consumer_secret, \
+                        access_token, \
+                        access_token_secret)
     return twythonid
 
 if __name__ == '__main__':
@@ -105,8 +129,6 @@ if __name__ == '__main__':
     me = singleton.SingleInstance()
 
     signal.signal(signal.SIGINT, interruptHandler)
-
-    credentials = credentialsConfig()
 
     threadx = Thread(target=dataNetworkHandler)
     threadx.start()
@@ -117,10 +139,10 @@ if __name__ == '__main__':
     threadz = Thread(target=dataPlotlyHandler)
     threadz.start()
     
-    twythonid = twitterHandler(credentials)
+    twythonid = twitterHandler()
 
     while True:
-        print "Hello Internet of Things 101"
+        print "Internet of Things Lab Demo"
         time.sleep(5)
 
 # End of File
