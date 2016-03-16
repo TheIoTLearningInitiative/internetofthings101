@@ -168,6 +168,7 @@ def dataRotary(mqttclient):
             dweepy.dweet_for('IoTHealthSystem', data)
             time.sleep(2)
             data['warning'] = "0"
+            data['message'] = "No message"
             dweepy.dweet_for('IoTHealthSystem', data)
             break
         time.sleep(0.25)
