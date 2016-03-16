@@ -6,6 +6,7 @@ import psutil
 import signal
 import sys
 import time
+import pyupm_grove as grove
 
 from random import randint
 from threading import Thread
@@ -19,6 +20,12 @@ from tendo import singleton
 def interruptHandler(signal, frame):
     sys.exit(0)
 
+def mqttClientHandler():
+    mqttclient = paho.Client()
+    mqttclient.on_publish = on_publish
+    mqttclient.connect("test.mosquitto.org", 1883, 60)
+    return mqttclient
+
 def on_publish(mosq, obj, msg):
     pass
 
@@ -28,13 +35,11 @@ def dataNetwork():
 
 def dataNetworkHandler():
     idDevice = "ThisDevice"
-    mqttclient = paho.Client()
-    mqttclient.on_publish = on_publish
-    mqttclient.connect("test.mosquitto.org", 1883, 60)
+    mqttclient = mqttClientHandler()
     while True:
         packets = dataNetwork()
         message = idDevice + " " + str(packets)
-        print "MQTT dataNetworkHandler " + message  
+        #print "MQTT dataNetworkHandler " + message  
         mqttclient.publish("IoT101/Demo", message)
         time.sleep(1)
 
@@ -104,7 +109,7 @@ def dataPlotlyHandler():
 
     stream_network_rx = py.Stream(streamtokenrx)
     stream_network_rx.open()
-    time.sleep(5)
+    time.sleep(1)
 
     counter = 0
 
@@ -112,8 +117,6 @@ def dataPlotlyHandler():
         output = psutil.net_io_counters()
         randoma = randint(0,100)
         randomb = randint(0,100)
-        print "Network Bytes Tx %s" % randoma
-        print "Network Bytes Rx %s" % randomb
         stream_network_tx.write({'x': counter, 'y': randoma })
         stream_network_rx.write({'x': counter, 'y': randomb })
         counter += 1
@@ -152,8 +155,18 @@ if __name__ == '__main__':
     
     twythonid = twitterHandler()
 
+    print "Internet of Things Lab Demo"
+
+    button = grove.GroveButton(2)
+    mqttclient = mqttClientHandler()    
+
     while True:
-        print "Internet of Things Lab Demo"
-        time.sleep(5)
+        while button.value():
+            id = str(randint(0,99))
+            status = "0x" + id + " #IoTLab Alarm System"
+            print status
+            mqttclient.publish("IoTPy/Buzzer", "None")
+            twythonid.update_status(status=status)
+        time.sleep(0.1)
 
 # End of File
