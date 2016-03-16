@@ -114,8 +114,8 @@ def dataPlotlyHandler():
 
     while True:
         output = psutil.net_io_counters()
-        randoma = randint(0,100)
-        randomb = randint(0,100)
+        randoma = randint(0,1000)
+        randomb = randint(0,1000)
         stream_network_tx.write({'x': counter, 'y': randoma })
         stream_network_rx.write({'x': counter, 'y': randomb })
         counter += 1
@@ -143,11 +143,6 @@ def dataRotary(mqttclient):
     myLcd = lcd.Jhd1313m1(0, 0x3E, 0x62)
     twythonid = twitterHandler()
 
-    data = {}
-    data['alive'] = "1"
-    data['warning'] = "0"
-    dweepy.dweet_for('IoTHealthSystem', data)
-    
     while True:
         abs = knob.abs_value()
         myLcd.setCursor(0,0)
@@ -157,7 +152,7 @@ def dataRotary(mqttclient):
         myLcd.write('Heart Rate %s' % abs)
         while (abs > 950):
             myLcd.setColor(255, 0, 0)
-            id = str(randint(0,99))
+            id = str(randint(0,1000))
             status = "0x" + id + " #IoTLab Health System Heart Rate Warning " + str(abs)
             mqttclient.publish("IoTPy/Buzzer", "None")
             twythonid.update_status(status=status)
@@ -166,9 +161,9 @@ def dataRotary(mqttclient):
             data['warning'] = "1"
             data['message'] = status
             dweepy.dweet_for('IoTHealthSystem', data)
-            time.sleep(2)
+            time.sleep(1.5)
             data['warning'] = "0"
-            data['message'] = "No message"
+            data['message'] = ""
             dweepy.dweet_for('IoTHealthSystem', data)
             break
         time.sleep(0.25)
@@ -197,9 +192,19 @@ if __name__ == '__main__':
 
     button = grove.GroveButton(2)
 
+    data = {}
+    data['alive'] = "1"
+    data['warning'] = "0"
+    data['message'] = "No Message"
+    data['help'] = "All Ok"
+    dweepy.dweet_for('IoTHealthSystem', data)
+    counter = 1
+    
     while True:
         while button.value():
-            print "Help Needed!"
+            data['help'] = "Help Needed! " + str(counter)
+            dweepy.dweet_for('IoTHealthSystem', data)
+            counter += 1
             time.sleep(1)
         time.sleep(0.1)
 
