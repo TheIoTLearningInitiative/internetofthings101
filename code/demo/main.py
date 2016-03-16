@@ -2,7 +2,6 @@
 
 import paho.mqtt.client as paho
 import psutil
-import pywapi
 import signal
 import sys
 import time
@@ -24,6 +23,10 @@ def interruptHandler(signal, frame):
 def on_publish(mosq, obj, msg):
     pass
 
+def credentialsConfig():
+    configuration = ConfigParser.ConfigParser()
+    return configuration
+
 def dataNetwork():
     netdata = psutil.net_io_counters()
     return netdata.packets_sent + netdata.packets_recv
@@ -37,7 +40,7 @@ def dataNetworkHandler():
         packets = dataNetwork()
         message = idDevice + " " + str(packets)
         print "MQTT dataNetworkHandler " + message  
-        mqttclient.publish("IoT101/Network", message)
+        mqttclient.publish("IoT101/Demo", message)
         time.sleep(1)
 
 def on_message(mosq, obj, msg):
@@ -50,13 +53,6 @@ def dataMessageHandler():
     mqttclient.subscribe("IoT101/Message", 0)
     while mqttclient.loop() == 0:
         pass
-
-def dataWeatherHandler():
-    weather = pywapi.get_weather_from_yahoo('MXJO0043', 'metric')
-    message = "Weather report in " + weather['location']['city']
-    message = message + ", Temperature " + weather['condition']['temp'] + " C"
-    message = message + ", Atmospheric Pressure " + weather['atmosphere']['pressure'] + " mbar"
-    print message
 
 def dataPlotly():
     return dataNetwork()
@@ -92,11 +88,25 @@ def dataPlotlyHandler():
         i += 1
         time.sleep(0.25)
 
+def twitterHandler(configuration):
+    configuration.read('credentials.config')
+    consumer_key = self.configuration.get('twitter','consumer_key')
+    consumer_secret = self.configuration.get('twitter','consumer_secret')
+    access_token = self.configuration.get('twitter','access_token')
+    access_token_secret = self.configuration.get('twitter','access_token_secret')
+    twythonid = Twython(self.consumer_key, \
+                         self.consumer_secret, \
+                         self.access_token, \
+                         self.access_token_secret)
+    return twythonid
+
 if __name__ == '__main__':
 
     me = singleton.SingleInstance()
 
     signal.signal(signal.SIGINT, interruptHandler)
+
+    credentials = credentialsConfig()
 
     threadx = Thread(target=dataNetworkHandler)
     threadx.start()
@@ -106,10 +116,11 @@ if __name__ == '__main__':
 
     threadz = Thread(target=dataPlotlyHandler)
     threadz.start()
+    
+    twythonid = twitterHandler(credentials)
 
     while True:
         print "Hello Internet of Things 101"
-        dataWeatherHandler()
         time.sleep(5)
 
 # End of File
