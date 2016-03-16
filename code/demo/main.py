@@ -6,9 +6,10 @@ import psutil
 import signal
 import sys
 import time
-from twython import Twython
 
+from random import randint
 from threading import Thread
+from twython import Twython
 
 import plotly.plotly as py
 from plotly.graph_objs import Scatter, Layout, Figure, Data, Stream, YAxis
@@ -55,11 +56,11 @@ def dataPlotlyHandler():
 
 
     configuration = ConfigParser.ConfigParser()
-    configuration.read('configuration/credentials.config')
-    username = self.configuration.get('plotly','username')
-    apikey = self.configuration.get('plotly','apikey')
-    streamtokentx = self.configuration.get('plotly','streamtokentx')
-    streamtokenrx = self.configuration.get('plotly','streamtokenrx')
+    configuration.read('credentials.config')
+    username = configuration.get('plotly','username')
+    apikey = configuration.get('plotly','apikey')
+    streamtokentx = configuration.get('plotly','streamtokentx')
+    streamtokenrx = configuration.get('plotly','streamtokenrx')
 
     py.sign_in(username, apikey)
 
@@ -67,7 +68,7 @@ def dataPlotlyHandler():
         x=[],
         y=[],
         stream=Stream(
-            token=self.streamtokentx,
+            token=streamtokentx,
         ),
         yaxis='tx'
     )
@@ -76,13 +77,13 @@ def dataPlotlyHandler():
         x=[],
         y=[],
         stream=Stream(
-            token=self.streamtokenrx,
+            token=streamtokenrx,
         ),
         yaxis='rx'
     )
 
     layout = Layout(
-        title='IoTPy Network Health System',
+        title='IoT Lab Network Health System',
         yaxis=YAxis(
             title='Bytes'
         ),
@@ -96,12 +97,12 @@ def dataPlotlyHandler():
     data = Data([trace_network_tx, trace_network_rx])
     fig = Figure(data=data, layout=layout)
 
-    print py.plot(fig, filename='IoTPy Network Health System', auto_open=False)
+    print py.plot(fig, filename='IoT Lab Network Health System', auto_open=False)
 
-    stream_network_tx = py.Stream(self.streamtokentx)
+    stream_network_tx = py.Stream(streamtokentx)
     stream_network_tx.open()
 
-    stream_network_rx = py.Stream(self.streamtokenrx)
+    stream_network_rx = py.Stream(streamtokenrx)
     stream_network_rx.open()
     time.sleep(5)
 
@@ -109,10 +110,12 @@ def dataPlotlyHandler():
 
     while True:
         output = psutil.net_io_counters()
-        print "Network Bytes Tx %s" % output.bytes_sent
-        print "Network Bytes Rx %s" % output.bytes_recv
-        stream_network_tx.write({'x': counter, 'y': output.bytes_sent })
-        stream_network_rx.write({'x': counter, 'y': output.bytes_recv })
+        randoma = randint(0,100)
+        randomb = randint(0,100)
+        print "Network Bytes Tx %s" % randoma
+        print "Network Bytes Rx %s" % randomb
+        stream_network_tx.write({'x': counter, 'y': randoma })
+        stream_network_rx.write({'x': counter, 'y': randomb })
         counter += 1
         time.sleep(0.25)
 
