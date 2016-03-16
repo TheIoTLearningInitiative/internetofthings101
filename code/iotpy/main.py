@@ -41,6 +41,13 @@ if __name__ == '__main__':
         mqttpub = MqttPub()
         mqttpub.write()
 
+    if args.modules == 'mqttpubbuzzer':
+
+        from modules.mqttpubbuzzer import MqttPubBuzzer
+
+        mqttpubbuzzer = MqttPubBuzzer()
+        mqttpubbuzzer.write()
+
     if args.modules == 'mqttsub':
 
         from modules.mqttsub import MqttSub
