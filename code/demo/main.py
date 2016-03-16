@@ -53,37 +53,38 @@ def dataPlotly():
 
 def dataPlotlyHandler():
 
+
     configuration = ConfigParser.ConfigParser()
-    configuration.read('credentials.config')
-    username = configuration.get('plotly','username')
-    api_key = configuration.get('plotly','api_key')
-    stream_token_a = configuration.get('plotly','stream_token_a')
-    stream_token_b = configuration.get('plotly','stream_token_b')
+    configuration.read('configuration/credentials.config')
+    username = self.configuration.get('plotly','username')
+    apikey = self.configuration.get('plotly','apikey')
+    streamtokentx = self.configuration.get('plotly','streamtokentx')
+    streamtokenrx = self.configuration.get('plotly','streamtokenrx')
 
-    py.sign_in(username, api_key)
+    py.sign_in(username, apikey)
 
-    trace1 = Scatter(
+    trace_network_tx = Scatter(
         x=[],
         y=[],
         stream=Stream(
-            token=stream_token_a,
+            token=self.streamtokentx,
         ),
-        yaxis='a'
+        yaxis='tx'
     )
 
-    trace2 = Scatter(
+    trace_network_rx = Scatter(
         x=[],
         y=[],
         stream=Stream(
-            token=stream_token_b,
+            token=self.streamtokenrx,
         ),
-        yaxis='b'
+        yaxis='rx'
     )
 
     layout = Layout(
-        title='Internet of Things Lab Demo',
+        title='IoTPy Network Health System',
         yaxis=YAxis(
-            title='A'
+            title='Bytes'
         ),
         yaxis2=YAxis(
             title='%',
@@ -92,24 +93,31 @@ def dataPlotlyHandler():
         )
     )
 
-    data = Data([trace1, trace2])
+    data = Data([trace_network_tx, trace_network_rx])
     fig = Figure(data=data, layout=layout)
 
     print py.plot(fig, filename='IoTPy Network Health System', auto_open=False)
 
-    counter = 0
-    stream_a = py.Stream(self.stream_token_a)
-    stream_a.open()
-    stream_b = py.Stream(self.stream_token_b)
-    stream_b.open()
+    stream_network_tx = py.Stream(self.streamtokentx)
+    stream_network_tx.open()
+
+    stream_network_rx = py.Stream(self.streamtokenrx)
+    stream_network_rx.open()
     time.sleep(5)
 
+    counter = 0
+
     while True:
-        stream_data = dataPlotly()
-        stream_a.write({'x': counter, 'y': stream_data})
-        stream_b.write({'x': counter, 'y': stream_data})
+        output = psutil.net_io_counters()
+        print "Network Bytes Tx %s" % output.bytes_sent
+        print "Network Bytes Rx %s" % output.bytes_recv
+        stream_network_tx.write({'x': counter, 'y': output.bytes_sent })
+        stream_network_rx.write({'x': counter, 'y': output.bytes_recv })
         counter += 1
         time.sleep(0.25)
+
+    stream_network_tx.close()
+    stream_network_rx.close()
 
 def twitterHandler():
     configuration = ConfigParser.ConfigParser()
