@@ -14,6 +14,7 @@ class MqttPubBuzzer(object):
         self.client.connect("test.mosquitto.org", 1883, 60)
 
         self.button = grove.GroveButton(2)
+        self.temp = grove.GroveTemp(0)
 
     def on_publish(self, mosq, obj, msg):
         print("Message sent!")
@@ -23,6 +24,13 @@ class MqttPubBuzzer(object):
             while self.button.value():
                 self.client.publish("IoTPy/Buzzer", "None")
                 time.sleep(1)
+
+            for i in range(0, 1):
+                celsius = self.temp.value()
+                fahrenheit = celsius * 9.0/5.0 + 32.0;
+                print "%d degrees Celsius, or %d degrees Fahrenheit" \
+                    % (celsius, fahrenheit)
+                time.sleep(0.1)
 
 # End of File
 
