@@ -7,6 +7,7 @@ import signal
 import sys
 import time
 import pyupm_grove as grove
+import pyupm_i2clcd as lcd
 
 from random import randint
 from threading import Thread
@@ -33,13 +34,12 @@ def dataNetwork():
     netdata = psutil.net_io_counters()
     return netdata.packets_sent + netdata.packets_recv
 
-def dataNetworkHandler():
+def dataNetworkHandler(mqttclient):
     idDevice = "ThisDevice"
-    mqttclient = mqttClientHandler()
     while True:
         packets = dataNetwork()
         message = idDevice + " " + str(packets)
-        #print "MQTT dataNetworkHandler " + message  
+        print "MQTT dataNetworkHandler " + message  
         mqttclient.publish("IoT101/Demo", message)
         time.sleep(1)
 
@@ -58,7 +58,6 @@ def dataPlotly():
     return dataNetwork()
 
 def dataPlotlyHandler():
-
 
     configuration = ConfigParser.ConfigParser()
     configuration.read('credentials.config')
@@ -120,6 +119,7 @@ def dataPlotlyHandler():
         stream_network_tx.write({'x': counter, 'y': randoma })
         stream_network_rx.write({'x': counter, 'y': randomb })
         counter += 1
+        print counter
         time.sleep(0.25)
 
     stream_network_tx.close()
@@ -138,35 +138,55 @@ def twitterHandler():
                         access_token_secret)
     return twythonid
 
+def dataRotary(mqttclient):
+    
+    knob = grove.GroveRotary(3)
+    myLcd = lcd.Jhd1313m1(0, 0x3E, 0x62)
+    twythonid = twitterHandler()
+    
+    while True:
+        abs = knob.abs_value()
+        myLcd.setCursor(0,0)
+        myLcd.setColor(255, 0, 0)
+        myLcd.write('Heart Rate %s' % abs)
+        while (abs > 950):
+            id = str(randint(0,99))
+            status = "0x" + id + " #IoTLab Health System Heart Rate Warning " + str(abs)
+            print status
+            mqttclient.publish("IoTPy/Buzzer", "None")
+            twythonid.update_status(status=status)
+            time.sleep(2)
+            break
+        time.sleep(0.1)
+
 if __name__ == '__main__':
 
     me = singleton.SingleInstance()
 
+    mqttclient = mqttClientHandler()
+
     signal.signal(signal.SIGINT, interruptHandler)
 
-    threadx = Thread(target=dataNetworkHandler)
+    threadx = Thread(target=dataNetworkHandler, args=(mqttclient,))
     threadx.start()
 
-    thready = Thread(target=dataMessageHandler)
-    thready.start()
+    #thready = Thread(target=dataMessageHandler)
+    #thready.start()
 
     threadz = Thread(target=dataPlotlyHandler)
     threadz.start()
-    
-    twythonid = twitterHandler()
 
-    print "Internet of Things Lab Demo"
+    threada = Thread(target=dataRotary, args=(mqttclient,))
+    threada.start()
+
+    print "Internet of Things Lab - Health System"
 
     button = grove.GroveButton(2)
-    mqttclient = mqttClientHandler()    
 
     while True:
         while button.value():
-            id = str(randint(0,99))
-            status = "0x" + id + " #IoTLab Alarm System"
-            print status
-            mqttclient.publish("IoTPy/Buzzer", "None")
-            twythonid.update_status(status=status)
+            print "Button!"
+            time.sleep(1)
         time.sleep(0.1)
 
 # End of File
