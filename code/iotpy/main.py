@@ -48,6 +48,13 @@ if __name__ == '__main__':
         mqttsub = MqttSub()
         mqttsub.listen()
 
+    if args.modules == 'mqttsubbuzzer':
+
+        from modules.mqttsubbuzzer import MqttSubBuzzer
+
+        mqttsubbuzzer = MqttSubBuzzer()
+        mqttsubbuzzer.listen()
+
     if args.modules == 'mraa':
 
         from modules.mraalib import MraaLib
